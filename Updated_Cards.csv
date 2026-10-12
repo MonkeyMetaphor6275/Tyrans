@@ -9,7 +9,7 @@ cloaker,Manteleur,Aberrations,Ruse,Aberration,3,6,2,1,3,"Choisissez entre :
 Cranium Rats,Rats-Crânes,Aberrations,Conquête,Bête,3,6,2,1,3,"Déployez 2 unités.
 Faites défausser une carte à un adversaire avec plus de 3 cartes.","Chaque rat est animé d'un intellect maléfique, attendant que tous se rassemblent.",11;13,,,,,,ressources/generated_images/card_illustrations/cranium_rats.png
 Ambassador,Ambassadeur,Aberrations,Ambition,Illithid,4,12,3,1,3,"À la fin du tour, promouvez une autre carte jouée ce tour-ci.
- Si un adversaire vous fait défausser cette carte, vous pouvez la promouvoir à la place.","Il est important de forger de nouvelles alliances, même ténues.",31;34,"Si vous défausser cette carte, vous pouvez la promovoir ou promouvoir une carte de votre défausse à la place / Je mettrais ""vous pouvez promote cette carte et-ou une carte de votre main ou de la défausse"" avec vp2 à 2",3,1,3,"A la fin du tour, promouvez une autre carte jouée ce tour-ci ou une carte de votre défausse. Si un adversaire vous fait défausser cette carte, vous pouvez la promouvoir à la place ou promouvoir une carte de votre défausse.",ressources/generated_images/card_illustrations/ambassador.png
+ Si un adversaire vous fait défausser cette carte, vous pouvez la promouvoir à la place.","Il est important de forger de nouvelles alliances, même ténues.",31;34,"Si vous défausser cette carte, vous pouvez la promovoir ou promouvoir une carte de votre défausse à la place / Je mettrais ""vous pouvez promote cette carte et-ou une carte de votre main ou de la défausse"" avec vp2 à 2",3,1,3,"À la fin du tour, promouvez une autre carte jouée ce tour-ci ou une carte de votre défausse. Si un adversaire vous fait défausser cette carte, vous pouvez la promouvoir à la place ou promouvoir une carte de votre défausse.",ressources/generated_images/card_illustrations/ambassador.png
 Gauth,Gauth,Aberrations,Malice,Aberration,2,4,3,2,3,"Choisissez entre :
 • 2 monnaies
 • Piochez une carte. Faites défausser une carte à un adversaire avec plus de 3 cartes.","Si vous tenez à une chose, ne laissez pas le gauth la voir.",4;5,,,,,,ressources/generated_images/card_illustrations/gauth.png
@@ -109,7 +109,7 @@ Dragonclaw,Griffedragon,Dragon,Malice,Humain,2,4,4,1,3,"Assassinez une unité. S
 Cleric of Laogzed,Prêtre de Laogzed,Dragon,Ambition,Troglodyte,2,4,4,2,4,"Déplacez une unité ennemie.
 À la fin du tour, promouvez une autre carte jouée ce tour-ci.",L'intensité de sa puanteur n'a d'égale que sa faim de chair fraîche.,33;34,,4,2,4,"Déplacez une unité ennemie.
 + 1 monnaie
-A la fin du tour, promouvez une autre carte jouée ce tour-ci.",ressources/generated_images/card_illustrations/cleric_of_laogzed.png
+À la fin du tour, promouvez une autre carte jouée ce tour-ci.",ressources/generated_images/card_illustrations/cleric_of_laogzed.png
 Blue Wyrmling,Dragonnet Bleu,Dragon,Ambition,Dragon,2,4,5,2,4,"+ 3 monnaie
 Renvoyez une unité ou un espion adverse.",Même un dragonnet bleu ne tolère pas l'insubordination.,38;39,,,,,,ressources/generated_images/card_illustrations/blue_wyrmling.png
 White Dragon,Dragon blanc,Dragon,Conquête,Dragon,1,3,6,2,5,"Déployez 3 unités.
@@ -127,7 +127,7 @@ Advocate,Avocate,Drow,Ambition,Drow,4,8,2,1,2,"Choisissez entre :
 Drow Negotiator,Négociatrice drow,Drow,Ambition,Drow,2,4,3,1,2,"Si votre cénacle contient 4 cartes ou plus, + 3 monnaies.
 À la fin du tour, promouvez une autre carte jouée ce tour-ci.",Je peux ouvrir des portes fermées à tout autre que les Mères matrones.,37;38,,,,,,ressources/generated_images/card_illustrations/drow_negotiator.png
 Mercenary Squad,Escouade de mercenaires,Drow,Conquête,Drow,2,4,3,1,4,Déployez 3 unités.,La seule autre option pour ceux qui ne sont pas affiliés à une maison est l'exil.,14;15,,,,,,ressources/generated_images/card_illustrations/mercenary_squad.png
-Advanced Scout,Eclaireuse Avancée,Drow,Conquête,Drow,3,6,3,1,3,Supplantez une unité blanche.,Elles s'infiltrent dans la toile de la société drow sans en faire vibrer un seul fil.,11;13,,,,,,ressources/generated_images/card_illustrations/advanced_scout.png
+Advanced Scout,Éclaireuse Avancée,Drow,Conquête,Drow,3,6,3,1,3,Supplantez une unité blanche.,Elles s'infiltrent dans la toile de la société drow sans en faire vibrer un seul fil.,11;13,,,,,,ressources/generated_images/card_illustrations/advanced_scout.png
 Informer,Informateur,Drow,Ruse,Drow,2,4,5,2,5,"Choisissez entre :
 • Posez un espion.
 • Renvoyez un de vos espions ► Piochez 3 cartes.",Pourquoi utiliser la magie ou les armes quand quelques mots suffisent à faire tomber une maison ?,28;29,,,,,,ressources/generated_images/card_illustrations/informer.png
@@ -151,14 +151,14 @@ Masters of Sorcere,Maîtres de Sorcere,Drow,Ruse,Drow,1,2,3,2,5,"Choisissez entr
 • renvoyez un de vos espions ► 4 attaques",Les maîtres de Sorcere ont deux missions : former leurs élèves et s'assurer de leur loyauté envers Lolth.,30,,,,,,ressources/generated_images/card_illustrations/masters_of_sorcere.png
 Deathblade,Mortelame,Drow,Malice,Drow,1,2,6,3,6,Assassinez 2 unités.,"""Puisse la marque de la Mortelame être sur vous."" ---- Malédiction drow",9,,,,,,ressources/generated_images/card_illustrations/deathblade.png
 Underdark Ranger,Rôdeur de l'Ombreterre,Drow,Conquête,Drow,2,4,4,2,4,Assassinez 2 unités blanches.,Leur connaissance de l'Ombreterre est sans pareille. Personne n'est à l'abri de leurs lames.,16;17,,,,,,ressources/generated_images/card_illustrations/underdark_ranger.png
-Chosen of Lolth,Elue de Lolth,Drow,Ambition,Drow,2,4,4,2,4,"Renvoyez une unité ou un espion adverse. À la fin du tour, promouvez une autre carte jouée ce tour-ci",Ne songez même pas à désobéir. C'est la volonté de la Reine-Araignée.,35;36,,4,2,4,"+ 1 monnaie
-Renvoyez une unité ou un espion adverse. A la fin du tour, promouvez une autre carte jouée ce tour-ci.",ressources/generated_images/card_illustrations/chosen_of_lolth.png
-Matron Mother,Mère Matrone,Drow,Ambition,Drow,1,3,6,3,6,"Placez votre pioche dans votre défausse, puis promouvez une carte de votre défausse.",La volonté de la Mère matronne est absolue.,40,"lower the cost or add an additionnal effect as ""Devour a card in your hand to promote this card at the end of turn"" / ""You can promote this card at eot""",6,3,6,"Placez votre pioche dans votre défausse, puis promouvez une carte de votre défausse. A la fin du tour, promouvez une autre carte jouée ce tour-ci.",ressources/generated_images/card_illustrations/matron_mother.png
+Chosen of Lolth,Élue de Lolth,Drow,Ambition,Drow,2,4,4,2,4,"Renvoyez une unité ou un espion adverse. À la fin du tour, promouvez une autre carte jouée ce tour-ci",Ne songez même pas à désobéir. C'est la volonté de la Reine-Araignée.,35;36,,4,2,4,"+ 1 monnaie
+Renvoyez une unité ou un espion adverse. À la fin du tour, promouvez une autre carte jouée ce tour-ci.",ressources/generated_images/card_illustrations/chosen_of_lolth.png
+Matron Mother,Mère Matrone,Drow,Ambition,Drow,1,3,6,3,6,"Placez votre pioche dans votre défausse, puis promouvez une carte de votre défausse.",La volonté de la Mère matronne est absolue.,40,"lower the cost or add an additionnal effect as ""Devour a card in your hand to promote this card at the end of turn"" / ""You can promote this card at eot""",6,3,6,"Placez votre pioche dans votre défausse, puis promouvez une carte de votre défausse. À la fin du tour, promouvez une autre carte jouée ce tour-ci.",ressources/generated_images/card_illustrations/matron_mother.png
 Master of Melee-Magthere,Maître de Melee-Magthere,Drow,Conquête,Drow,2,4,5,2,5,"Choisissez entre :
 • Déployez 4 unités.
 • Supplantez une unité blanche n'importe où sur le plateau.",Les instructeurs de Melee-Magthere comptent parmi les plus grands guerriers de Menzoberranzan.,18;19,,,,,,ressources/generated_images/card_illustrations/master_of_melee-magthere.png
 Council Member,Membre du conseil,Drow,Ambition,Drow,1,2,6,3,6,"Déplacez jusqu'à 2 unités ennemies.
-À la fin du tour, promouvez une autre carte jouée ce tour-ci.",L'intrigue est un art dans les salles du conseil drow.,39,,6,3,6,"Déplacez jusqu'à 2 unités ennemies. + 2 monnaies. A la fin du tour, promouvez une autre carte jouée ce tour-ci.",ressources/generated_images/card_illustrations/council_member.png
+À la fin du tour, promouvez une autre carte jouée ce tour-ci.",L'intrigue est un art dans les salles du conseil drow.,39,,6,3,6,"Déplacez jusqu'à 2 unités ennemies. + 2 monnaies. À la fin du tour, promouvez une autre carte jouée ce tour-ci.",ressources/generated_images/card_illustrations/council_member.png
 Master of Arms,Maître d'Armes,Drow,Conquête,Drow,1,2,6,3,6,"Choisissez 3 fois entre :
 • Déployez une unité.
 • Assassinez une unité blanche.","""Vous réussirez ou vous mourrez. Le résultat ne dépend que de vous.""
@@ -167,25 +167,25 @@ Master of Arms,Maître d'Armes,Drow,Conquête,Drow,1,2,6,3,6,"Choisissez 3 fois 
 • Assassinez une unité blanche.",ressources/generated_images/card_illustrations/master_of_arms.png
 Black Earth Cultist,Adorateur de la terre noire,Elementals,Ambition,Humain,4,8,2,1,2,"À la fin du tour, promouvez une autre carte jouée ce tour-ci.
 Focus d'ambition ► 2 monnaies",Leur dévotion à Ogremoch leur confère une résistance surnaturelle.,31;34,,,,,,ressources/generated_images/card_illustrations/black_earth_cultist.png
-Water Elemental,Elémentaire d'eau,Elementals,Conquête,Elémental,3,6,2,1,2,"Déployez 2 unités.
+Water Elemental,Élémentaire d'eau,Elementals,Conquête,Élémental,3,6,2,1,2,"Déployez 2 unités.
 Focus de conquête ► Piochez une carte.","De l'eau douée de volonté, prête à noyer et écraser ses ennemis.",14;16,,,,,,ressources/generated_images/card_illustrations/water_elemental.png
-Earth Elemental Myrmidon,Myrmidon élémentaire de la terre,Elementals,Ambition,Elémental,2,4,4,2,4,"+ 2 monnaies
+Earth Elemental Myrmidon,Myrmidon élémentaire de la terre,Elementals,Ambition,Élémental,2,4,4,2,4,"+ 2 monnaies
 À la fin du tour, promouvez une autre carte jouée ce tour-ci.","""Comment pouvez-vous dire que cette terre est à vous quand le sol lui-même se révolte ?""
 -- Marlos Urnrayle",37;38,,,,,,ressources/generated_images/card_illustrations/earth_elemental_myrmidon.png
 Crushing Wave Cultist,Adorateur de la Déferlante,Elementals,Conquête,Humain,3,6,3,1,4,"Assassinez une unité blanche.
 Focus de conquête ► Déployez 2 unités.","Les membres d'une secte vouée au service d'Olhydra, princesse des élémentaires de l'eau.",11;13,,,,,,ressources/generated_images/card_illustrations/crushing_wave_cultist.png
-Air Elemental Myrmidon,Myrmidon élémentaire de l'air,Elementals,Ruse,Elémental,2,4,4,1,3,"Posez un espion.
+Air Elemental Myrmidon,Myrmidon élémentaire de l'air,Elementals,Ruse,Élémental,2,4,4,1,3,"Posez un espion.
 À la fin du tour, promouvez une carte d'obéissance jouée ce tour-ci.","""Nous donnerons à cette armure le pouvoir de voler juste pour se moquer de la terre.""
 -- Aerisi Kalinoth",27;28,,4,2,4,"Posez un espion.
-A la fin du tour, promouvez une carte d'obéissance jouée ce tour-ci.",ressources/generated_images/card_illustrations/air_elemental_myrmidon.png
+À la fin du tour, promouvez une carte d'obéissance jouée ce tour-ci.",ressources/generated_images/card_illustrations/air_elemental_myrmidon.png
 Howling Hatred Cultist,Adorateur de la haine hurlante,Elementals,Ruse,Humain,2,4,3,1,3,"Choisissez entre :
 • Posez un espion.
 • Renvoyez un de vos espions ► 3 monnaies
 Focus de ruse ► 1 attaque",Les adorateur de la Haine hurlante ne se nourrissent que d'air et de leur dévotion fanatique.,25;26,,,,,,ressources/generated_images/card_illustrations/howling_hatred_cultist.png
-Fire Elemental Myrmidon,Myrmidon élémentaire du feu,Elementals,Malice,Elémental,2,4,4,1,3,"+ 2 attaque
+Fire Elemental Myrmidon,Myrmidon élémentaire du feu,Elementals,Malice,Élémental,2,4,4,1,3,"+ 2 attaque
 À la fin du tour, promouvez une carte d'obéissance jouée ce tour-ci.","""Et si nous mettions du feu DANS l'armure ?""
 -- Elizar Videflacon",7;8,,,,,,ressources/generated_images/card_illustrations/fire_elemental_myrmidon.png
-Yan-C-Bin,Yan-C-Bin,Elementals,Ruse,Prince Elémental,1,2,6,3,6,"Posez un espion puis assassinez une unité située sur le même site.
+Yan-C-Bin,Yan-C-Bin,Elementals,Ruse,Prince Élémental,1,2,6,3,6,"Posez un espion puis assassinez une unité située sur le même site.
 Focus de ruse ► Posez un espion.","Plus subtil que les autres princes élémentaires, Yan-C-Bin agit dans l'ombre.",30,,6,3,6,,ressources/generated_images/card_illustrations/yan-c-bin.png
 Aerisi Kalinoth,Aerisi Kalinoth,Elementals,Ruse,Elfe,1,3,5,2,5,"+ 1 attaque
 Posez un espion.
@@ -197,34 +197,34 @@ Choisissez entre :
 Marlos Urnrayle,Marlos Urnrayle,Elementals,Ambition,Méduse,1,3,5,2,5,"+ 1 monnaie
 À la fin du tour, promouvez une autre carte jouée ce tour-ci.
 Recrutez gratuitement une carte ambition qui coûte 4 ou moins.","""C'est la faute des dieux. Comme ils me jalousaient !""",39,Mettre 2 money et vp2 à 4,5,2,5,"+ 2 monnaie
-A la fin du tour, promouvez une autre carte jouée ce tour-ci.
+À la fin du tour, promouvez une autre carte jouée ce tour-ci.
 Choisissez entre : 
 • Recrutez gratuitement une carte ambition qui coûte 4 ou moins.
 • Dévorez une carte de votre défausse.",ressources/generated_images/card_illustrations/marlos_urnrayle.png
-Fire Elemental,Elementaire du feu,Elementals,Malice,Elémental,3,6,3,1,3,"Choisissez entre :
+Fire Elemental,Élémentaire du feu,Elementals,Malice,Élémental,3,6,3,1,3,"Choisissez entre :
 • 2 attaque
 • 2 monnaie
 Focus de Malice ► Piochez une carte",Une capricieuse force de destruction.,4;6,,,,,,ressources/generated_images/card_illustrations/fire_elemental.png
-Earth Elemental,Elémentaire de la terre,Elementals,Ruse,Elémental,2,4,3,1,3,"+ 1 monnaie
+Earth Elemental,Élémentaire de terre,Elementals,Ambition,Élémental,2,4,3,1,3,"+ 1 monnaie
 Renvoyez une unité ou un espion adverse.
 Focus d'ambition ► Piochez une carte.",Qui peut résister à la puissance de la terre ?,35;36,,3,1,3,,ressources/generated_images/card_illustrations/earth_elemental.png
-Air Elemental,Elémentaire de l'air,Elementals,Ruse,Elémental,4,8,3,1,2,"Choisissez entre :
+Air Elemental,Élémentaire de l'air,Elementals,Ruse,Élémental,4,8,3,1,2,"Choisissez entre :
 • Posez un espion.
 • Renvoyez un de vos espions ► Déployez 3 unités.
 Focus de ruse ► Piochez une carte.","Ce sont des tempêtes douées de raison, des incarnations du chaos.",21;24,,,,,,ressources/generated_images/card_illustrations/air_elemental.png
-Imix,Imix,Elementals,Malice,Prince Elémental,1,2,6,3,6,"+ 4 attaque
+Imix,Imix,Elementals,Malice,Prince Élémental,1,2,6,3,6,"+ 4 attaque
 Focus de Malice ► 2 attaque","""Votre monde a été créé pour que je le consume.""",10,,,,,,ressources/generated_images/card_illustrations/imix.png
 Eternal Flame Cultist,Adorateur de la Flamme éternelle,Elementals,Malice,Humain,3,6,4,2,4,"Assassinez une unité.
 Focus de Malice ► 2 attaque","""Son étreinte étouffera le faible et réchauffera le fort.""
 -- Vanifer",1;3,,,,,,ressources/generated_images/card_illustrations/eternal_flame_cultist.png
-Water Elemental Myrmidon,Myrmidon élémentaire de l'eau,Elementals,Conquête,Elémental,2,6,4,2,4,"Assassinez une unité blanche.
+Water Elemental Myrmidon,Myrmidon élémentaire de l'eau,Elementals,Conquête,Élémental,2,6,4,2,4,"Assassinez une unité blanche.
 À la fin du tour, promouvez une carte d'obéissance jouée ce tour-ci.",Ils ne vivent que pour servir la volonté de leur créateur.,17;18,Réduire les points et passer à un achat à 3,4,2,4,,ressources/generated_images/card_illustrations/water_elemental_myrmidon.png
 Vanifer,Vanifer,Elementals,Malice,Tieffelin,1,2,5,2,5,"Assassinez une unité.
 Recrutez gratuitement une carte de Malice qui coûte 4 ou moins.","""Il est temps de souffler la bougie.""",9,,5,2,5,"Assassinez une unité.
 Choisissez entre : 
 • Recrutez gratuitement une carte de Malice qui coûte 4 ou moins.
 • Dévorez une carte de votre défausse.",ressources/generated_images/card_illustrations/vanifer.png
-Ogremoch,Ogremoch,Elementals,Ambition,Prince Elémental,1,2,6,3,7,"+ 2 monnaies
+Ogremoch,Ogremoch,Elementals,Ambition,Prince Élémental,1,2,6,3,7,"+ 2 monnaies
 À la fin du tour, promouvez une autre carte jouée ce tour-ci.
 Focus d'ambition ► À la fin du tour, promouvez une autre carte jouée ce tour-ci.","Ce qu'il ne peut écraser, il le supporte et lui survit.",40,,,,,,ressources/generated_images/card_illustrations/ogremoch.png
 Gar Shatterkeel,Gar Brisequille,Elementals,Conquête,Humain,1,3,5,2,5,"Déployez 3 unités.
@@ -232,7 +232,7 @@ Recrutez gratuitement une carte Conquête qui coûte 4 ou moins.","""Le vent a t
 Choisissez entre : 
 • Recrutez gratuitement une carte Conquête qui coûte 4 ou moins
 • Dévorez une carte de votre défausse.",ressources/generated_images/card_illustrations/gar_shatterkeel.png
-Olhydra,Olhydre,Elementals,Conquête,Prince Elémental,1,3,6,3,6,"Supplantez une unité blanche n'importe où sur le plateau.
+Olhydra,Olhydre,Elementals,Conquête,Prince Élémental,1,3,6,3,6,"Supplantez une unité blanche n'importe où sur le plateau.
 Focus de conquête ► Déployez 2 unités.",Sa patience est comme la marée. Elle se retire face aux coups du sort pour revenir plus forte que jamais.,20,Baisser le coût et les points,6,3,6,"Supplantez une unité blanche n'importe où sur le plateau.
 + 1 attaque
 Focus de conquête ► Déployez 2 unités.",ressources/generated_images/card_illustrations/olhydra.png
@@ -290,8 +290,7 @@ Derro,Derro,Fungus,Conquête,Gerro,2,4,3,1,4,"Supplantez une unité blanche n'im
 Recrutez un Paria dément.","""J'ai un beau bâtonnet bardé de métal tout prêt à faire des trous dans ta jolie p'tite tête. """,,,3,1,4,"Supplantez une unité blanche n'importe où sur le plateau et recrutez un Paria dément.
 Vous pouvez dévorer une carte de votre main.",ressources/generated_images/card_illustrations/derro.png
 Myconid Sovereign,Seigneur myconide,Fungus,Ambition,Myconide,2,4,4,2,5,"Choisissez un adversaire. Celui-ci recrute un Paria dément.
-À la fin du tour, promouvez une autre carte qui a été jouée ce tour-ci.
-","""Le jour de la célébration est proche!""",,,2,1,3,Vous pouvez donner un Paria dément. eot promote a played card,ressources/generated_images/card_illustrations/myconid_sovereign.png
+À la fin du tour, promouvez une autre carte qui a été jouée ce tour-ci.","""Le jour de la célébration est proche!""",,,2,1,3,"Vous pouvez donner un Paria dément. À la fin du tour, vous pouvez promouvoir une autre carte jouée ce tour.",ressources/generated_images/card_illustrations/myconid_sovereign.png
 Nalfeshnie,Nalfeshnie,Fungus,Ambition,Démon,2,4,5,2,5,"+ 3 monnaies.
 Promouvez la carte du dessus de votre bibliothèque","""Il y a toujours de la place à notre table pour les âmes ambitieuses""",,,,,,,ressources/generated_images/card_illustrations/nalfeshnee.png
 Ettin,Ettin,Fungus,Conquête,Géant,3,6,4,1,2,"Choisissez entre :
@@ -444,9 +443,6 @@ Venomous Spider,Araignon venimeux,Spiderkin,Malice,Araignée,4,12,2,0,2,"Choisis
 Demonic Spider,Araignée démoniaque,Spiderkin,Malice,Araignée,3,9,4,1,3,"Choisissez entre :
 • Assassinez une unité. Pour chaque carte Malice dans votre Toile, choisissez un adversaire. Il recrute un Sbire empoisonné.
 • Placez dans votre Toile une carte Malice jouée ce tour ou Araignée démoniaque.",,,,,,,,ressources/generated_images/card_illustrations/demonic_spider.png
-Demonic Spider 2,Araignée démoniaque 2,Spiderkin,Malice,Araignée,3,9,4,1,3,"Choisissez entre :
-• Assassinez une unité. Pour chaque paire de cartes Malice dans votre Toile, chaque adversaire recrute un Sbire empoisonné.
-• Placez dans votre Toile une carte Malice jouée ce tour ou Araignée démoniaque.",,,,,,,,ressources/generated_images/card_illustrations/demonic_spider_2.png
 Infamous Spider,Araignée infâme,Spiderkin,Malice,Araignée,2,6,6,2,5,"Assassinez 2 unités. Pour chaque carte Malice dans votre Toile, choisissez un adversaire qui doit renvoyer un espion. S'il ne peut le faire, il recrute un Sbire empoisonné.",,,,,,,,ressources/generated_images/card_illustrations/infamous_spider.png
 Face of Malice,Le visage de la Malice,Spiderkin,Malice,Araignée,1,3,8,3,8,"Assassinez 2 unités. Pour chaque carte Malice dans votre Toile, assassinez une unité ou choisissez un adversaire qui recrute 2 Sbires empoisonnés.",,,,,,,,ressources/generated_images/card_illustrations/face_of_malice.png
 Scout Spider,Araignon éclaireur,Spiderkin,Ruse,Araignée,4,12,2,0,2,"Déployez un espion. À la fin de votre tour, vous pouvez placer cette carte dans votre Toile.",,,,,,,,ressources/generated_images/card_illustrations/scout_spider.png
@@ -502,7 +498,7 @@ Conjurer,Invocateur,Undead,Ruse,Humain,3,9,5,2,3,"Choisissez entre :
 • Renvoyez un de vos espions ► Recrutez gratuitement jusqu'à 1 cartes qui coûte 6 ou moins.",5,2,3,"Choisissez entre :
 • Posez 2 espions.
 • Renvoyez un de vos espions ► Recrutez gratuitement jusqu'à 1 cartes qui coûte 6 ou moins.",ressources/generated_images/card_illustrations/conjurer.png
-High Priest of Myrkul,Grande Prêtresse de Myrkul,Undead,Ambition,Humain,1,3,6,3,6,"Renvoyez une unité ou un espion adverse. À la fin du tour, vous pouvez promouvoir autant de carte Mort-Vivant jouées à ce tour que vous le désirez.","""La mort n'est que le commencement.""",39,"Pour garder l'esprit, je propose ""EOT put your deck in the discard and promote up to 3 undead card from there.""",6,3,6,"Renvoyez une unité ou un espion adverse. A la fin du tour, vous pouvez promouvoir autant de carte du type de votre choix jouées à ce tour que vous le désirez.",ressources/generated_images/card_illustrations/high_priest_of_myrkul.png
+High Priest of Myrkul,Grande Prêtresse de Myrkul,Undead,Ambition,Humain,1,3,6,3,6,"Renvoyez une unité ou un espion adverse. À la fin du tour, vous pouvez promouvoir autant de carte Mort-Vivant jouées à ce tour que vous le désirez.","""La mort n'est que le commencement.""",39,"Pour garder l'esprit, je propose ""EOT put your deck in the discard and promote up to 3 undead card from there.""",6,3,6,"Renvoyez une unité ou un espion adverse. À la fin du tour, vous pouvez promouvoir autant de carte du type de votre choix jouées à ce tour que vous le désirez.",ressources/generated_images/card_illustrations/high_priest_of_myrkul.png
 Death Knight,Chevalier de la mort,Undead,Malice,Mort-vivant,1,2,6,3,7,"Supplantez une unité.
 Gagnez 1 PV pour chaque série de 5 unités de joueurs dans votre salle des trophées.","Fuyez ou rejoignez-le. Si vous choisissez le combat, vous choisissez la mort.",,,,,,,ressources/generated_images/card_illustrations/death_knight.png
 Mummy Lord,Seigneur momie,Undead,Conquête,Mort-vivant,1,2,6,3,6,"Choisissez 2 fois entre :
@@ -543,7 +539,8 @@ Gacholoth,Gacholoth,Yugoloth,Ruse,Yugoloth,3,9,5,1,4,"Choisissez entre :
 • Renvoyez 2 espions.
 • Déplacez 2 unités.",,,,,,,,ressources/generated_images/card_illustrations/gacholoth.png
 Kuo-Toa Warrior,Guerrier kuo-toa,Yugoloth,Conquête,Kuo-Toa,2,6,3,1,2,+ 3 attaques.,,,,,,,,ressources/generated_images/card_illustrations/kuo-toa_warrior.png
-Mezzoloth,Mezzoloth,Yugoloth,Conquête,Yugoloth,4,12,2,0,2,+ 1 attaque. Focus Yugoloth ► Assassinez une unité.,,,,,,,,ressources/generated_images/card_illustrations/mezzoloth.png
+Mezzoloth,Mezzoloth,Yugoloth,Conquête,Yugoloth,4,12,2,0,2,"+ 1 attaque.
+Focus Yugoloth ► Assassinez une unité.",,,,,,,,ressources/generated_images/card_illustrations/mezzoloth.png
 Nycaloth,Nycaloth,Yugoloth,Ruse,Yugoloth,2,6,5,2,4,"Choisissez 4 fois :
 • Déployez un espion.
 • Renvoyez un de vos espions ► Renvoyez un espion.",,,"3 fois, mais renvoyer un espion pour renvoyer un espion ou une unité adverse ",5,2,4,"Choisissez 3 fois :
