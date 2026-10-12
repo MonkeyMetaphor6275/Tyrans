@@ -1,6 +1,6 @@
 # Tyrans card pipeline
 
-Generates French cards for *Tyrants of the Underdark* from a single CSV file: SVG cards, PNG/JPG images and A4 print sheets. The card illustrations were generated with OpenAI's `gpt-image-1`, and the scripts used for that are included.
+Generates cards for *Tyrants of the Underdark* from a single CSV file, in French or English: SVG cards, PNG/JPG images and A4 print sheets. The card illustrations were generated with OpenAI's `gpt-image-1`, and the scripts used for that are included.
 
 > **Disclaimer:** unofficial fan content. *Tyrants of the Underdark*, *Dungeons & Dragons* and all related names and card texts are the property of Wizards of the Coast and Gale Force Nine. This project is not affiliated with, endorsed, sponsored or approved by Wizards of the Coast or Gale Force Nine.
 
@@ -8,7 +8,8 @@ Generates French cards for *Tyrants of the Underdark* from a single CSV file: SV
 
 | Path | Content |
 |------|---------|
-| `Updated_Cards.csv` | Source of truth for card content (one row per card) |
+| `Updated_Cards.csv` | Source of truth for card content, in French (one row per card) |
+| `Updated_Cards_en.csv` | The same cards in English, with English column names and the official game vocabulary |
 | `generate_cards_from_csv.py` | Card generator (SVG, PNG, JPG, PDF) |
 | `art_pipeline/` | OpenAI illustration generator, prompt list and dark-image fixer |
 | `ressources/card_assets/` | Card template, icons, set logos and fonts |
@@ -41,7 +42,10 @@ If Playwright is unavailable, the generator falls back to other SVG renderers:
 # SVGs only, into the default output/ folder
 python generate_cards_from_csv.py Updated_Cards.csv
 
-# SVGs + A4 print PDF (3×3 grid per page, each card repeated "Nombre" times)
+# English cards: same options, English CSV
+python generate_cards_from_csv.py Updated_Cards_en.csv --output-dir output/en
+
+# SVGs + A4 print PDF (3×3 grid per page, each card repeated "Nombre" / "count" times)
 python generate_cards_from_csv.py Updated_Cards.csv --pdf-output output/cardsa4.pdf
 
 # Optional: brighten the PDF raster slightly (1.0 = unchanged)
@@ -69,6 +73,9 @@ python art_pipeline/generate_batch_openai.py --dry-run
 
 # Custom batch size
 python art_pipeline/generate_batch_openai.py --batch-size 10
+
+# Work from the English CSV instead
+python art_pipeline/generate_batch_openai.py --cards-csv Updated_Cards_en.csv
 ```
 
 ## Brightening dark illustrations

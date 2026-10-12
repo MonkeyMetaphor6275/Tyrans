@@ -84,8 +84,10 @@ TYPE1_ICON_ALIASES = {
     "conquete": "conquete",
     "conquest": "conquete",
     "ruse": "ruse",
+    "guile": "ruse",
     "malice": "malice",
     "obeissance": "obeissance",
+    "obedience": "obeissance",
 }
 
 CARD_WIDTH = 796
@@ -124,7 +126,9 @@ COUNT_RADIUS = 8
 COUNT_GAP = 34
 
 BULLET_FONT_SCALE = 1.45
-BENEFIT_ICON_PATTERN = re.compile(r"(?i)\b(\d+)\s*(?:x\s*)?(attaque|monnaie)s?\b\.?")
+# Resource words rendered as inline icons ("+ 2 attaques" / "+ 2 Power"), mapped to their icon.
+BENEFIT_ICON_WORDS = {"attaque": "attaque", "power": "attaque", "monnaie": "monnaie", "influence": "monnaie"}
+BENEFIT_ICON_PATTERN = re.compile(r"(?i)\b(\d+)\s*(?:x\s*)?(attaque|monnaie|power|influence)s?\b\.?")
 BENEFIT_ICON_TOKEN_PATTERN = re.compile(r"^\[\[icon:(attaque|monnaie):(\d+)\]\]$")
 BENEFIT_ICON_TOKEN_AFFIX_PATTERN = re.compile(r"^([\(\[\{\"']*)(\[\[icon:(attaque|monnaie):(\d+)\]\])([,.;:!?\)\]\}\"']*)$")
 MAX_INLINE_ICON_REPEAT = 12
@@ -360,7 +364,7 @@ def resolve_type1_icon_name(type1: str) -> str | None:
 def replace_icon_phrases(text: str, available_icons: set[str]) -> str:
     def replacement(match: re.Match[str]) -> str:
         count = parse_int(match.group(1), default=0)
-        icon_name = match.group(2).lower()
+        icon_name = BENEFIT_ICON_WORDS[match.group(2).lower()]
         if count <= 0 or icon_name not in available_icons:
             return match.group(0)
         clamped_count = min(count, MAX_INLINE_ICON_REPEAT)
@@ -672,11 +676,12 @@ class CardRecord:
 def row_to_card(row: dict[str, str]) -> CardRecord:
     name = get_first(row, ["nom", "name", "title"])
     count = parse_int(get_first(row, ["nombre", "count"], default="1"), default=1)
-    cost = get_first(row, ["coût modif", "coût", "cost"])
-    vp1 = get_first(row, ["pv deck modif", "point de victoire deck", "vp1", "points in deck"])
-    vp2 = get_first(row, ["pv cénacle modif", "point de victoire cénacle", "vp2", "points in inner circle"])
+    # Override columns (French "... modif", English "... override") win over the base values.
+    cost = get_first(row, ["coût modif", "cost override", "coût", "cost"])
+    vp1 = get_first(row, ["pv deck modif", "deck vp override", "point de victoire deck", "deck vp", "vp1", "points in deck"])
+    vp2 = get_first(row, ["pv cénacle modif", "inner circle vp override", "point de victoire cénacle", "inner circle vp", "vp2", "points in inner circle"])
     set_name = get_first(row, ["set", "faction"])
-    benefit = get_first(row, ["texte modif", "texte", "benefit", "ability text"])
+    benefit = get_first(row, ["texte modif", "text override", "texte", "text", "benefit", "ability text"])
     ambiance = get_first(row, ["texte d'ambiance", "texte d’ambiance", "flavor text", "flavour text"])
     type1 = get_first(row, ["type1", "type"])
     type2 = get_first(row, ["type2"])

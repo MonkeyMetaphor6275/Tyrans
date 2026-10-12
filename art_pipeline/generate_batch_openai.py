@@ -53,6 +53,11 @@ def parse_args() -> argparse.Namespace:
         default=str(KEY_FILE),
         help=f"File containing the OpenAI API key (used when {API_KEY_ENV} is not set).",
     )
+    parser.add_argument(
+        "--cards-csv",
+        default=str(CARDS_CSV),
+        help="Card CSV to read and update (default: Updated_Cards.csv; Updated_Cards_en.csv also works).",
+    )
     parser.add_argument("--dry-run", action="store_true", help="Print planned prompts without generating.")
     return parser.parse_args()
 
@@ -125,7 +130,8 @@ def main() -> None:
     args = parse_args()
 
     # Build lookup of already-done card names from CSV (has non-empty path to image)
-    cards_rows, cards_fieldnames = read_csv(CARDS_CSV)
+    cards_csv = Path(args.cards_csv)
+    cards_rows, cards_fieldnames = read_csv(cards_csv)
     done_names = {
         row["name"]
         for row in cards_rows
@@ -188,7 +194,7 @@ def main() -> None:
             failed += 1
 
         # Save after every card so an interrupted batch keeps the images already paid for.
-        write_csv(CARDS_CSV, cards_rows, cards_fieldnames)
+        write_csv(cards_csv, cards_rows, cards_fieldnames)
         save_log(log)
 
         if i < len(batch):
@@ -197,7 +203,7 @@ def main() -> None:
     print(f"\n{'='*60}")
     print(f"Batch complete: {generated} generated, {failed} failed")
     print(f"Images saved to : {OUT_DIR}")
-    print(f"CSV updated     : {CARDS_CSV.name}")
+    print(f"CSV updated     : {cards_csv.name}")
     print(f"Log             : {LOG_FILE}")
     print(f"{'='*60}")
     remaining = len(pending) - len(batch)

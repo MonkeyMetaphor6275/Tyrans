@@ -17,7 +17,8 @@ argument-hint: 'Describe the card-data edit, image workflow, or render issue to 
 - Building a repository snapshot ZIP from Git-tracked files while excluding `.gitignore` matches
 
 ## Key Files
-- `Updated_Cards.csv`: Source of truth for card content
+- `Updated_Cards.csv`: Source of truth for card content (French)
+- `Updated_Cards_en.csv`: The same cards in English (same row order, English column names)
 - `generate_cards_from_csv.py`: Main SVG generator
 - `build_git_tracked_zip.py`: Creates `output/git_tracked_files.zip` from Git-tracked files, filtered by `.gitignore`
 - `ressources/generated_images/card_illustrations/`: Card illustrations referenced by `path to image`
@@ -42,10 +43,22 @@ If artwork is cropped too much or too little, adjust `IMAGE_MIN_HEIGHT` / `IMAGE
 
 ## CSV Override Columns (Current)
 When override columns are non-empty, they are prioritized over base values:
-- `Coût Modif` overrides `Coût`
-- `PV deck Modif` overrides `Point de victoire deck`
-- `PV cénacle modif` overrides `Point de victoire cénacle`
-- `Texte modif` overrides `Texte`
+- `Coût Modif` / `cost override` overrides `Coût` / `cost`
+- `PV deck Modif` / `deck vp override` overrides `Point de victoire deck` / `deck vp`
+- `PV cénacle modif` / `inner circle vp override` overrides `Point de victoire cénacle` / `inner circle vp`
+- `Texte modif` / `text override` overrides `Texte` / `text`
+
+## English CSV
+`Updated_Cards_en.csv` mirrors `Updated_Cards.csv` row for row; when a card changes in one, update the other. Columns: `name, set, type1, type2, count, print count, cost, deck vp, inner circle vp, text, flavor text, card numbers, proposed change, cost override, deck vp override, inner circle vp override, text override, path to image` (no `Nom`).
+
+Use the official rulebook vocabulary:
+- Aspects (`type1`): Ambition, Conquête → Conquest, Malice, Ruse → Guile, Obéissance → Obedience
+- Resources: `N attaque(s)` → `N Power`, `N monnaie(s)` → `N Influence` (both become inline icons, so keep the number in front)
+- Actions: Déployez une unité → Deploy a troop; Assassinez → Assassinate; Supplantez → Supplant; Posez/Placez/Déployez un espion → Place a spy; Renvoyez un de vos espions ► → Return one of your spies ►; Dévorez → Devour; Promouvez → Promote; Recrutez → Recruit; Déplacez → Move; Piochez → Draw
+- Places: cénacle → inner circle; salle des trophées → trophy hall; défausse → discard pile; pioche → deck; réserve → supply; garnison → barracks; marché → market; unité blanche → white troop; contrôle total → total control; n'importe où sur le plateau → anywhere on the board
+- Phrases: Choisissez entre : → Choose one:; À la fin du tour, promouvez une autre carte jouée ce tour-ci → At end of turn, promote another card played this turn; Focus de Malice ► → Focus Malice ►
+- Cards and fan-set terms: Paria dément → Insane Outcast; Sbire empoisonné → Poisoned Minion; Toile → Web (Spiderkin); Fléau → Scourge, site Touché par le Fléau → Scourge-touched site, Cœur du Fléau → Heart of the Scourge, jeton Fléau → Scourge token (Juiblex); carte persistante / zone de jeu → persisting card / play area (Kuo-Toa)
+- Keep the French text's structure: same `•` bullets, `►` arrows and line breaks; avoid ` - ` after "Choose …:" (it would be turned into a bullet)
 
 ## Image Paths In CSV
 `path to image` holds a repo-relative path with forward slashes, normally written by `art_pipeline/generate_batch_openai.py` as:

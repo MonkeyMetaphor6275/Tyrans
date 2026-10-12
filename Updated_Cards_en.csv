@@ -1,0 +1,593 @@
+﻿name,set,type1,type2,count,print count,cost,deck vp,inner circle vp,text,flavor text,card numbers,proposed change,cost override,deck vp override,inner circle vp override,text override,path to image
+Grimlock,Aberrations,Conquest,Grimlock,2,6,1,0,1,"Deploy a troop.
+If an opponent makes you discard this card, draw 2 cards.",Born to live and die in the service of superior beings.,14;15,"Raise the VP to 1/2 and replace ""deploy 1"" with 1 Power icon.",1,1,2,"+ 1 Power.
+If an opponent makes you discard this card, draw 2 cards.",ressources/generated_images/card_illustrations/grimlock.png
+Cloaker,Aberrations,Guile,Aberration,3,6,2,1,3,"Choose one:
+• Place a spy.
+• Return one of your spies ► Assassinate a troop at that spy's site.","""If you see a leather cloak lying on the ground, stab it.""
+-- Brawlwin Chainminer",21;23,,,,,,ressources/generated_images/card_illustrations/cloaker.png
+Cranium Rats,Aberrations,Conquest,Beast,3,6,2,1,3,"Deploy 2 troops.
+Choose an opponent with more than 3 cards in hand. That player discards a card.","Each rat is driven by an evil intellect, waiting for the whole swarm to gather.",11;13,,,,,,ressources/generated_images/card_illustrations/cranium_rats.png
+Ambassador,Aberrations,Ambition,Illithid,4,12,3,1,3,"At end of turn, promote another card played this turn.
+If an opponent makes you discard this card, you may promote it instead.","Forging new alliances matters, even fragile ones.",31;34,"If you discard this card, you may promote it or promote a card from your discard pile instead / I would put ""you may promote this card and/or a card from your hand or discard pile"" with inner circle VP at 2",3,1,3,"At end of turn, promote another card played this turn or a card from your discard pile. If an opponent makes you discard this card, you may promote it instead, or promote a card from your discard pile.",ressources/generated_images/card_illustrations/ambassador.png
+Gauth,Aberrations,Malice,Aberration,2,4,3,2,3,"Choose one:
+• 2 Influence
+• Draw a card. Choose an opponent with more than 3 cards in hand. That player discards a card.","If you value something, don't let the gauth see it.",4;5,,,,,,ressources/generated_images/card_illustrations/gauth.png
+Nothic,Aberrations,Guile,Aberration,2,4,3,1,3,"Choose one:
+• Place a spy.
+• Return one of your spies ► Draw a card. Each opponent with more than 3 cards in hand discards a card.","""You know something... something secret. I can see it, I can see it...""",24;25,,,,,,ressources/generated_images/card_illustrations/nothic.png
+Chuul,Aberrations,Guile,Aberration,2,6,3,1,4,Place a spy. Each opponent with more than 3 cards in hand who has a troop at that spy's site discards a card.,"They follow the directives of their creators, as they have since the dawn of time.",28;29,I suggest changing this card into one that produces 2 spies,5,1,4,"Choose one:
+• Place two spies.
+• Return any number of your spies ► 2 Power for each spy returned this way.",ressources/generated_images/card_illustrations/chuul.png
+Mindwitness,Aberrations,Malice,Aberration,3,6,3,1,3,"Assassinate a troop. If that troop belonged to another player with more than 3 cards in hand, that player discards a card.","""A beholder enslaved by mind flayers. Imagine the horrors it has in store for us.""
+-- Elminster Aumar",6;8,,,,,,ressources/generated_images/card_illustrations/mindwitness.png
+Brainwashed Slave,Aberrations,Guile,Aberration,2,4,4,2,3,"Choose one:
+• Place a spy.
+• Return one of your spies ► 2 Power 2 Influence",Its mind belongs to something else. Something terrifying.,26;27,,,,,,ressources/generated_images/card_illustrations/brainwashed_slave.png
+Spectator,Aberrations,Malice,Aberration,3,6,4,2,3,+ 2 Power 1 Influence,"""If you were torn from your plane of existence and forced to guard something for 101 years, you'd be angry too.""
+-- Volothamp Geddarm",1;3,,,,,,ressources/generated_images/card_illustrations/spectator.png
+Intellect Devourer,Aberrations,Ambition,Aberration,2,4,4,1,3,"Choose one:
+• 3 Influence
+• Return up to two troops or spies.",Why fight your enemies when you can change their minds?,35;36,,,,,,ressources/generated_images/card_illustrations/intellect_devourer.png
+Umber Hulk,Aberrations,Conquest,Monstrosity,2,6,4,2,4,"Deploy 3 troops. If an opponent makes you discard this card, that player discards a card.",An umber hulk's gaze is so piercing that it confounds even the strongest mind; those who survive it don't even remember it.,18;19,"Make the card cost 3 with only 1 VP, or add an option to supplant a white troop",4,2,4,"Choose one:
+• Deploy 3 troops.
+• Supplant a white troop.
+If an opponent makes you discard this card, that player discards a card.",ressources/generated_images/card_illustrations/umber_hulk.png
+Beholder,Aberrations,Malice,Aberration,1,2,5,3,6,"Assassinate a troop.
+Gain 1 Power for every 3 troops in your trophy hall.","""Nothing is more dangerous than bargaining with a beholder, except spying on a matron mother.""
+-- Jarlaxle Baenre",9,,,,,,ressources/generated_images/card_illustrations/beholder.png
+Puppeteer,Aberrations,Ambition,Illithid,2,4,5,2,6,"+ 2 Influence
+At end of turn, promote another card played this turn.",Sometimes it is better not to know who is pulling the strings.,37;38,,,,,,ressources/generated_images/card_illustrations/puppeteer.png
+Quaggoth,Aberrations,Conquest,Quaggoth,2,6,5,2,4,Assassinate a white troop for each site you control.,"They maul their enemies in a frenzy, and the approach of death only makes them more dangerous.",16;17,"Reduce its deck VP. Maybe 1/2 or 0/3, or else raise the cost to 6",6,2,4,Assassinate a white troop for each site you control.,ressources/generated_images/card_illustrations/quaggoth.png
+Ulitharid,Aberrations,Ambition,Illithid,1,2,6,3,6,"Play a card from the market that costs 4 or less as if it were in your hand, then devour that card.",A rare illithid whose power and ambition rival those of an elder brain.,39,,6,3,6,"Play a card from the market that costs 4 or less as if it were in your hand, then put that card in your discard pile. You may devour a card played this turn.",ressources/generated_images/card_illustrations/ulitharid.png
+Aboleth,Aberrations,Guile,Aberration,1,2,7,4,7,"Choose one:
+• Place 2 spies.
+• Draw a card for each spy you have on the board.","These creatures, as ancient as they are mysterious, accept nothing less than total submission.",30,,,,,,ressources/generated_images/card_illustrations/aboleth.png
+Death Tyrant,Aberrations,Malice,Aberration,1,3,7,3,6,"Assassinate up to 3 troops at a single site. For each troop removed, gain 1 Influence",Nothing is worse than a beholder waking from a nightmare.,10,Raise the cost to 8 and reduce the base VP to 2?,8,3,6,"Assassinate up to 3 troops at a single site. For each troop removed, gain 1 Influence",ressources/generated_images/card_illustrations/death_tyrant.png
+Elder Brain,Aberrations,Ambition,Aberration,1,2,7,4,9,"Promote the top card of your deck. Play a card from your inner circle as if it were in your hand, then return it to your inner circle","It feeds on the brains of its illithid worshippers, who seek to become one with their master.",40,,,,,,ressources/generated_images/card_illustrations/elder_brain.png
+Neogi,Aberrations,Conquest,Aberration,1,2,7,4,8,"Deploy 4 troops.
+At end of turn, each opponent discards a card.","Creatures that seek to enslave everything that breathes through mind control, even their own kind.",20,,,,,,ressources/generated_images/card_illustrations/neogi.png
+Soldier,Base,Obedience,Drow,12,24,-,0,1,+ 1 Power,Soldiers protect their superiors from enemy threats.,,,,,,,ressources/generated_images/card_illustrations/soldier.png
+Noble,Base,Obedience,Drow,28,56,-,0,1,+ 1 Influence,A drow noble's voice carries farther than those of a thousand commoners.,,,,,,,ressources/generated_images/card_illustrations/noble.png
+Insane Outcast,Base,-,Drow,30,60,-,-1,0,"Discard a card from your hand to return this card to the supply. If this card would be devoured or promoted, return it to the supply instead.",The presence of demon lords on the Material Plane has shattered many minds.,,,,,,,ressources/generated_images/card_illustrations/insane_outcast.png
+House Guard,Base,Obedience,Drow,15,30,3,1,3,+ 2 Power,Guards are a small elite who managed to survive their training.,,,,,,,ressources/generated_images/card_illustrations/house_guard.png
+Priestess of Lolth,Base,Obedience,Drow,15,30,2,1,2,+ 2 Influence,"Wholly devoted to Lolth, they are the instruments of her will.",,,,,,,ressources/generated_images/card_illustrations/priestess_of_lolth.png
+Black Tower Captain,Cohort,Obedience,Drow,1,3,2,1,2,"+ 1 Power.
+Return another player's troop or spy.",,,,,,,,ressources/generated_images/card_illustrations/black_tower_captain.png
+Exiled Elder,Cohort,Ambition,Kuo-Toa,1,3,2,1,2,"+ 2 Influence.
+Reveal the top card of your deck; discard it or put it on the bottom of your deck.",,,,,,,,ressources/generated_images/card_illustrations/exiled_elder.png
+Hungry Dead,Cohort,Malice,Undead,1,3,2,1,2,"Devour a card from your hand ► Deploy a troop.
+Devour a card from the market ► Deploy a troop.
+Devour this card ► Deploy a troop.",,,,,,,,ressources/generated_images/card_illustrations/hungry_dead.png
+Iron Chain Drover,Cohort,Conquest,Duergar,1,3,2,1,2,"+ 1 Power.
+Return an enemy troop from any trophy hall to its owner's barracks.",,,,,,,,ressources/generated_images/card_illustrations/iron_chain_drover.png
+Ust Killian,Cohort,Conquest,Drow,1,3,2,1,2,Discard a card from your hand ► Supplant an enemy troop.,,,,,,,,ressources/generated_images/card_illustrations/ust_killian.png
+Bregan D'aerthe Operative,Cohort,Guile,Drow,1,3,2,1,2,"Choose one:
+• Place a spy.
+• Return one of your spies ► Draw a card, then discard a card.",,,"The ""return a spy"" effect is useless; not discarding would make it merely average. Otherwise replace it with something else (return a spy to promote a card played this turn?)",,,,,ressources/generated_images/card_illustrations/bregan_daerthe_operative.png
+Drider Ambusher,Cohort,Malice,Monstrosity,1,3,2,1,2,Assassinate an enemy troop.,,,,,,,,ressources/generated_images/card_illustrations/drider_ambusher.png
+Grell Philosopher,Cohort,Guile,Aberration,1,3,2,1,2,"Choose one:
+• Place a spy.
+• Return one of your spies ► Choose an opponent with a troop at that site and more than 3 cards in hand; that player discards a card.",,,The return effect is useless once again. Return a spy to target each enemy player with a troop at that site?,,,,,ressources/generated_images/card_illustrations/grell_philosopher.png
+Tier Breche Mistress,Cohort,Ambition,Drow,1,3,2,1,2,"+ 1 Influence.
+Promote an Obedience card from your hand.",,,,,,,,ressources/generated_images/card_illustrations/tier_breche_mistress.png
+Yochlol,Cohort,Obedience,Demon,1,3,2,1,2,"+ 1 Influence.
+Devour a card from your hand ► An opponent of your choice recruits an Insane Outcast.",,,,,,,,ressources/generated_images/card_illustrations/yochlol.png
+White Wyrmling,Dragon,Conquest,Dragon,3,9,2,1,3,"Deploy 2 troops
+You may devour a card in the market",White wyrmlings are born with two primal instincts: hunger and greed.,14;16,"/ Switch to 2 Power and lower the inner circle VP to 2 | Cost 3, 2 Power and devour 2 market cards",2,1,2,"+ 2 Power.
+You may devour a card in the market or in your hand.",ressources/generated_images/card_illustrations/white_wyrmling.png
+Wyrmspeaker,Dragon,Ambition,Dwarf,3,6,3,1,3,"+ 1 Influence
+At end of turn, promote another card played this turn.",These zealots have the power to convince dragons to rally to their cause.,35;37,,,,,,ressources/generated_images/card_illustrations/wyrmspeaker.png
+Green Wyrmling,Dragon,Guile,Dragon,2,4,4,2,4,"Place a spy. If another player's troop is at that site, gain 2 Influence",The venom of a freshly hatched wyrmling can dissolve bone and eat through metal.,27;28,,,,,,ressources/generated_images/card_illustrations/green_wyrmling.png
+Cult Fanatic,Dragon,Ambition,Half-Dragon,2,6,3,1,4,"+ 2 Influence
+You may devour a card in the market","""Feeling the blood of dragons flow through your veins gives you a sense of invincibility""",31;32,"To keep the mechanic but make it more interesting, I would put ""devour up to 3 cards in the market""",3,1,4,"+ 2 Influence
+You may devour a card in the market or in your hand.",ressources/generated_images/card_illustrations/cult_fanatic.png
+Rath Modar,Dragon,Guile,Human,1,2,6,2,5,"Draw 2 cards.
+Place a spy.","""Dragons are tools with which I will build empires.""",29,,,,,,ressources/generated_images/card_illustrations/rather_modar.png
+Enchanter of Thay,Dragon,Guile,Human,3,6,4,1,3,"Choose one:
+• Place a spy
+• Return one of your spies ► 4 Power","""Whether you like it or not, we need you.""",24;26,,,,,,ressources/generated_images/card_illustrations/enchanter_of_thay.png
+Watcher of Thay,Dragon,Guile,Human,3,6,3,2,3,"Choose one:
+• Place a spy
+• Return one of your spies ► 3 Influence","""What you seek can only be paid for in blood.""",21;23,,,,,,ressources/generated_images/card_illustrations/watcher_of_thay.png
+Dragon Cultist,Dragon,Malice,Human,4,8,3,1,4,"Choose one:
+• 2 Power
+• 2 Influence",They are devoted to the coming of an age of dragons.,1;4,,,,,,ressources/generated_images/card_illustrations/dragon_cultist.png
+Severin Silrajin,Dragon,Malice,Human,1,3,7,4,8,+ 5 Power,"""I have glimpsed a destiny far more glorious than anything I could have imagined.""",9,1 assassinate and 3 Power?,7,4,8,"+ 3 Power
+Assassinate a troop.",ressources/generated_images/card_illustrations/severin_silrajin.png
+Green Dragon,Dragon,Guile,Dragon,1,2,8,3,7,"Choose one:
+• Place a spy, then supplant a troop at the same site.
+• Return one of your spies ► Supplant a troop at the same site, then gain 1 VP for each site control marker you have.",The schemes of green dragons span centuries.,30,,,,,,ressources/generated_images/card_illustrations/green_dragon.png
+Red Dragon,Dragon,Malice,Dragon,1,2,8,4,8,"Supplant a troop.
+Return an enemy spy.
+Gain 1 VP for each site under your total control.","""If you ever see one, run!""
+-- Blacksoot the Charred",10,,,,,,ressources/generated_images/card_illustrations/red_dragon.png
+Red Wyrmling,Dragon,Malice,Dragon,2,4,5,3,5,+ 2 Power 2 Influence,The first thing a red wyrmling develops is a deep arrogance.,5;6,,,,,,ressources/generated_images/card_illustrations/red_wyrmling.png
+Black Wyrmling,Dragon,Conquest,Dragon,2,4,3,1,4,"+ 1 Influence
+Assassinate a white troop",So many tasty snacks and so little time.,17;18,,,,,,ressources/generated_images/card_illustrations/black_wyrmling.png
+Dragonclaw,Dragon,Malice,Human,2,4,4,1,3,"Assassinate a troop. If you then have 5 or more player troops in your trophy hall, gain 2 Power.",The colors of their tattoos depend on the dragons they revere.,7;8,,,,,,ressources/generated_images/card_illustrations/dragonclaw.png
+Cleric of Laogzed,Dragon,Ambition,Troglodyte,2,4,4,2,4,"Move an enemy troop.
+At end of turn, promote another card played this turn.",The intensity of its stench is matched only by its hunger for fresh flesh.,33;34,,4,2,4,"Move an enemy troop.
++ 1 Influence
+At end of turn, promote another card played this turn.",ressources/generated_images/card_illustrations/cleric_of_laogzed.png
+Blue Wyrmling,Dragon,Ambition,Dragon,2,4,5,2,4,"+ 3 Influence
+Return an enemy troop or spy.",Even a blue wyrmling won't tolerate insubordination.,38;39,,,,,,ressources/generated_images/card_illustrations/blue_wyrmling.png
+White Dragon,Dragon,Conquest,Dragon,1,3,6,2,5,"Deploy 3 troops.
+Gain 1 VP for every 2 sites you control.","""They may be stupid, but they will hunt you to the end of time once they smell your blood.""
+-- Caldoum Vrailance, dragon hunter",19,Raise the cost to 7 and give 3 Power instead of deploy 3,,,,,ressources/generated_images/card_illustrations/white_dragon.png
+Black Dragon,Dragon,Conquest,Dragon,1,3,7,3,7,"Supplant a white troop anywhere on the board.
+Gain 1 VP for every 3 white troops in your trophy hall.",Those who witness its dark splendor kneel in worship.,20,Better with a cost of 7,,,,,ressources/generated_images/card_illustrations/black_dragon.png
+Blue Dragon,Dragon,Ambition,Dragon,1,2,8,4,8,"At end of turn, promote up to 2 other cards played this turn, then gain 1 VP for every 3 cards in your inner circle.","""The skies or the earth, it doesn't matter. Dragons will rule both.""",40,,,,,,ressources/generated_images/card_illustrations/blue_dragon.png
+Kobold,Dragon,Conquest,Kobold,3,6,1,1,2,"Choose one:
+• Deploy a troop
+• Assassinate a white troop","Although they can live for over a century, most never see more than a few decades.",11;14,,,,,,ressources/generated_images/card_illustrations/kobold.png
+Advocate,Drow,Ambition,Drow,4,8,2,1,2,"Choose one:
+• 2 Influence
+• At end of turn, promote another card played this turn.","Greed, avarice and power: three languages I speak fluently.",31;34,,,,,,ressources/generated_images/card_illustrations/advocate.png
+Drow Negotiator,Drow,Ambition,Drow,2,4,3,1,2,"If your inner circle contains 4 or more cards, + 3 Influence.
+At end of turn, promote another card played this turn.",I can open doors that are closed to all but the matron mothers.,37;38,,,,,,ressources/generated_images/card_illustrations/drow_negotiator.png
+Mercenary Squad,Drow,Conquest,Drow,2,4,3,1,4,Deploy 3 troops.,The only other option for those not affiliated with a house is exile.,14;15,,,,,,ressources/generated_images/card_illustrations/mercenary_squad.png
+Advanced Scout,Drow,Conquest,Drow,3,6,3,1,3,Supplant a white troop.,They slip into the web of drow society without making a single thread tremble.,11;13,,,,,,ressources/generated_images/card_illustrations/advanced_scout.png
+Informer,Drow,Guile,Drow,2,4,5,2,5,"Choose one:
+• Place a spy.
+• Return one of your spies ► Draw 3 cards.",Why use magic or weapons when a few words are enough to bring down a house?,28;29,,,,,,ressources/generated_images/card_illustrations/informer.png
+Master Spy,Drow,Guile,Drow,2,4,2,1,2,Place a spy,I can get you past the doors and the guards. The rest is up to you.,24;25,,2,1,2,"Choose one:
+• Place a spy.
+• Return one of your spies ► 1 Influence 1 Power",ressources/generated_images/card_illustrations/master_spy.png
+Infiltrator,Drow,Guile,Drow,2,4,3,1,2,"Place a spy. If another player has a troop at that site, gain 1 Power.",Perfection can only be achieved when failure is rewarded with death.,26-27,,,,,,ressources/generated_images/card_illustrations/infiltrator.png
+Bounty Hunter,Drow,Malice,Drow,2,4,5,2,4,+ 3 Power,Every life has a price.,5;6,,4,2,4,+ 3 Power,ressources/generated_images/card_illustrations/bounty_hunter.png
+Doppelganger,Drow,Malice,Doppelganger,2,4,5,3,5,Supplant a troop.,Nice life. I think I'll take it.,7;8,,4,1,4,Supplant a troop.,ressources/generated_images/card_illustrations/doppelganger.png
+Spellweaver,Drow,Guile,Drow,3,6,3,1,3,"Choose one:
+• Place a spy.
+• Return one of your spies ► Supplant a troop at the same site.",You will never know that your mind is not your own.,21;23,,,,,,ressources/generated_images/card_illustrations/spellweaver.png
+Inquisitor,Drow,Malice,Drow,1,2,3,2,4,"Choose one:
+• 2 Influence
+• Assassinate a troop.","I would be content if, through my service, I serve the Goddess and honor my house.",10,,,,,,ressources/generated_images/card_illustrations/inquisitor.png
+Black Guard,Drow,Malice,Drow,4,8,3,1,3,"Choose one:
+• 2 Power
+• Assassinate a troop.","They patrol the Underdark, preying on the lost, the careless and the reckless.",1;4,,,,,,ressources/generated_images/card_illustrations/black_guard.png
+Masters of Sorcere,Drow,Guile,Drow,1,2,3,2,5,"Choose one:
+• Place 2 spies.
+• Return one of your spies ► 4 Power",The masters of Sorcere have two missions: train their students and ensure their loyalty to Lolth.,30,,,,,,ressources/generated_images/card_illustrations/masters_of_sorcere.png
+Deathblade,Drow,Malice,Drow,1,2,6,3,6,Assassinate 2 troops.,"""May the mark of the Deathblade be upon you."" -- Drow curse",9,,,,,,ressources/generated_images/card_illustrations/deathblade.png
+Underdark Ranger,Drow,Conquest,Drow,2,4,4,2,4,Assassinate 2 white troops.,Their knowledge of the Underdark is unmatched. No one is safe from their blades.,16;17,,,,,,ressources/generated_images/card_illustrations/underdark_ranger.png
+Chosen of Lolth,Drow,Ambition,Drow,2,4,4,2,4,"Return an enemy troop or spy. At end of turn, promote another card played this turn",Don't even think about disobeying. It is the will of the Spider Queen.,35;36,,4,2,4,"+ 1 Influence
+Return an enemy troop or spy. At end of turn, promote another card played this turn.",ressources/generated_images/card_illustrations/chosen_of_lolth.png
+Matron Mother,Drow,Ambition,Drow,1,3,6,3,6,"Put your deck into your discard pile, then promote a card from your discard pile.",The will of the matron mother is absolute.,40,"Lower the cost or add an additional effect such as ""Devour a card in your hand to promote this card at end of turn"" / ""You can promote this card at end of turn""",6,3,6,"Put your deck into your discard pile, then promote a card from your discard pile. At end of turn, promote another card played this turn.",ressources/generated_images/card_illustrations/matron_mother.png
+Master of Melee-Magthere,Drow,Conquest,Drow,2,4,5,2,5,"Choose one:
+• Deploy 4 troops.
+• Supplant a white troop anywhere on the board.",The instructors of Melee-Magthere are among the greatest warriors of Menzoberranzan.,18;19,,,,,,ressources/generated_images/card_illustrations/master_of_melee-magthere.png
+Council Member,Drow,Ambition,Drow,1,2,6,3,6,"Move up to 2 enemy troops.
+At end of turn, promote another card played this turn.",Intrigue is an art in the drow council chambers.,39,,6,3,6,"Move up to 2 enemy troops. + 2 Influence. At end of turn, promote another card played this turn.",ressources/generated_images/card_illustrations/council_member.png
+Master of Arms,Drow,Conquest,Drow,1,2,6,3,6,"Choose three times:
+• Deploy a troop.
+• Assassinate a white troop.","""You will succeed or you will die. The outcome depends on you alone.""
+-- Shoor Vandree",20,,6,3,6,"Choose four times:
+• Deploy a troop.
+• Assassinate a white troop.",ressources/generated_images/card_illustrations/master_of_arms.png
+Black Earth Cultist,Elementals,Ambition,Human,4,8,2,1,2,"At end of turn, promote another card played this turn.
+Focus Ambition ► 2 Influence",Their devotion to Ogremoch grants them supernatural resilience.,31;34,,,,,,ressources/generated_images/card_illustrations/black_earth_cultist.png
+Water Elemental,Elementals,Conquest,Elemental,3,6,2,1,2,"Deploy 2 troops.
+Focus Conquest ► Draw a card.","Water endowed with will, ready to drown and crush its enemies.",14;16,,,,,,ressources/generated_images/card_illustrations/water_elemental.png
+Earth Elemental Myrmidon,Elementals,Ambition,Elemental,2,4,4,2,4,"+ 2 Influence
+At end of turn, promote another card played this turn.","""How can you say this land is yours when the very ground rises against you?""
+-- Marlos Urnrayle",37;38,,,,,,ressources/generated_images/card_illustrations/earth_elemental_myrmidon.png
+Crushing Wave Cultist,Elementals,Conquest,Human,3,6,3,1,4,"Assassinate a white troop.
+Focus Conquest ► Deploy 2 troops.","Members of a cult devoted to serving Olhydra, princess of water elementals.",11;13,,,,,,ressources/generated_images/card_illustrations/crushing_wave_cultist.png
+Air Elemental Myrmidon,Elementals,Guile,Elemental,2,4,4,1,3,"Place a spy.
+At end of turn, promote an Obedience card played this turn.","""We will give this armor the power of flight just to mock the earth.""
+-- Aerisi Kalinoth",27;28,,4,2,4,"Place a spy.
+At end of turn, promote an Obedience card played this turn.",ressources/generated_images/card_illustrations/air_elemental_myrmidon.png
+Howling Hatred Cultist,Elementals,Guile,Human,2,4,3,1,3,"Choose one:
+• Place a spy.
+• Return one of your spies ► 3 Influence
+Focus Guile ► 1 Power",Howling Hatred cultists feed on nothing but air and their fanatical devotion.,25;26,,,,,,ressources/generated_images/card_illustrations/howling_hatred_cultist.png
+Fire Elemental Myrmidon,Elementals,Malice,Elemental,2,4,4,1,3,"+ 2 Power
+At end of turn, promote an Obedience card played this turn.","""What if we put fire INSIDE the armor?""
+-- Elizar Dryflagon",7;8,,,,,,ressources/generated_images/card_illustrations/fire_elemental_myrmidon.png
+Yan-C-Bin,Elementals,Guile,Elemental Prince,1,2,6,3,6,"Place a spy, then assassinate a troop at the same site.
+Focus Guile ► Place a spy.","Subtler than the other elemental princes, Yan-C-Bin works from the shadows.",30,,6,3,6,,ressources/generated_images/card_illustrations/yan-c-bin.png
+Aerisi Kalinoth,Elementals,Guile,Elf,1,3,5,2,5,"+ 1 Power
+Place a spy.
+Recruit a Guile card that costs 4 or less for free.","""It is hard to stay humble when everyone is beneath you.""",29,Lower the cost and the VP,5,2,5,"+ 1 Power
+Place a spy.
+Choose one:
+• Recruit a Guile card that costs 4 or less for free
+• Devour a card from your discard pile.",ressources/generated_images/card_illustrations/aerisi_kalinoth.png
+Marlos Urnrayle,Elementals,Ambition,Medusa,1,3,5,2,5,"+ 1 Influence
+At end of turn, promote another card played this turn.
+Recruit an Ambition card that costs 4 or less for free.","""It is the gods' fault. How jealous they were of me!""",39,Give it 2 Influence and inner circle VP 4,5,2,5,"+ 2 Influence
+At end of turn, promote another card played this turn.
+Choose one:
+• Recruit an Ambition card that costs 4 or less for free.
+• Devour a card from your discard pile.",ressources/generated_images/card_illustrations/marlos_urnrayle.png
+Fire Elemental,Elementals,Malice,Elemental,3,6,3,1,3,"Choose one:
+• 2 Power
+• 2 Influence
+Focus Malice ► Draw a card",A capricious force of destruction.,4;6,,,,,,ressources/generated_images/card_illustrations/fire_elemental.png
+Earth Elemental,Elementals,Ambition,Elemental,2,4,3,1,3,"+ 1 Influence
+Return an enemy troop or spy.
+Focus Ambition ► Draw a card.",Who can resist the might of the earth?,35;36,,3,1,3,,ressources/generated_images/card_illustrations/earth_elemental.png
+Air Elemental,Elementals,Guile,Elemental,4,8,3,1,2,"Choose one:
+• Place a spy.
+• Return one of your spies ► Deploy 3 troops.
+Focus Guile ► Draw a card.","They are storms endowed with reason, incarnations of chaos.",21;24,,,,,,ressources/generated_images/card_illustrations/air_elemental.png
+Imix,Elementals,Malice,Elemental Prince,1,2,6,3,6,"+ 4 Power
+Focus Malice ► 2 Power","""Your world was made for me to consume.""",10,,,,,,ressources/generated_images/card_illustrations/imix.png
+Eternal Flame Cultist,Elementals,Malice,Human,3,6,4,2,4,"Assassinate a troop.
+Focus Malice ► 2 Power","""His embrace will smother the weak and warm the strong.""
+-- Vanifer",1;3,,,,,,ressources/generated_images/card_illustrations/eternal_flame_cultist.png
+Water Elemental Myrmidon,Elementals,Conquest,Elemental,2,6,4,2,4,"Assassinate a white troop.
+At end of turn, promote an Obedience card played this turn.",They live only to serve the will of their creator.,17;18,Reduce the VP and make it cost 3,4,2,4,,ressources/generated_images/card_illustrations/water_elemental_myrmidon.png
+Vanifer,Elementals,Malice,Tiefling,1,2,5,2,5,"Assassinate a troop.
+Recruit a Malice card that costs 4 or less for free.","""Time to blow out the candle.""",9,,5,2,5,"Assassinate a troop.
+Choose one:
+• Recruit a Malice card that costs 4 or less for free.
+• Devour a card from your discard pile.",ressources/generated_images/card_illustrations/vanifer.png
+Ogremoch,Elementals,Ambition,Elemental Prince,1,2,6,3,7,"+ 2 Influence
+At end of turn, promote another card played this turn.
+Focus Ambition ► At end of turn, promote another card played this turn.","What it cannot crush, it endures and outlasts.",40,,,,,,ressources/generated_images/card_illustrations/ogremoch.png
+Gar Shatterkeel,Elementals,Conquest,Human,1,3,5,2,5,"Deploy 3 troops.
+Recruit a Conquest card that costs 4 or less for free.","""The wind has turned.""",19,"Rather than a promote, I suggest: 3 Power + (or buy a card costing 4 or less, or devour a card from the discard pile or played this turn)",5,2,5,"Deploy 3 troops.
+Choose one:
+• Recruit a Conquest card that costs 4 or less for free
+• Devour a card from your discard pile.",ressources/generated_images/card_illustrations/gar_shatterkeel.png
+Olhydra,Elementals,Conquest,Elemental Prince,1,3,6,3,6,"Supplant a white troop anywhere on the board.
+Focus Conquest ► Deploy 2 troops.",Her patience is like the tide. She retreats before misfortune only to return stronger than ever.,20,Lower the cost and the VP,6,3,6,"Supplant a white troop anywhere on the board.
++ 1 Power
+Focus Conquest ► Deploy 2 troops.",ressources/generated_images/card_illustrations/olhydra.png
+Gremlin,Faerie,Malice,Faerie,2,0,1,0,1,"Choose one:
+• Discard a card from your hand ► + 2 Power.
+• Devour this card ► + 3 Power.","""These creatures are responsible for most of the unfortunate encounters in the Feywild"" - Mordenkainen",,,,,,,ressources/generated_images/card_illustrations/gremlin.png
+Redcap,Faerie,Malice,Faerie,3,0,3,1,3,"Choose one:
+• 2 Power.
+• Devour a card from your hand ► Assassinate a troop.","""Chaotic evil packed into something the size of a pint of beer"" - Volo",,,,,,,ressources/generated_images/card_illustrations/redcap.png
+Elananx,Faerie,Malice,Faerie,2,0,4,2,4,Assassinate a troop anywhere on the board.,The deadly instincts of a great cat bound to the might of a blazing fire. You will rarely meet anything deadlier than an elananx.,,,,,,,ressources/generated_images/card_illustrations/elananx.png
+Annis Hag,Faerie,Malice,Hag,2,0,5,2,5,"Choose one:
+• Supplant an enemy troop.
+• Assassinate an enemy troop and place a spy at that troop's site.","""Run, and don't look back"" - Tasha",,,,,,,ressources/generated_images/card_illustrations/annis_hag.png
+Lantern King,Faerie,Malice,Eldest,1,0,7,4,7,"Assassinate up to 2 troops. At end of turn, gain 1 VP for each enemy troop assassinated or supplanted this turn.","""Things can always get worse... unless you find yourself at the mercy of the Lantern King."" - Nyrissa",,,,,,,ressources/generated_images/card_illustrations/lantern_king.png
+Tooth Fairy,Faerie,Guile,Faerie,2,0,1,0,1,Place a spy.,Give me your teeth!,,,,,,,ressources/generated_images/card_illustrations/tooth_fairy.png
+Pixie,Faerie,Guile,Faerie,2,0,2,1,2,"Place a spy. If an opponent's spy is at that site, gain 1 VP.",Pixies look naive and frail. They are anything but.,,,,,,,ressources/generated_images/card_illustrations/pixie.png
+Sweet Hag,Faerie,Guile,Hag,3,0,3,1,3,"Choose one:
+• Place a spy.
+• Return one of your spies ► Play a card from the market that costs 4 or less as if it were in your hand, then devour that market card.",What sweet nectar.,,,,,,,ressources/generated_images/card_illustrations/sweet_hag.png
+Huldra,Faerie,Guile,Nymph,2,0,5,2,5,"Choose one:
+• Place a spy.
+• Return one of your spies ► Recruit a card from the market that costs 5 or less without paying its cost.","""Okay, listen to me carefully"" - The bard, one second before vanishing",,,,,,,ressources/generated_images/card_illustrations/huldra.png
+"Iggwilv, the Witch Queen",Faerie,Guile,High Fae,1,0,7,3,7,"Choose one:
+• Place 2 spies, then gain 1 VP for each of your spies on the board.
+• Return one of your spies ► Play a card from the market as if it were in your hand, then devour that market card.",This is only the warm-up.,,,,,,,"ressources/generated_images/card_illustrations/iggwilv,_the_witch_queen.png"
+Blight,Faerie,Conquest,Plant,4,0,2,1,2,"Deploy 2 troops.
+Devour a card from your hand ► Supplant a white troop adjacent to one of the troops deployed by this card.",The trees of the Feywild are its army.,,Raise the cost to 3,3,1,2,"Deploy 2 troops.
+Devour a card from your hand ► Supplant a white troop adjacent to one of the troops deployed by this card.",ressources/generated_images/card_illustrations/blight.png
+Lich Knights,Faerie,Conquest,Undead,2,0,4,2,4,"Choose one:
+• 2 Power.
+• Devour a card from your hand ► Supplant a white troop anywhere on the board.",Her majesty's soldiers and henchmen.,,,,,,,ressources/generated_images/card_illustrations/lich_knights.png
+High Fae Kindguard,Faerie,Conquest,High Fae,2,0,5,2,5,"Choose one:
+• 3 Influence.
+• 3 Power.","Talion's noble guards, and sometimes his messengers and executioners.",,,,,,,ressources/generated_images/card_illustrations/high_fae_kindguard.png
+"Talion, the Kindly Lord",Faerie,Conquest,High Fae,1,0,6,3,7,Supplant a white troop anywhere on the board. Promote an Obedience card from your discard pile.,"Tell me, brave hero, is your heart pure?",,,,,,,"ressources/generated_images/card_illustrations/talion,_the_kindly_lord.png"
+Queen of Air and Darkness,Faerie,Conquest,Eldest,1,0,8,4,8,"Play a card from the market that costs 5 or less as if it were in your hand, then recruit it without paying its cost.","""You may feel like you have a choice. You don't."" - Queen Mab's assistant",,Set the cost to 7 and recruit cards costing 6 or less. Set the VP to 3/7.,7,3,7,"Play a card from the market that costs 6 or less as if it were in your hand, then recruit it without paying its cost.",ressources/generated_images/card_illustrations/queen_of_air_and_darkness.png
+Pawpatch Patrol,Faerie,Ambition,Harengon,3,0,2,1,2,"Choose one:
+• 2 Influence.
+• Devour this card ► + 2 Power.","""They're not much use in a fight, but they're great for recruiting and lifting morale!"" - Nyrissa",,,,,,,ressources/generated_images/card_illustrations/pawpatch_patrol.png
+Naiad,Faerie,Ambition,Nymph,3,0,3,1,3,"Move an enemy troop.
+At end of turn, promote another card played this turn.","""Strange women handing out swords in ponds do not make a government"" - Dennis",,"At least lower the VP to 0/2, probably set the cost to 4",3,0,2,"Move an enemy troop.
+At end of turn, promote another card played this turn.",ressources/generated_images/card_illustrations/naiad.png
+Lost Huntman,Faerie,Ambition,Human,2,0,4,2,5,+ 2 Influence. Return another player's troop or spy.,"""Come with me if you want to survive.""",,,,,,,ressources/generated_images/card_illustrations/lost_huntman.png
+"Tasha, the Demonologist",Faerie,Ambition,Human,1,0,6,3,6,"Choose one:
+• 4 Influence.
+• Recruit an Ambition or Demon card from the market that costs 5 or less without paying its cost.
+• Recruit Graz'zt without paying his cost.","Baba Yaga's adopted daughter, author of the Demonomicon.",,,,,,,"ressources/generated_images/card_illustrations/tasha,_the_demonologist.png"
+"Nyrissa, the Nymph Queen",Faerie,Ambition,High Fae,1,0,6,3,7,"Return a player's troop or spy. Promote a card from the market that costs 5 or less, then gain 1 VP for every 3 cards in your inner circle.","One of the oldest fey, despite her name.",,,,,,,"ressources/generated_images/card_illustrations/nyrissa,_the_nymph_queen.png"
+Gibbering Mouther,Fungus,Conquest,Aberration,3,6,2,1,3,"Deploy 2 troops, then choose an opponent with a troop adjacent to one of them. That player recruits an Insane Outcast.","""If you are trying to understand what they say, you are already mad."" - Lippo, derro sage",,,,,,,ressources/generated_images/card_illustrations/gibbering_mouther.png
+Hezrou,Fungus,Ambition,Demon,2,6,3,1,3,Move an enemy troop. Promote the top card of your deck.,Their stench is legendary.,,"We could improve the card with an effect like ""reveal the top card of your deck. You may promote it; if not, leave it on top of your deck"". And raise the cost by 1",3,1,3,"+ 1 Influence.
+Move an enemy troop. Promote the top card of your deck.",ressources/generated_images/card_illustrations/hezrou.png
+Myconid Adult,Fungus,Ambition,Myconid,3,6,3,1,3,"+ 2 Influence.
+Choose an opponent. That player recruits an Insane Outcast.","""Rejoice, for the true union will merge us all!""",,,,,,,ressources/generated_images/card_illustrations/myconid_adult.png
+Derro,Fungus,Conquest,Derro,2,4,3,1,4,"Supplant a white troop anywhere.
+Recruit an Insane Outcast.","""I've got a nice metal-studded little stick all ready to poke holes in your pretty little head.""",,,3,1,4,"Supplant a white troop anywhere on the board and recruit an Insane Outcast.
+You may devour a card from your hand.",ressources/generated_images/card_illustrations/derro.png
+Myconid Sovereign,Fungus,Ambition,Myconid,2,4,4,2,5,"Choose an opponent. That player recruits an Insane Outcast.
+At end of turn, promote another card that was played this turn.","""The day of celebration is near!""",,,2,1,3,"You may give an Insane Outcast. At end of turn, you may promote another card played this turn.",ressources/generated_images/card_illustrations/myconid_sovereign.png
+Nalfeshnee,Fungus,Ambition,Demon,2,4,5,2,5,"+ 3 Influence.
+Promote the top card of your deck","""There is always room at our table for ambitious souls""",,,,,,,ressources/generated_images/card_illustrations/nalfeshnee.png
+Ettin,Fungus,Conquest,Giant,3,6,4,1,2,"Choose one:
+• Deploy 3 troops.
+• Assassinate 2 white troops.","Mag liked elf meat. Tog preferred dwarf, when he could get it. Elf? Meh.",,,,,,,ressources/generated_images/card_illustrations/ettin.png
+Night Hag,Fungus,Guile,Demon,3,6,3,1,3,"Choose one:
+• Place a spy.
+• Return a spy ► Draw 2 cards.",She hums happily as she sows the seeds of madness.,,,,,,,ressources/generated_images/card_illustrations/night_hag.png
+Jackalwere,Fungus,Guile,Shapechanger,3,6,4,2,4,"Choose one:
+• Place a spy.
+• Return a spy ► 2 Power 2 Influence","They capture victims for their lamia mistresses, who condemn them to death or slavery.",,,4,2,4,"Choose one:
+• Place a spy. + 1 Power
+• Return a spy ► 2 Power 2 Influence",ressources/generated_images/card_illustrations/jackalwere.png
+Vrock,Fungus,Guile,Demon,1,2,5,2,4,"Choose one:
+• Place a spy.
+• Return a spy ► 5 Power",Bribing a vrock is not easy. They see no point in negotiating when they can simply help themselves.,,,5,2,4,"Choose one:
+• Place a spy. + 1 Power
+• Return a spy ► 5 Power",ressources/generated_images/card_illustrations/vrock.png
+Succubus,Fungus,Guile,Demon,2,6,5,2,5,Devour a card from your hand ► Place a spy and assassinate a troop at that site.,"Seductresses and corruptors, they have found easy prey in the mortal world.",,Supplant instead of assassinate,,,,,ressources/generated_images/card_illustrations/succubus.png
+Mind Flayer,Fungus,Malice,Illithid,3,6,3,1,3,"Devour a card from your hand ► Choose one:
+• 3 Influence
+• Assassinate a troop.","""You know what's in their heads? Evil, foul and repulsive. Simple as that.""
+- Hitch, extraordinary rogue",,,,,,,ressources/generated_images/card_illustrations/mind_flayer.png
+Marilith,Fungus,Malice,Demon,2,4,6,2,5,Devour a card from your hand ► 5 Power.,They chant abyssal songs as they lead demonic hordes into battle.,,,,,,,ressources/generated_images/card_illustrations/marilith.png
+Graz'zt,Fungus,Guile,Demon,1,2,6,2,5,"Choose one:
+• Place 2 spies.
+• Return any number of your spies ► Supplant a troop at each of those spies' sites.",His beauty hides a heart of diabolical darkness.,,,,,,,ressources/generated_images/card_illustrations/grazzt.png
+Ghoul,Fungus,Malice,Undead,3,6,4,2,4,"+ 2 Power.
+Each opponent recruits an Insane Outcast.",One of the favorite minions of the Prince of Undeath.,,,,,,,ressources/generated_images/card_illustrations/ghoul.png
+Glabrezu,Fungus,Malice,Demon,1,3,5,2,4,Devour a card from your hand ► Assassinate 2 troops.,Only when they finally see a glabrezu do mortals understand that you would have to be mad to listen to its promises of power.,,Raise the cost to 6 and assassinate 3,,,,,ressources/generated_images/card_illustrations/glabrezu.png
+Balor,Fungus,Conquest,Demon,1,3,6,3,6,"Devour a card from your hand ► Supplant a white troop anywhere on the board, then deploy a troop.",The crack of its whip is enough to break the morale of the most hardened warriors.,,Deploy 2 instead of 1,6,3,6,"Devour a card from your hand ► Supplant a white troop anywhere on the board, then deploy 2 troops.",ressources/generated_images/card_illustrations/balor.png
+Orcus,Fungus,Malice,Demon,1,2,8,5,10,"Devour a card from your hand ► Assassinate 2 troops, take 2 trophies from another player and deploy them anywhere.",Death is only the beginning of his depravity.,,,8,5,10,"Devour a card from your hand ► Assassinate 3 troops, take 2 trophies from another player and deploy them anywhere.",ressources/generated_images/card_illustrations/orcus.png
+Zuggtmoy,Fungus,Ambition,Demon,1,3,6,3,6,"Devour a card from your inner circle ► 3 Influence and, at end of turn, promote up to 2 other cards played this turn.","""I've come for my betrothed!""
+- Zuggtmoy, speaking to Araumycos",,Change to promoting from cards played or from the discard pile.,,,,,ressources/generated_images/card_illustrations/zuggtmoy.png
+Demogorgon,Fungus,Conquest,Demon,1,2,8,5,10,Devour a card from your hand ► Supplant 2 white troops. Each opponent recruits 2 Insane Outcasts.,A mass of raging madness fed by blind malevolence.,,,,,,,ressources/generated_images/card_illustrations/demogorgon.png
+Scourge Assassin,Juiblex,Malice,Drow,2,6,5,1,4,"Assassinate 2 troops, each at a Scourge-touched site. Move one of your troops into the Heart of the Scourge.",,,,,,,,ressources/generated_images/card_illustrations/assassin_du_fléau.png
+Corrupter,Juiblex,Guile,Drow,3,9,3,1,3,"Place a spy at a site:
+• Scourge-touched ► Choose an opponent with a troop at that site. That player discards a card for each Scourge token at that site.
+• Not Scourge-touched ► + 1 Influence.",,,,,,,,ressources/generated_images/card_illustrations/corrupteur.png
+Scourge Demon,Juiblex,Guile,Demon,2,6,5,2,5,"This card can only be played if you have Presence at a Scourge-touched site.
+Place a spy ► Put a Scourge token at that spy's site. This triggers the same effect as when the Scourge spreads and a new Scourge token is placed.",,,,,,,,ressources/generated_images/card_illustrations/démon_du_fléau.png
+Chosen of Eilistraee,Juiblex,Ambition,Drow,2,6,5,2,5,"If you have no troops in the Heart of the Scourge ► Gain 1 VP.
+If you have the fewest (or tied for fewest) troops in the Heart of the Scourge ► + 3 Influence.
+Draw a card, then discard a card from your hand.",,,,,,,,ressources/generated_images/card_illustrations/lélu_de_eilistraee.png
+Scourge Guard,Juiblex,Malice,Drow,3,9,3,0,2,"Assassinate a troop at a Scourge-touched site.
+If you have a troop at a Scourge-touched site ► + 1 Power.",,,,,,,,ressources/generated_images/card_illustrations/garde_du_fléau.png
+Healer,Juiblex,Conquest,Drow,3,9,3,1,3,Return one of your troops from the Heart of the Scourge to your barracks.,,,,,,,,ressources/generated_images/card_illustrations/guérisseur.png
+Protective Mask,Juiblex,Conquest,Drow,2,6,5,2,5,Choose a site anywhere on the board. Supplant as many troops there as there are Scourge tokens at that site.,,,,,,,,ressources/generated_images/card_illustrations/masque_de_protection.png
+Noble Detachment,Juiblex,Ambition,Drow,3,9,4,1,2,Promote an Obedience card from your play area or your discard pile. Draw a card.,,,,,,,,ressources/generated_images/card_illustrations/noble_distanciation.png
+Matron of Lolth,Kuo-Toa,Ambition,Drow,1,3,7,4,7,"Choose one:
+• 3 Power and 3 Influence
+• You may promote any number of your persisting cards.",,,,,,,,ressources/generated_images/card_illustrations/matron_of_lolth.png
+Staff Council Leader,Kuo-Toa,Ambition,Drow,2,6,4,2,4,"At end of turn, you may promote another card played this turn. This card persists in your play area. When you shuffle your discard pile, discard it and shuffle it in.","""Don't ask for miracles!""",,,,,,,ressources/generated_images/card_illustrations/staff_council_leader.png
+Expediter,Kuo-Toa,Ambition,Kuo-Toa,2,6,3,1,3,"You may put the cards you recruit under your deck instead of into your discard pile. You may draw 1 or 2 fewer cards at the end of your turn. This card persists in your play area. When you shuffle your discard pile, discard it and shuffle it in.",,,,,,,,ressources/generated_images/card_illustrations/expediter.png
+Council Elder,Kuo-Toa,Ambition,Drow,2,6,3,1,3,"This card acts as a site. All players have Presence at this site. Total control: + 1 Influence + 1 VP. This card persists in your play area. When you shuffle your discard pile, discard it and shuffle it in. When it is discarded, return any troops or spies at this site.",,,,,,,,ressources/generated_images/card_illustrations/council_elder.png
+Assistant,Kuo-Toa,Ambition,Kuo-Toa,3,9,2,1,2,"+ 1 Influence each turn. This card persists in your play area. When you shuffle your discard pile, discard it and shuffle it in.","""Yeeesss maaassster, yeeesss. Of cooourse!""",,,,,,,ressources/generated_images/card_illustrations/assistant.png
+Kuo-Toa Champion,Kuo-Toa,Conquest,Kuo-Toa,2,6,6,3,6,"You may target enemy troops with abilities that target white troops. This card persists in your play area. When you shuffle your discard pile, discard it and shuffle it in.",,,Add +1 Power per turn,6,3,6,"You may target enemy troops with abilities that target white troops.
++ 1 Power
+This card persists in your play area. When you shuffle your discard pile, discard it and shuffle it in.",ressources/generated_images/card_illustrations/kuo-toa_champion.png
+Kuo-Toa Mole,Kuo-Toa,Conquest,Kuo-Toa,2,6,5,2,5,Supplant a white troop anywhere on the board. Choose a persisting card of an opponent with troops at that site; it is discarded.,"""You wanna learn zomething?""",,,,,,,ressources/generated_images/card_illustrations/kuo-toa_mole.png
+Block Leader,Kuo-Toa,Conquest,Kuo-Toa,2,6,4,2,4,"Choose one:
+• Move a white troop.
+• Assassinate a white troop for each persisting card you have in your play area.","""We hear everything and we tell everything.""",,,,,,,ressources/generated_images/card_illustrations/block_leader.png
+Blibdoolpoolp Priest,Kuo-Toa,Conquest,Kuo-Toa,2,6,4,2,4,"Each turn, choose one:
+• assassinate a white troop
+• deploy 2 troops.
+This card persists in your play area. When you shuffle your discard pile, discard it and shuffle it in.",,,,,,,,ressources/generated_images/card_illustrations/blibdoolpoolp_priest.png
+Deporter,Kuo-Toa,Conquest,Kuo-Toa,2,6,2,1,3,"Move a white troop each turn. This card persists in your play area. When you shuffle your discard pile, discard it and shuffle it in.","""We don't feed you here anymore.""",,,,,,,ressources/generated_images/card_illustrations/deporter.png
+Chemical Warfare Squad,Kuo-Toa,Malice,Kuo-Toa,1,3,7,4,7,"Choose one:
+• Assassinate 2 troops.
+• All opponents shuffle their discard pile into their deck. You may do the same.","""The opprezzorz must pay!""",,,,,,,ressources/generated_images/card_illustrations/chemical_warfare_squad.png
+Protector,Kuo-Toa,Malice,Kuo-Toa,1,3,6,3,6,"Your troops are moved instead of going to a trophy hall when they are assassinated or supplanted. This card persists in your play area. When you shuffle your discard pile, discard it and shuffle it in.","""This way! I'll get you out of here.""",,,,,,,ressources/generated_images/card_illustrations/protector.png
+Snitch,Kuo-Toa,Malice,Kuo-Toa,2,6,5,3,5,"Choose one:
+• 3 Power.
+• Choose a player (yourself included) who shuffles their discard pile into their deck.","""I've got tips for you!""",,,,,,,ressources/generated_images/card_illustrations/snitch.png
+Strategic Advisor,Kuo-Toa,Malice,Drow,3,9,3,1,3,"Choose one:
+• Attach it to a persisting card in play: when that card would be discarded, discard this card instead.
+• Play it on its own: at the end of your turn, you may put unplayed cards on this card to store them. Play the stored cards: + 1 Influence 1 Power per card. This card persists in your play area. When you shuffle your discard pile, discard this card with all the cards placed on it and shuffle them all into your deck.",,,,,,,,ressources/generated_images/card_illustrations/strategic_advisor.png
+Armorer,Kuo-Toa,Malice,Kuo-Toa,3,9,3,1,3,"+ 1 Power each turn.
+This card persists in your play area. When you shuffle your discard pile, discard it and shuffle it in.","""Zat zhould help zeparate all zat""",,,,,,,ressources/generated_images/card_illustrations/armorer.png
+Tunnelers,Kuo-Toa,Guile,Kuo-Toa,2,6,6,3,6,"You have Presence everywhere on the board. This card persists in your play area. When you shuffle your discard pile, discard it and shuffle it in.","""We were there and now we're here.""",,,,,,,ressources/generated_images/card_illustrations/tunnelers.png
+Analyst,Kuo-Toa,Guile,Drow,2,6,4,2,4,"Choose one:
+• Place a spy.
+• Return one of your spies ► Cards cost 1 Influence less to recruit this turn (minimum 1). Choose a persisting card of an opponent with troops at that spy's site; it is discarded.","""This information will be very useful to us.""",,,,,,,ressources/generated_images/card_illustrations/analyst.png
+Sleeper Cell,Kuo-Toa,Guile,Drow,2,6,4,2,4,"Choose one:
+• Place a spy.
+• Return one of your spies ► Draw a card, + 1 Influence 1 Power. Choose an opponent with troops at that spy's site; they discard one of their persisting cards.",,,,,,,,ressources/generated_images/card_illustrations/sleeper_cell.png
+Resident,Kuo-Toa,Guile,Drow,2,6,3,1,3,"You may place a spy each turn. This card persists in your play area. When you shuffle your discard pile, discard it and shuffle it in.","""Friends don't spy on each other.""",,,,,,,ressources/generated_images/card_illustrations/resident.png
+Accomplice,Kuo-Toa,Guile,Kuo-Toa,2,6,2,1,2,"This card acts as a site for placing a spy, only for the player whose play area it is in. When you return a spy from this site as a cost, you resolve the effect twice. Discard this card: return another player's troop or spy. This card persists in your play area. When you shuffle your discard pile, discard it and shuffle it in. If a spy is here when it is discarded, return it.",,,,,,,,ressources/generated_images/card_illustrations/accomplice.png
+Siege Beast,Siege,Conquest,Hydra,1,3,4,2,4,"Choose one:
+• 1 Power 2 Influence.
+• Gain 1 VP.",,,,4,2,4,"Choose one:
+• 1 Power 2 Influence.
+• Gain 1 VP and + 1 Influence.",ressources/generated_images/card_illustrations/siege_beast.png
+Brutal Warden,Siege,Conquest,Giant,3,9,4,3,6,"Whenever an opponent forces you to recruit an Insane Outcast or a Poisoned Minion, to discard a card or to return a spy ► Reveal this card and gain 1 VP.
+Draw a card.",,,,,,,,ressources/generated_images/card_illustrations/brutal_warden.png
+War Loot,Siege,Conquest,Slaves,2,6,3,1,3,"For each different card aspect played this turn, choose:
+• 1 Influence.
+• 1 Power.",,,,,,,,ressources/generated_images/card_illustrations/war_loot.png
+Clan Chief,Siege,Malice,Giant,2,6,4,2,4,Supplant a white troop. If you played 4 cards of different aspects this turn ► Gain 1 VP.,,,,,,,,ressources/generated_images/card_illustrations/clan_chief.png
+Scout Chief,Siege,Conquest,Drow,2,6,4,2,4,Deploy a troop for each different card aspect played this turn.,"In the Underdark, you are never alone.",,,,,,,ressources/generated_images/card_illustrations/scout_chief.png
+Corsairs,Siege,Guile,Drow,2,6,3,1,2,"Choose twice:
+• 1 Influence.
+• 1 Power.
+If you played 4 cards of different aspects this turn ► Draw a card.",,,,,,,,ressources/generated_images/card_illustrations/corsairs.png
+Hydra,Siege,Ambition,Hydra,2,6,6,2,6,"Assassinate a troop. At end of turn, promote another card played this turn.",A thousand roars echo.,,,,,,,ressources/generated_images/card_illustrations/hydra.png
+Pillage,Siege,Ambition,Drow,2,6,4,1,4,Copy another card played this turn that costs 4 or less.,Leave nothing...,,"6 or less instead, cost 3 instead of 4",3,1,4,Copy another card played this turn that costs 6 or less.,ressources/generated_images/card_illustrations/pillage.png
+Siege Tower,Siege,Ambition,Construct,2,6,4,2,3,"Choose one:
+• Draw a card.
+• At end of turn, promote another card played this turn.",,,"No choice, just both effects, for 5 instead of 4",5,2,3,"Draw a card.
+At end of turn, promote another card played this turn.",ressources/generated_images/card_illustrations/siege_tower.png
+Soul Siphon,Siege,Malice,Human,1,3,4,1,5,"Assassinate a troop. If that troop belonged to another player with at least one white troop in their trophy hall, deploy one of those white troops in the newly vacated space.",,,Cost 3,3,1,5,"Assassinate a troop. If that troop belonged to another player with at least one white troop in their trophy hall, deploy one of those white troops in the newly vacated space.",ressources/generated_images/card_illustrations/soul_siphon.png
+Trebuchet,Siege,Conquest,Siege Engine,2,6,3,1,3,Return a troop from anywhere on the board.,,,,,,,,ressources/generated_images/card_illustrations/trebuchet.png
+Furious Beast,Siege,Ambition,Minotaur,3,9,2,1,2,"+ 1 Power 1 Influence.
+If you played 4 cards of different aspects this turn ► Promote another card played this turn.",Something will break.,,,,,,,ressources/generated_images/card_illustrations/furious_beast.png
+Underdark Champion,Siege,Malice,Drow,3,9,3,1,3,Assassinate a white troop. If you played 4 cards of different aspects this turn ► Supplant a white troop.,,,,,,,,ressources/generated_images/card_illustrations/underdark_champion.png
+Warchief,Siege,Guile,Drow,1,3,5,2,5,"Choose one:
+• Place a spy.
+• Return one of your spies ► + 2 Influence. You may promote a card from the market by paying its cost.",,,,,,,,ressources/generated_images/card_illustrations/warchief.png
+Conspirator,Siege,Guile,Drow,4,12,3,1,3,"Choose one:
+• Move an enemy spy to another site.
+• Move a troop.",,,,,,,,ressources/generated_images/card_illustrations/conspirator.png
+Beast Tamer,Siege,Ambition,Drow,1,3,5,3,6,"+ 2 Influence.
+Cards cost 1 less to recruit until the end of the turn.",,,,,,,,ressources/generated_images/card_illustrations/beast_tamer.png
+Dread Ballista,Siege,Malice,Siege Engine,3,9,3,1,2,"+ 1 Power.
+Convert 1 Influence into 1 Power, up to 3 times.",,,,,,,,ressources/generated_images/card_illustrations/dread_ballista.png
+Ruthless Siege,Siege,Malice,Army,1,3,5,3,5,"+ 3 Power.
+Treat other players' troops as white troops until the end of the turn.",,,,,,,,ressources/generated_images/card_illustrations/ruthless_siege.png
+Shadow Adept,Siege,Guile,Drow,2,6,4,1,4,"Place a spy at a site of your choice. If you have that site's control marker, gain its effect.",There is no border he cannot cross,,,,,,,ressources/generated_images/card_illustrations/shadow_adept.png
+Avatar of Lolth,Siege,Guile,Avatar,1,3,7,4,8,"Choose one:
+• Place a spy, then draw a card.
+• Return one of your spies ► Put another card played this turn or a card from your discard pile on top of your deck.","Come forth, my little ones.",,,,,,,ressources/generated_images/card_illustrations/avatar_of_lolth.png
+Ancestral Spider,Spiderkin,Ambition,Spider,4,12,2,0,2,"+ 2 Influence.
+At the end of your turn, you may put this card in your Web.",,,,,,,,ressources/generated_images/card_illustrations/ancestral_spider.png
+Arachnid Swarm,Spiderkin,Ambition,Spider,3,9,4,1,3,"Choose one:
+• 4 Influence. For each Ambition card in your Web, you may devour a card from the market.
+• Put an Ambition card played this turn or Arachnid Swarm in your Web.",,,-1 Influence,,,,,ressources/generated_images/card_illustrations/arachnid_swarm.png
+Webmaster,Spiderkin,Ambition,Spider,2,6,6,2,5,"Promote a card played this turn or from your discard pile. For every 2 Ambition cards in your Web, promote an additional card.",,,,,,,,ressources/generated_images/card_illustrations/webmaster.png
+Face of Ambition,Spiderkin,Ambition,Spider,1,3,8,3,8,"Recruit a card from the market that costs 7 or less. For each Ambition card in your Web, promote a card from your hand or your discard pile.",,,,,,,,ressources/generated_images/card_illustrations/face_of_ambition.png
+Armored Spider,Spiderkin,Conquest,Spider,4,12,2,0,2,"+ 1 Power.
+At the end of your turn, you may put this card in your Web.",,,,,,,,ressources/generated_images/card_illustrations/armored_spider.png
+Giant Spider,Spiderkin,Conquest,Spider,3,9,4,1,3,"Choose one:
+• 3 Power + 1 Power for each Conquest card in your Web.
+• Put a Conquest card played this turn or Giant Spider in your Web.",,,,,,,,ressources/generated_images/card_illustrations/giant_spider.png
+Spider Golem,Spiderkin,Conquest,Spider,2,6,6,2,5,"+ 4 Power.
++ 2 Power for each Conquest card in your Web.",,,,,,,,ressources/generated_images/card_illustrations/spider_golem.png
+Face of Conquest,Spiderkin,Conquest,Spider,1,3,8,3,8,"+ 6 Power.
++ 3 Power for each Conquest card in your Web.",,,Assassinate a troop for each Conquest card in your Web,,,,,ressources/generated_images/card_illustrations/face_of_conquest.png
+Venomous Spider,Spiderkin,Malice,Spider,4,12,2,0,2,"Choose an opponent; that player recruits a Poisoned Minion. At the end of your turn, you may put this card in your Web.",,,,,,,,ressources/generated_images/card_illustrations/venomous_spider.png
+Demonic Spider,Spiderkin,Malice,Spider,3,9,4,1,3,"Choose one:
+• Assassinate a troop. For each Malice card in your Web, choose an opponent. That player recruits a Poisoned Minion.
+• Put a Malice card played this turn or Demonic Spider in your Web.",,,,,,,,ressources/generated_images/card_illustrations/demonic_spider.png
+Infamous Spider,Spiderkin,Malice,Spider,2,6,6,2,5,"Assassinate 2 troops. For each Malice card in your Web, choose an opponent who must return a spy. If they can't, they recruit a Poisoned Minion.",,,,,,,,ressources/generated_images/card_illustrations/infamous_spider.png
+Face of Malice,Spiderkin,Malice,Spider,1,3,8,3,8,"Assassinate 2 troops. For each Malice card in your Web, assassinate a troop or choose an opponent who recruits 2 Poisoned Minions.",,,,,,,,ressources/generated_images/card_illustrations/face_of_malice.png
+Scout Spider,Spiderkin,Guile,Spider,4,12,2,0,2,"Place a spy. At the end of your turn, you may put this card in your Web.",,,,,,,,ressources/generated_images/card_illustrations/scout_spider.png
+Phase Spider,Spiderkin,Guile,Spider,3,9,4,1,3,"Choose one:
+• Place a spy.
+• Return one of your spies ► Supplant a troop at that site, + 1 Power for each Guile card in your Web.
+• Put a Guile card played this turn or Phase Spider in your Web.",,,,,,,,ressources/generated_images/card_illustrations/phase_spider.png
+Umbral Spider,Spiderkin,Guile,Spider,2,6,6,2,5,Supplant a troop anywhere on the board. Return a spy ► Draw a card for each Guile card in your Web.,,,,,,,,ressources/generated_images/card_illustrations/umbral_spider.png
+Incarnation of Cunning,Spiderkin,Guile,Spider,1,3,8,3,8,"Place 5 spies. For each Guile card in your Web:
+• Return a spy.
+• Return one of your spies ► Draw 2 cards.",,,,,,,,ressources/generated_images/card_illustrations/incarnation_of_cunning.png
+Cultist of Myrkul,Undead,Ambition,Human,3,6,2,1,2,"Choose one:
+• 2 Influence.
+• Devour this card ► At end of turn, promote up to 2 other cards played this turn.","We will serve him, in life or in death.",34;36,,,,,,ressources/generated_images/card_illustrations/cultist_of_myrkul.png
+Vampire Spawn,Undead,Ambition,Undead,3,6,2,1,3,"+ 1 Influence
+Return an enemy troop or spy.",No sane creature that knows a vampire spawn's thirst for blood wishes to be alone in the dark with one.,31;33,,,,,,ressources/generated_images/card_illustrations/vampie_spawn.png
+Skeletal Horde,Undead,Conquest,Undead,3,6,2,1,2,"Deploy 2 troops.
+Devour this card ► Deploy 3 troops.",Some answer the call of summoners who raise them from their graves or from a battlefield; others wake on their own when death surrounds their last resting place.,,,,,,,ressources/generated_images/card_illustrations/skeletal_horde.png
+Carrion Crawler,Undead,Malice,Monstrosity,2,4,2,0,2,"+ 3 Power
+Devour a card from the market and replace it with this card (and not with the top card of the market deck).","""At least these big carrion grubs are easy to outrun!"" -- Lippo, derro sage",,,1,0,2,"+ 3 Power
+Devour a card from the market and replace it with this card (and not with the top card of the market deck).
+You can't recruit it again this turn.",ressources/generated_images/card_illustrations/carrion_crawler.png
+Wraith,Undead,Guile,Undead,2,4,2,0,1,"Place a spy.
+Devour this card ► Assassinate a troop at that spy's site.",Only hatred keeps it on this plane. Pray it never turns that hatred on you.,,,,,,,ressources/generated_images/card_illustrations/wraith.png
+Ravenous Zombies,Undead,Conquest,Undead,2,4,3,1,2,"+ 1 Power
+Assassinate a white troop.",Their will has been torn away. Only their insatiable appetite remains.,,,,,,,ressources/generated_images/card_illustrations/ravenous_zombies.png
+Minotaur Skeleton,Undead,Conquest,Undead,2,4,3,1,3,"Choose one:
+• Deploy 3 troops.
+• Devour this card ► Assassinate up to 3 white troops at a single site.","""The more bones, the better.""
+-- Hommet Shaw",,,,,,,ressources/generated_images/card_illustrations/minotaur_skeleton.png
+Ghost,Undead,Guile,Undead,2,6,3,1,3,"Choose one:
+• 3 Influence.
+• Promote this card, or a card from your hand or your discard pile.",Sometimes killing an enemy is not as final as you think.,,Give a discount of 2 on devoured cards to buy,3,1,3,"+ 1 Influence
+Choose one:
+• Place a spy.
+• Return one of your spies ► For the rest of your turn, treat a devoured card of your choice as if it were in the market.",ressources/generated_images/card_illustrations/ghost.png
+Wight,Undead,Malice,Undead,4,8,3,1,3,"Choose one:
+• 2 Power
+• Devour a card from your hand ► Supplant a troop.",Undeath is granted to them in exchange for the eternal war they wage against the living.,,,,,,,ressources/generated_images/card_illustrations/wight.png
+Flesh Golem,Undead,Malice,Construct,2,4,3,1,3,"+ 2 Power
+Devour this card ► Assassinate a troop.",An earth spirit trapped in a shell of flesh; no wonder it is full of fury.,,,,,,,ressources/generated_images/card_illustrations/flesh_golem.png
+Ogre Zombie,Undead,Conquest,Undead,2,4,4,2,4,Supplant a white troop anywhere on the board.,"""The enemy is strong. But soon, that strength will serve our own ends.""
+--Valindra Shadowmantle",,,,,,,ressources/generated_images/card_illustrations/ogre_zombie.png
+Banshee,Undead,Guile,Undead,2,4,4,2,4,"Place a spy. If an opponent's spy is at the same site, gain 3 Power.",No mortal soul is welcome where a banshee makes its home.,,,,,,,ressources/generated_images/card_illustrations/banshee.png
+Revenant,Undead,Malice,Undead,1,2,4,1,4,"Assassinate 2 troops. Then, if you have at least 8 troops in your trophy hall, promote this card.",They have one year to savor the delights of revenge before crumbling to dust.,,,5,2,4,"Assassinate 2 troops. Then, if you have at least 8 troops in your trophy hall, promote this card.",ressources/generated_images/card_illustrations/revenant.png
+Necromancer,Undead,Ambition,Human,2,4,5,1,4,"Choose one:
+• 3 Influence.
+• Promote this card, or a card from your hand or your discard pile.","""You think I fear death? I master it.""",37;38,,,,,,ressources/generated_images/card_illustrations/necromancer.png
+Conjurer,Undead,Guile,Human,3,9,5,2,3,"Choose one:
+• Place a spy.
+• Return one of your spies ► Recruit up to 2 cards that each cost 3 or less for free.",I have plenty more in reserve!,,"Choose one:
+• Place 2 spies.
+• Return one of your spies ► Recruit up to 1 card that costs 6 or less for free.",5,2,3,"Choose one:
+• Place 2 spies.
+• Return one of your spies ► Recruit up to 1 card that costs 6 or less for free.",ressources/generated_images/card_illustrations/conjurer.png
+High Priest of Myrkul,Undead,Ambition,Human,1,3,6,3,6,"Return an enemy troop or spy. At end of turn, you may promote any number of Undead cards played this turn.","""Death is only the beginning.""",39,"To keep the spirit, I suggest ""At end of turn, put your deck in your discard pile and promote up to 3 Undead cards from there.""",6,3,6,"Return an enemy troop or spy. At end of turn, you may promote any number of cards of the minion type of your choice played this turn.",ressources/generated_images/card_illustrations/high_priest_of_myrkul.png
+Death Knight,Undead,Malice,Undead,1,2,6,3,7,"Supplant a troop.
+Gain 1 VP for every 5 player troops in your trophy hall.","Flee or join him. If you choose to fight, you choose death.",,,,,,,ressources/generated_images/card_illustrations/death_knight.png
+Mummy Lord,Undead,Conquest,Undead,1,2,6,3,6,"Choose twice:
+• Assassinate a white troop.
+• Take a white troop from any trophy hall and deploy it anywhere on the board.",His empire will rise again.,,,,,,,ressources/generated_images/card_illustrations/mummy_lord.png
+Lich,Undead,Guile,Undead,1,2,7,4,7,"Place a spy. If an opponent's troop is at the same site, take up to 2 troops from that player's trophy hall and deploy them.","With a graveyard for barracks, its defeats are only ever temporary.",,,,,,,ressources/generated_images/card_illustrations/lich.png
+Vampire,Undead,Ambition,Undead,1,2,7,4,7,"Choose one:
+• Supplant a troop.
+• Promote a card from your discard pile, then gain 1 VP for every 3 cards in your inner circle.","""Stop resisting, my dear, and you will live forever at my side.""",40,,,,,,ressources/generated_images/card_illustrations/vampire.png
+Devotee of Mask,Yugoloth,Ambition,Human,5,15,2,1,2,"Choose one:
+• 1 Influence.
+• Place 1 spy.
+• Choose an opponent; they discard a card.",,,,,,,,ressources/generated_images/card_illustrations/devotee_of_mask.png
+Hydroloth,Yugoloth,Malice,Yugoloth,3,9,4,1,3,"Choose one:
+• Assassinate 1 troop.
+• Return one of your spies from a site with enemy troops ► Assassinate up to 2 troops at that site.",,,,,,,,ressources/generated_images/card_illustrations/hydroloth.png
+Elite Kuo-Toa,Yugoloth,Malice,Kuo-Toa,2,6,4,1,3,Assassinate 1 troop anywhere on the board.,,,,4,2,4,Assassinate 1 troop anywhere on the board.,ressources/generated_images/card_illustrations/elite_kuo-toa.png
+Corrupted Mage,Yugoloth,Ambition,Elf,2,6,4,1,3,"Recruit cards from the market with a total value of 5 Influence or less. Before refilling the market, put the Corrupted Mage card in an empty market slot.",,,,4,3,4,"Recruit cards from the market with a total value of 6 Influence or less. Before refilling the market, put the Corrupted Mage card in an empty market slot.",ressources/generated_images/card_illustrations/corrupted_mage.png
+Kuo-Toa Noble,Yugoloth,Malice,Kuo-Toa,1,3,5,2,4,+ 3 Influence 3 Power.,,,,,,,,ressources/generated_images/card_illustrations/kuo-toa_noble.png
+Derro Outcasts,Yugoloth,Malice,Derro,3,9,4,0,1,Assassinate 2 troops.,,,,,,,,ressources/generated_images/card_illustrations/derro_outcasts.png
+Priest of Dagon,Yugoloth,Malice,Kuo-Toa,1,3,5,2,5,"Choose one:
+• Supplant 2 white troops.
+• Supplant 1 enemy troop.",,,,,,,,ressources/generated_images/card_illustrations/priest_of_dagon.png
+Priestess of Mask,Yugoloth,Ambition,Human,2,6,6,3,5,"Look at an opponent's hand and choose a card. Then choose one:
+• Recruit 1 card of equal or lower value from the market for free.
+• Your opponent discards that card, and you gain VP equal to its deck VP value.",,,,,,,,ressources/generated_images/card_illustrations/priestess_of_mask.png
+Ultroloth,Yugoloth,Ambition,Yugoloth,1,3,7,4,7,Devour a card from your hand ► Recruit any card from the market for free.,,,,,,,,ressources/generated_images/card_illustrations/ultroloth.png
+Zhentarim Agent,Yugoloth,Guile,Yuan-Ti,3,9,4,1,3,"Choose one:
+• 3 Influence.
+• 2 Power.
+• Draw a card.",,,,,,,,ressources/generated_images/card_illustrations/zhentarim_agent.png
+Arcanaloth,Yugoloth,Guile,Yugoloth,2,6,6,2,5,"Choose one:
+• Place 2 spies.
+• Draw a card for each of your spies at a site with enemy troops.",,,,,,,,ressources/generated_images/card_illustrations/arcanaloth.png
+Dergholoth,Yugoloth,Conquest,Yugoloth,4,12,3,0,2,+ 2 Power. Focus Yugoloth ► + 2 Power.,,,,,,,,ressources/generated_images/card_illustrations/dergholoth.png
+Gacholoth,Yugoloth,Guile,Yugoloth,3,9,5,1,4,"Choose one:
+• Choose an opponent; they discard 2 cards.
+• Return 2 spies.
+• Move 2 troops.",,,,,,,,ressources/generated_images/card_illustrations/gacholoth.png
+Kuo-Toa Warrior,Yugoloth,Conquest,Kuo-Toa,2,6,3,1,2,+ 3 Power.,,,,,,,,ressources/generated_images/card_illustrations/kuo-toa_warrior.png
+Mezzoloth,Yugoloth,Conquest,Yugoloth,4,12,2,0,2,"+ 1 Power.
+Focus Yugoloth ► Assassinate a troop.",,,,,,,,ressources/generated_images/card_illustrations/mezzoloth.png
+Nycaloth,Yugoloth,Guile,Yugoloth,2,6,5,2,4,"Choose four times:
+• Place a spy.
+• Return one of your spies ► Return a spy.",,,"3 times, but return a spy to return an enemy spy or troop",5,2,4,"Choose three times:
+• Place a spy.
+• Return one of your spies ► Return an enemy spy or troop.",ressources/generated_images/card_illustrations/nycaloth.png
+Seductress,Svirfneblin,Guile,Drow,1,3,7,4,7,"Choose one:
+• Place 2 spies.
+• Return one of your spies ► Draw up to 2 random cards from the inner circle of a player with troops at that site. Put one of them in your inner circle.
+At end of turn, you may promote a card played this turn.",,,,,,,,ressources/generated_images/card_illustrations/seductress.png
+Bomb Maker,Svirfneblin,Guile,Duergar,2,6,5,2,5,"Choose one:
+• Place a spy.
+• Return 2 of your spies ► Assassinate up to 4 troops at one of those spies' sites.",Let it explode.,,,,,,,ressources/generated_images/card_illustrations/bomb_maker.png
+Hatemonger,Svirfneblin,Guile,Svirfneblin,2,6,3,1,3,"Choose one:
+• Place a spy.
+• Return any number of your spies ► Supplant the same number of white troops among those spies' sites.",,,,,,,,ressources/generated_images/card_illustrations/hatemonger.png
+Training Supervisor,Svirfneblin,Guile,Svirfneblin,2,6,4,2,4,"Choose one:
+• Place a spy.
+• Return one of your spies ► Promote up to 2 cards played this turn.",You learn fast. Almost too fast.,,,,,,,ressources/generated_images/card_illustrations/training_supervisor.png
+Cultural Attaché,Svirfneblin,Guile,Drow,3,9,2,1,3,"Place a spy ► If there are enemy troops at that site, choose an opponent with troops at that site and more than 3 cards in hand. That player must promote a card from their hand.",We will teach them our ways.,,,,,,,ressources/generated_images/card_illustrations/cultural_attaché.png
+Maneater,Svirfneblin,Malice,Drow,1,3,7,4,7,"Supplant a troop.
+Play a card from another player's inner circle. Then return it to that player's inner circle.",What is yours belongs to me.,,,,,,,ressources/generated_images/card_illustrations/maneater.png
+Chief Negotiator,Svirfneblin,Malice,Drow,2,6,5,2,5,"All other players may promote a card from their hand ► Draw a card, assassinate a troop and gain + 2 Influence.",We deserve far more than these scraps.,,,,,,,ressources/generated_images/card_illustrations/chief_negotiator.png
+Conscription Officer,Svirfneblin,Malice,Duergar,2,6,4,2,4,"+ 2 Power.
+Put a card from your inner circle into your discard pile ► Gain Power equal to that card's inner circle VP value.",We are requisitioning your services. Again.,,,,,,,ressources/generated_images/card_illustrations/conscription_officer.png
+Dealmaker,Svirfneblin,Malice,Svirfneblin,3,9,4,1,4,"Choose an opponent with more than 4 cards, who must promote a card from their hand (if impossible, ignore this cost). All other opponents may also promote a card from their hand ► Draw a card. + 1 Influence + 2 Power.",What? But that was our deal.,,,,,,,ressources/generated_images/card_illustrations/dealmaker.png
+Internal Revisor,Svirfneblin,Malice,Duergar,2,6,3,1,3,Promote another card played this turn into another player's inner circle ► Supplant a troop.,"Consider yourself lucky that our pact still holds, traitor.",,,,,,,ressources/generated_images/card_illustrations/internal_revisor.png
+Agent of Influence,Svirfneblin,Conquest,Drow,1,3,7,4,7,"Assassinate a troop, then deploy up to 1 player troop and 2 white troops, all taken from other players' trophy halls, anywhere on the board.
+Promote a card from your discard pile or a card played this turn.",,,,,,,,ressources/generated_images/card_illustrations/agent_of_influence.png
+Perturbator,Svirfneblin,Conquest,Drow,2,6,5,2,5,"Supplant a white troop and assassinate a white troop.
+Promote a card from your inner circle into another player's inner circle at the end of the turn ► Play that card and up to one other card from your inner circle. The other card then returns to your inner circle.",These are perilous times; no one can ignore it.,,,,,,,ressources/generated_images/card_illustrations/perturbator.png
+Informant,Svirfneblin,Conquest,Duergar,2,6,4,2,4,"Supplant a white troop.
+Choose another player with more than 4 cards, who must promote a card from their hand ► At end of turn, promote another card played this turn.",,,,,,,,ressources/generated_images/card_illustrations/informant.png
+Slave Driver,Svirfneblin,Conquest,Duergar,3,9,3,1,2,"Move 2 white troops.
+You may play an Obedience card from your inner circle. Then return it to your inner circle.",This hurts me more than it hurts you... apparently.,,,,,,,ressources/generated_images/card_illustrations/slave_driver.png
+Duergar Instructor,Svirfneblin,Conquest,Duergar,2,6,3,1,3,"Deploy 2 troops.
+Devour a card from your inner circle ► Take a card from the market costing up to 1 more than that card's inner circle VP value and put it in your inner circle.",Perfection remains out of reach.,,,,,,,ressources/generated_images/card_illustrations/duergar_instructor.png
+Chief of Staff,Svirfneblin,Ambition,Drow,1,3,6,3,6,"Put up to 3 cards from your inner circle into your hand.
+At end of turn, promote 2 cards played this turn.",Power is the fruit of relentless administration.,,,,,,,ressources/generated_images/card_illustrations/chief_of_staff.png
+Aristocratic Coach,Svirfneblin,Ambition,Drow,2,6,5,2,5,"Choose one:
+• All cards you recruit this turn go into your inner circle instead of your discard pile ► + 2 Influence.
+• Promote a card from your discard pile.","And you, what do you conclude?",,,,,,,ressources/generated_images/card_illustrations/aristocratic_coach.png
+Selfless Counsel,Svirfneblin,Ambition,Drow,2,6,4,2,4,"+ 3 Influence.
+Devour this card ► Promote up to 2 other cards played this turn.","My greatest honor is to serve you, without reservation.",,,,,,,ressources/generated_images/card_illustrations/selfless_counsel.png
+Case Officer,Svirfneblin,Ambition,Svirfneblin,3,9,3,1,3,"Choose one:
+• + 2 Influence.
+• Play a card from your inner circle as if it were in your hand (it is discarded as normal at the end of the turn) ► + 1 Power.",You are now active.,,,,,,,ressources/generated_images/card_illustrations/case_officer.png
+Procurement Officer,Svirfneblin,Ambition,Drow,2,6,3,1,3,"Choose one:
+• + 1 Influence. Put up to 3 cards from your inner circle into your discard pile ► Gain Influence equal to those cards' inner circle VP values.
+• At end of turn, promote another card played this turn.",,,,,,,,ressources/generated_images/card_illustrations/procurement_officer.png
+The Scourge Spreads,Juiblex,Corruption,,20,60,,,,,The corruption from beyond continues its pestilent spread.,,,,,,,ressources/generated_images/card_illustrations/le_fléau_sétend.png
