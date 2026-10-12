@@ -1,0 +1,596 @@
+﻿name,Nom,set,type1,type2,Nombre,Impression,Coût,Point de victoire deck,Point de victoire cénacle,Texte,Texte d'ambiance,Numéros,Modif proposé,Coût Modif,PV deck Modif,PV cénacle modif,Texte modif,path to image
+Grimlock,Grimlock,Aberrations,Conquête,Grimlock,2,6,1,0,1,"Déployez une unité.
+Si un adversaire vous fait défausser cette carte, piochez 2 cartes.","Destinés à naître, vivre et mourir au service d'êtres supérieurs.",14;15,Monter les points à 1/2 et changer déployer 1 par 1 symbole.,1,1,2,"+ 1 attaque.
+Si un adversaire vous fait défausser cette carte, piochez 2 cartes. ",ressources/generated_images/card_illustrations/grimlock.png
+cloaker,Manteleur,Aberrations,Ruse,Aberration,3,6,2,1,3,"Choisissez entre :
+• Posez un espion.
+• Renvoyez un de vos espions ► Assassinez une unité située sur le site de cet espion.","""Si vous voyez un manteau de cuir par terre, poignardez-le."" 
+-- Brawlwin Chainminer",21;23,,,,,,ressources/generated_images/card_illustrations/cloaker.png
+Cranium Rats,Rats-Crânes,Aberrations,Conquête,Bête,3,6,2,1,3,"Déployez 2 unités.
+Faites défausser une carte à un adversaire avec plus de 3 cartes.","Chaque rat est animé d'un intellect maléfique, attendant que tous se rassemblent.",11;13,,,,,,ressources/generated_images/card_illustrations/cranium_rats.png
+Ambassador,Ambassadeur,Aberrations,Ambition,Illithid,4,12,3,1,3,"À la fin du tour, promouvez une autre carte jouée ce tour-ci.
+ Si un adversaire vous fait défausser cette carte, vous pouvez la promouvoir à la place.","Il est important de forger de nouvelles alliances, même ténues.",31;34,"Si vous défausser cette carte, vous pouvez la promovoir ou promouvoir une carte de votre défausse à la place / Je mettrais ""vous pouvez promote cette carte et-ou une carte de votre main ou de la défausse"" avec vp2 à 2",3,1,3,"A la fin du tour, promouvez une autre carte jouée ce tour-ci ou une carte de votre défausse. Si un adversaire vous fait défausser cette carte, vous pouvez la promouvoir à la place ou promouvoir une carte de votre défausse.",ressources/generated_images/card_illustrations/ambassador.png
+Gauth,Gauth,Aberrations,Malice,Aberration,2,4,3,2,3,"Choisissez entre :
+• 2 monnaies
+• Piochez une carte. Faites défausser une carte à un adversaire avec plus de 3 cartes.","Si vous tenez à une chose, ne laissez pas le gauth la voir.",4;5,,,,,,ressources/generated_images/card_illustrations/gauth.png
+Nothic,Nothic,Aberrations,Ruse,Aberration,2,4,3,1,3,"Choisissez entre :
+• Posez un espion.
+• Renvoyez un de vos espions ► Piochez une carte. Chaque adversaire avec plus de 3 cartes doit défausser une carte.","""Vous savez quelque chose... quelque chose de secret. Je le vois, je le vois...""",24;25,,,,,,ressources/generated_images/card_illustrations/nothic.png
+Chuul,Chuul,Aberrations,Ruse,Aberration,2,6,3,1,4,Posez un espion. Chaque adversaire avec plus de 3 cartes qui possède une unité sur le site de cet espion doit défausser une carte.,"Ils suivent les directives de leurs créateurs, comme ils le font depuis la nuit des temps.",28;29,Je propose de changer cette carte par une carte qui produit 2 espions,5,1,4,"Choisissez entre : 
+• Posez deux espions.
+• Renvoyez autant de vos espions que vous le souhaitez ► 2 attaques par espion renvoyé de cette manière.",ressources/generated_images/card_illustrations/chuul.png
+Mindwitness,Témoin spirituel,Aberrations,Malice,Aberration,3,6,3,1,3,"Assassinez une unité. Si cette unité appartenait à un autre joueur avec plus de 3 cartes, il doit défausser une carte.","""Un tyrannoeil asservi par des flagelleurs mentaux. Imaginez les horreurs qu'il nous réserve."" 
+-- Elminster Aumar",6;8,,,,,,ressources/generated_images/card_illustrations/mindwitness.png
+Brainwashed Slave,Esclave endoctriné,Aberrations,Ruse,Aberration,2,4,4,2,3,"Choisissez entre :
+• Posez un espion.
+• Renvoyez un de vos espions ► 2 attaques 2 monnaies",Son esprit appartient à quelque chose d'autre. Quelque chose de terrifiant.,26;27,,,,,,ressources/generated_images/card_illustrations/brainwashed_slave.png
+Spectator,Spectateur,Aberrations,Malice,Aberration,3,6,4,2,3,+ 2 attaque 1 monnaie,"""Si l'on vous arrachait de votre plan d'existence pour vous forcer à garder quelque chose pendant 101 ans, vous seriez en colère vous aussi."" 
+-- Volothamp Geddarm",1;3,,,,,,ressources/generated_images/card_illustrations/spectator.png
+intellect Devourer,Dévoreur d'Intellect,Aberrations,Ambition,Aberration,2,4,4,1,3,"Choisissez entre :
+• 3 monnaies
+• Renvoyez jusqu'à deux unités ou espions.",Pourquoi combattre ses ennemis quand on peut les faire changer d'avis ?,35;36,,,,,,ressources/generated_images/card_illustrations/intellect_devourer.png
+Umber Hulk,Mastodonte des Ombres,Aberrations,Conquête,Monstruosité,2,6,4,2,4,"Déployez 3 unités. Si un adversaire vous fait défausser cette carte, il doit défausser une carte.",Le regard d'un mastodonte est si perçant qu'il sème la confusion dans l'esprit le plus résistant ; Ceux qui y survivent ne s'en rappellent même pas.,18;19,Passer la carte à 3 mais avec 1 seul point de victoire ou ajouter un ou supplanter un blanc,4,2,4,"Choisissez entre : 
+• Déployez 3 unités. 
+• Supplantez une unité blanche.
+Si un adversaire vous fait défausser cette carte, il doit défausser une carte.",ressources/generated_images/card_illustrations/umber_hulk.png
+Beholder,Tyrannoeil,Aberrations,Malice,Aberration,1,2,5,3,6,"Assassinez une unité.
+Gagnez 1 attaque pour chaque trio d'unités dans votre salle des trophées.","""Rien n'est plus dangereux que de négocier avec un tyrannoeil, à part espionner une mère matrone."" 
+-- Jarlaxle Baenre",9,,,,,,ressources/generated_images/card_illustrations/beholder.png
+Puppeteer,Marionnettiste,Aberrations,Ambition,Illithid,2,4,5,2,6,"+ 2 Monnaies
+À la fin du tour, promouvez une autre carte jouée ce tour-ci.","Parfois, mieux vaut ne pas savoir qui tire les ficelles.",37;38,,,,,,ressources/generated_images/card_illustrations/puppeteer.png
+Quaggoth,Quaggoth,Aberrations,Conquête,Quaggoth,2,6,5,2,4,Assassinez une unité blanche pour chaque site que vous contrôlez.,"Ils mutilent furieusement leur ennemi, et l'approche de la mort les rend plus dangereux.",16;17,Réduire les points de victoire qu'elle fait en carte. Peut être à 1 / 2 ou 0/3 ou alors monter le cout à 6,6,2,4,Assassinez une unité blanche pour chaque site que vous contrôlez.,ressources/generated_images/card_illustrations/quaggoth.png
+Ulitharid,Ulitharide,Aberrations,Ambition,Illithid,1,2,6,3,6,"Jouez une carte du marché qui coûte 4 ou moins comme si elle était dans votre main, puis dévorez cette carte.","Un illithid rare, dont la puissance et l'ambition rivalise avec celle d'un cerveau vénérable.",39,,6,3,6,"Jouez une carte du marché qui coûte 4 ou moins comme si elle était dans votre main, puis placez cette carte dans votre défausse. Vous pouvez dévorer une carte jouée ce tour-ci.",ressources/generated_images/card_illustrations/ulitharid.png
+Aboleth,Aboleth,Aberrations,Ruse,Aberration,1,2,7,4,7,"Choisissez entre :
+• Posez 2 espions.
+• Piochez une carte pour chaque espion que vous avez sur le plateau.",Ces créatures aussi anciennes que mystérieuses n'accepteront que la soumission totale.,30,,,,,,ressources/generated_images/card_illustrations/aboleth.png
+Death Tyrant,Tyramort,Aberrations,Malice,Aberration,1,3,7,3,6,"Assassinez jusqu'à 3 unités sur un seul site. Pour chaque unité retirée, gagnez 1 monnaie",Rien n'est pire qu'un tyrannoeil qui se réveille d'un cauchemar.,10,Le cout qui passe à 8 et réduction des points de base à 2 ?,8,3,6,"Assassinez jusqu'à 3 unités sur un seul site. Pour chaque unité retirée, gagnez 1 monnaie",ressources/generated_images/card_illustrations/death_tyrant.png
+Elder Brain,Cerveau Vénérable,Aberrations,Ambition,Aberration,1,2,7,4,9,Promouvez la première carte de votre pioche. Jouez une carte de votre cénacle comme si elle était dans votre main puis renvoyez-la dans votre cénacle,"Il se nourrit de la cervelle de ses adorateurs illithids, qui cherchent à ne faire qu'un avec leur maître.",40,,,,,,ressources/generated_images/card_illustrations/elder_brain.png
+Neogi,Néogi,Aberrations,Conquête,Aberration,1,2,7,4,8,"Déployez 4 unités.
+À la fin du tour, chaque adversaire doit défausser une carte.","Des créatures qui cherchent à asservir par le contrôle mental tout ce qui respire, même leur propre espèce.",20,,,,,,ressources/generated_images/card_illustrations/neogi.png
+Soldier,Soldat,Base,Obéissance,Drow,12,24,-,0,1,+ 1 Attaque,Les soldats protègent les supérieurs des menaces ennemies.,,,,,,,ressources/generated_images/card_illustrations/soldier.png
+Noble,Noble,Base,Obéissance,Drow,28,56,-,0,1,+ 1 monnaie,La voix d'un noble drow a plus de portée que celles d'un millier de manants.,,,,,,,ressources/generated_images/card_illustrations/noble.png
+Insane Outcast,Paria dément,Base,-,Drow,30,60,-,-1,0,"Défaussez une carte de votre main pour renvoyer cette carte dans la réserve. Si cette carte devrait être dévorée ou promue, remettez la dans la réserve.",La présence des seigneurs démons sur le plan matériel a brisé beaucoup d'esprits.,,,,,,,ressources/generated_images/card_illustrations/insane_outcast.png
+House Guard,Garde,Base,Obéissance,Drow,15,30,3,1,3,+ 2 attaque,Les gardes sont une petite élite qui a réussi à survivre à l'entraînement.,,,,,,,ressources/generated_images/card_illustrations/house_guard.png
+Priestess of Lolth,Prêtresse de Lolth,Base,Obéissance,Drow,15,30,2,1,2,+ 2 monnaie,"Entièrement dévouées à Lolth, elles sont les instruments de sa volonté.",,,,,,,ressources/generated_images/card_illustrations/priestess_of_lolth.png
+Black Tower Captain,Capitaine de la Tour Noire,Cohort,Obéissance,Drow,1,3,2,1,2,"+ 1 attaque.
+Renvoyez une unité ou un espion d'un autre joueur.",,,,,,,,ressources/generated_images/card_illustrations/black_tower_captain.png
+Exiled Elder,Ancien exilé,Cohort,Ambition,Kuo-Toa,1,3,2,1,2,"+ 2 monnaies.
+Révélez la première carte de votre pioche, défaussez-la ou placez-la sous votre pioche.",,,,,,,,ressources/generated_images/card_illustrations/exiled_elder.png
+Hungry Dead,Mort affamé,Cohort,Malice,Mort-vivant,1,3,2,1,2,"Dévorez une carte de votre main ► Déployez une unité.
+Dévorez une carte du marché ► Déployez une unité.
+Dévorez cette carte ► Déployez une unité.",,,,,,,,ressources/generated_images/card_illustrations/hungry_dead.png
+Iron Chain Drover,Conducteur aux chaînes de fer,Cohort,Conquête,Duergar,1,3,2,1,2,"+ 1 attaque.
+Renvoyez une unité ennemie de n'importe quelle salle des trophées dans la réserve du joueur à qui elle appartient.",,,,,,,,ressources/generated_images/card_illustrations/iron_chain_drover.png
+Ust Killian,Ust Killian,Cohort,Conquête,Drow,1,3,2,1,2,Défaussez une carte de votre main ► Supplantez une unité ennemie.,,,,,,,,ressources/generated_images/card_illustrations/ust_killian.png
+Bregan D'aerthe Operative,Agent de Bregan D'aerthe,Cohort,Ruse,Drow,1,3,2,1,2,"Choisissez entre :
+• Placez un espion.
+• Renvoyez un de vos espions ► Piochez une carte puis Défaussez une carte.",,,"L'effet de Return one spy est nul, ne pas défausser serait suffisemment moyen, sinon remplacer par autre chose (return a spy to promote a card played this turn?)",,,,,ressources/generated_images/card_illustrations/bregan_daerthe_operative.png
+Drider Ambusher,Drider embusqué,Cohort,Malice,Monstruosité,1,3,2,1,2,Assassinez une unité ennemie.,,,,,,,,ressources/generated_images/card_illustrations/drider_ambusher.png
+Grell Philosopher,Philosophe grell,Cohort,Ruse,Aberration,1,3,2,1,2,"Choisissez entre :
+• Placez un espion.
+• Renvoyez un de vos espions ► Choisissez un adversaire avec une unité sur ce site et plus de 3 cartes en main ; il doit défausser une carte.",,,L'effet du return est nul une fois de plus. return a spy to each each ennemy player with an enemy troop at that site?,,,,,ressources/generated_images/card_illustrations/grell_philosopher.png
+Tier Breche Mistress,Maîtresse de Tier Breche,Cohort,Ambition,Drow,1,3,2,1,2,"+ 1 monnaie.
+Promouvez une carte Obéissance de votre main.",,,,,,,,ressources/generated_images/card_illustrations/tier_breche_mistress.png
+Yochlol,Yochlol,Cohort,Obéissance,Démon,1,3,2,1,2,"+ 1 monnaie.
+Dévorez une carte de votre main ► un adversaire de votre choix recrute un Paria dément.",,,,,,,,ressources/generated_images/card_illustrations/yochlol.png
+White Wyrmling,Dragonnet Blanc,Dragon,Conquête,Dragon,3,9,2,1,3,"Déployez 2 unités
+Vous pouvez dévorer une carte du marché",Les dragonnets blancs naissent avec deux instincts primaires : la faim et la cupidité.,14;16,/ Passer à 2ad et baisser les vp2 à 2 | Coût 3 2 atk et 2 cartes du marché à dévorer,2,1,2,"+ 2 attaques.
+Vous pouvez dévorer une carte du marché ou de votre main.",ressources/generated_images/card_illustrations/white_wyrmling.png
+Wyrmspeaker,Confident des Dragons,Dragon,Ambition,Nain,3,6,3,1,3,"+ 1 monnaie
+À la fin du tour, promouvez une autre carte jouée ce tour-ci.",Ces fanatiques ont le pouvoir de convaincre les dragons de se rallier à leur cause.,35;37,,,,,,ressources/generated_images/card_illustrations/wyrmspeaker.png
+Green Wyrmling,Dragonnet vert,Dragon,Ruse,Dragon,2,4,4,2,4,"Posez un espion. Si l'unité d'un autre joueur se trouve sur ce site, gagnez 2 monnaies",Le poison d'un dragonnet à peine sorti de l'oeuf peut dissoudre les os et ronger le métal.,27;28,,,,,,ressources/generated_images/card_illustrations/green_wyrmling.png
+Cult Fanatic,Fanatique,Dragon,Ambition,Demi-Dragon,2,6,3,1,4,"+ 2 monnaies
+Vous pouvez dévorer une carte du marché","""Sentir le sang des dragons couler dans ses veines procure un sentiment d'invincibilité""",31;32,"Pour préserver la mécanique mais le rendre plus intéressant, je mettrais ""devour up to 3 cards in the market",3,1,4,"+ 2 monnaies
+Vous pouvez dévorer une carte du marché ou de votre main.",ressources/generated_images/card_illustrations/cult_fanatic.png
+Rather Modar,Rath Modar,Dragon,Ruse,Humain,1,2,6,2,5,"Piochez 2 cartes.
+Posez un espion.","""Les dragons sont des outils avec lesquels je bâtirai des empires.""",29,,,,,,ressources/generated_images/card_illustrations/rather_modar.png
+Enchanter of Thay,Enchanteur de Thay,Dragon,Ruse,Humain,3,6,4,1,3,"Choisissez entre :
+• Posez un espion
+• Renvoyez un de vos espions ► 4 attaque","""Peu importe que vous le vouliez ou non, nous avons besoin de vous.""",24;26,,,,,,ressources/generated_images/card_illustrations/enchanter_of_thay.png
+Watcher of Thay,Gardien de Thay,Dragon,Ruse,Humain,3,6,3,2,3,"Choisissez entre :
+• Posez un espion
+• Renvoyez un de vos espions ► 3 monnaie","""Ce que vous cherchez ne peut être payé qu'avec du sang.""",21;23,,,,,,ressources/generated_images/card_illustrations/watcher_of_thay.png
+Dragon Cultist,Adorateur des Dragons,Dragon,Malice,Humain,4,8,3,1,4,"Choisissez entre :
+• 2 attaque
+• 2 monnaie",Ils se consacrent à l'avènement d'un âge draconique.,1;4,,,,,,ressources/generated_images/card_illustrations/dragon_cultist.png
+Severin Silrajin,Severin Silrajin,Dragon,Malice,Humain,1,3,7,4,8,+ 5 attaque,"""J'ai perçu une destinée bien plus glorieuse que ce que j'aurais pu imaginer.""",9,1 kill et 3 d'atk?,7,4,8,"+ 3 attaque
+Assassinez une unité.",ressources/generated_images/card_illustrations/severin_silrajin.png
+Green Dragon,Dragon vert,Dragon,Ruse,Dragon,1,2,8,3,7,"Choisissez entre :
+• Posez un espion, puis Supplantez une unité située sur le même site.
+• Renvoyez un de vos espions ► Supplantez une unité située sur le même site, puis gagnez un PV pour chaque marqueur de contrôle de site en votre possession.",Les plans des dragons verts s'étalent sur des siècles.,30,,,,,,ressources/generated_images/card_illustrations/green_dragon.png
+Red Dragon,Dragon rouge,Dragon,Malice,Dragon,1,2,8,4,8,"Supplantez une unité.
+Renvoyez un espion ennemi.
+Gagnez un PV pour chaque site sous votre contrôle total.","""Si jamais vous en apercevez un, courez !""
+ -- Noirsuie, le Carbonisé",10,,,,,,ressources/generated_images/card_illustrations/red_dragon.png
+Red Wyrmling,Dragonnet rouge,Dragon,Malice,Dragon,2,4,5,3,5,+ 2 attaque 2 monnaie,La première chose que développe un dragonnet rouge est une profonde arrogance.,5;6,,,,,,ressources/generated_images/card_illustrations/red_wyrmling.png
+Black Wyrmling,Dragonnet Noir,Dragon,Conquête,Dragon,2,4,3,1,4,"+ 1 monnaie
+Assassinez une unité blanche",Tant de bons casse-croûtes et si peu de temps.,17;18,,,,,,ressources/generated_images/card_illustrations/black_wyrmling.png
+Dragonclaw,Griffedragon,Dragon,Malice,Humain,2,4,4,1,3,"Assassinez une unité. Si après cela, vous avez 5 unités ou plus appartenant à des joueurs dans votre salle des trophées, gagnez 2 attaque.",Les couleurs de leurs tatouages dépendent des dragons qu'ils révèrent.,7;8,,,,,,ressources/generated_images/card_illustrations/dragonclaw.png
+Cleric of Laogzed,Prêtre de Laogzed,Dragon,Ambition,Troglodyte,2,4,4,2,4,"Déplacez une unité ennemie.
+À la fin du tour, promouvez une autre carte jouée ce tour-ci.",L'intensité de sa puanteur n'a d'égale que sa faim de chair fraîche.,33;34,,4,2,4,"Déplacez une unité ennemie.
++ 1 monnaie
+A la fin du tour, promouvez une autre carte jouée ce tour-ci.",ressources/generated_images/card_illustrations/cleric_of_laogzed.png
+Blue Wyrmling,Dragonnet Bleu,Dragon,Ambition,Dragon,2,4,5,2,4,"+ 3 monnaie
+Renvoyez une unité ou un espion adverse.",Même un dragonnet bleu ne tolère pas l'insubordination.,38;39,,,,,,ressources/generated_images/card_illustrations/blue_wyrmling.png
+White Dragon,Dragon blanc,Dragon,Conquête,Dragon,1,3,6,2,5,"Déployez 3 unités.
+Gagnez 1 PV par paire de sites que vous contrôlez.","""Ils ont beau être stupides, ils vous traqueront jusqu'à la fin des temps s'ils sentent votre sang.""
+ -- Caldoum Vrailance, chasseur de dragons",19,passer le coût à 7 et mettre 3 atk à la place de 3 deploy,,,,,ressources/generated_images/card_illustrations/white_dragon.png
+Black Dragon,Dragon Noir,Dragon,Conquête,Dragon,1,3,7,3,7,"Supplantez une unité blanche n'importe où sur le plateau.
+Gagnez 1 PV pour chaque trio d'unités blanches dans votre salle des trophées.",Ceux qui sont témoins de sa splendeur ténèbreuse mettent un genou à terre en adoration.,20,Mieux avec un coût à 7,,,,,ressources/generated_images/card_illustrations/black_dragon.png
+Blue Dragon,Dragon Bleu,Dragon,Ambition,Dragon,1,2,8,4,8,"À la fin du tour, promouvez jusqu'à 2 autres cartes jouées ce tour-ci, puis gagnez 1 PV pour chaque trio de cartes dans votre cénacle.","""Les cieux ou la terre, peu importe. Les dragons règneront sur les deux.""",40,,,,,,ressources/generated_images/card_illustrations/blue_dragon.png
+Kobold,Kobold,Dragon,Conquête,Kobold,3,6,1,1,2,"Choisissez entre :
+• Déployez une unité
+• Assassinez une unité blanche","Bien qu'ils puissent vivre plus d'un siècle, la plupart ne dépassent pas quelques décennies.",11;14,,,,,,ressources/generated_images/card_illustrations/kobold.png
+Advocate,Avocate,Drow,Ambition,Drow,4,8,2,1,2,"Choisissez entre :
+• 2 monnaies
+• À la fin du tour, promouvez une autre carte jouée ce tour-ci.","Cupidité, avarice et pouvoir, voilà trois langages qui me sont familiers.",31;34,,,,,,ressources/generated_images/card_illustrations/advocate.png
+Drow Negotiator,Négociatrice drow,Drow,Ambition,Drow,2,4,3,1,2,"Si votre cénacle contient 4 cartes ou plus, + 3 monnaies.
+À la fin du tour, promouvez une autre carte jouée ce tour-ci.",Je peux ouvrir des portes fermées à tout autre que les Mères matrones.,37;38,,,,,,ressources/generated_images/card_illustrations/drow_negotiator.png
+Mercenary Squad,Escouade de mercenaires,Drow,Conquête,Drow,2,4,3,1,4,Déployez 3 unités.,La seule autre option pour ceux qui ne sont pas affiliés à une maison est l'exil.,14;15,,,,,,ressources/generated_images/card_illustrations/mercenary_squad.png
+Advanced Scout,Eclaireuse Avancée,Drow,Conquête,Drow,3,6,3,1,3,Supplantez une unité blanche.,Elles s'infiltrent dans la toile de la société drow sans en faire vibrer un seul fil.,11;13,,,,,,ressources/generated_images/card_illustrations/advanced_scout.png
+Informer,Informateur,Drow,Ruse,Drow,2,4,5,2,5,"Choisissez entre :
+• Posez un espion.
+• Renvoyez un de vos espions ► Piochez 3 cartes.",Pourquoi utiliser la magie ou les armes quand quelques mots suffisent à faire tomber une maison ?,28;29,,,,,,ressources/generated_images/card_illustrations/informer.png
+Master Spy,Maître-Espion,Drow,Ruse,Drow,2,4,2,1,2,Posez un espion,Je peux vous faire passer les portes et les gardes. La suite dépend de vous.,24;25,,2,1,2,"Choisissez entre : 
+• Posez un espion.
+• Renvoyez un de vos espions ► 1 monnaie 1 attaque",ressources/generated_images/card_illustrations/master_spy.png
+Infiltrator,Infiltré,Drow,Ruse,Drow,2,4,3,1,2,"Posez un espion. Si un autre joueur possède une unité sur ce site, gagnez 1 attaque.",La perfection ne peut être atteinte que quand l'échec est récompensé par la mort.,26-27,,,,,,ressources/generated_images/card_illustrations/infiltrator.png
+Bounty Hunter,Chasseur De Primes,Drow,Malice,Drow,2,4,5,2,4,+ 3 attaque,Chaque vie a un prix.,5;6,,4,2,4,+ 3 attaque,ressources/generated_images/card_illustrations/bounty_hunter.png
+Doppelganger,Doppelganger,Drow,Malice,Doppleganger,2,4,5,3,5,Supplantez une unité.,Jolie vie. Je crois que je vais la prendre.,7;8,,4,1,4,Supplantez une unité.,ressources/generated_images/card_illustrations/doppelganger.png
+Spellweaver,Tisseur de Sorts,Drow,Ruse,Drow,3,6,3,1,3,"Choisissez entre :
+• Posez un espion.
+• Renvoyez un de vos espions ► Supplantez une unité sur le même site.",Vous ne saurez jamais que votre esprit n'est pas le vôtre.,21;23,,,,,,ressources/generated_images/card_illustrations/spellweaver.png
+Inquisitor,Inquisitrice,Drow,Malice,Drow,1,2,3,2,4,"Choisissez entre :
+• 2 monnaies
+• Assassinez une unité.","Je serais satisfaite si, par mon service, je sers la Déesse et honore ma maison.",10,,,,,,ressources/generated_images/card_illustrations/inquisitor.png
+Black Guard,Garde noir,Drow,Malice,Drow,4,8,3,1,3,"Choisissez entre :
+• 2 attaques
+• Assassinez une unité.","Ils patrouillent l'Ombreterre, s'en prenant aux égarés, aux inconscients et au téméraires.",1;4,,,,,,ressources/generated_images/card_illustrations/black_guard.png
+Masters of Sorcere,Maîtres de Sorcere,Drow,Ruse,Drow,1,2,3,2,5,"Choisissez entre :
+• Posez 2 espions.
+• renvoyez un de vos espions ► 4 attaques",Les maîtres de Sorcere ont deux missions : former leurs élèves et s'assurer de leur loyauté envers Lolth.,30,,,,,,ressources/generated_images/card_illustrations/masters_of_sorcere.png
+Deathblade,Mortelame,Drow,Malice,Drow,1,2,6,3,6,Assassinez 2 unités.,"""Puisse la marque de la Mortelame être sur vous."" ---- Malédiction drow",9,,,,,,ressources/generated_images/card_illustrations/deathblade.png
+Underdark Ranger,Rôdeur de l'Ombreterre,Drow,Conquête,Drow,2,4,4,2,4,Assassinez 2 unités blanches.,Leur connaissance de l'Ombreterre est sans pareille. Personne n'est à l'abri de leurs lames.,16;17,,,,,,ressources/generated_images/card_illustrations/underdark_ranger.png
+Chosen of Lolth,Elue de Lolth,Drow,Ambition,Drow,2,4,4,2,4,"Renvoyez une unité ou un espion adverse. À la fin du tour, promouvez une autre carte jouée ce tour-ci",Ne songez même pas à désobéir. C'est la volonté de la Reine-Araignée.,35;36,,4,2,4,"+ 1 monnaie
+Renvoyez une unité ou un espion adverse. A la fin du tour, promouvez une autre carte jouée ce tour-ci.",ressources/generated_images/card_illustrations/chosen_of_lolth.png
+Matron Mother,Mère Matrone,Drow,Ambition,Drow,1,3,6,3,6,"Placez votre pioche dans votre défausse, puis promouvez une carte de votre défausse.",La volonté de la Mère matronne est absolue.,40,"lower the cost or add an additionnal effect as ""Devour a card in your hand to promote this card at the end of turn"" / ""You can promote this card at eot""",6,3,6,"Placez votre pioche dans votre défausse, puis promouvez une carte de votre défausse. A la fin du tour, promouvez une autre carte jouée ce tour-ci.",ressources/generated_images/card_illustrations/matron_mother.png
+Master of Melee-Magthere,Maître de Melee-Magthere,Drow,Conquête,Drow,2,4,5,2,5,"Choisissez entre :
+• Déployez 4 unités.
+• Supplantez une unité blanche n'importe où sur le plateau.",Les instructeurs de Melee-Magthere comptent parmi les plus grands guerriers de Menzoberranzan.,18;19,,,,,,ressources/generated_images/card_illustrations/master_of_melee-magthere.png
+Council Member,Membre du conseil,Drow,Ambition,Drow,1,2,6,3,6,"Déplacez jusqu'à 2 unités ennemies.
+À la fin du tour, promouvez une autre carte jouée ce tour-ci.",L'intrigue est un art dans les salles du conseil drow.,39,,6,3,6,"Déplacez jusqu'à 2 unités ennemies. + 2 monnaies. A la fin du tour, promouvez une autre carte jouée ce tour-ci.",ressources/generated_images/card_illustrations/council_member.png
+Master of Arms,Maître d'Armes,Drow,Conquête,Drow,1,2,6,3,6,"Choisissez 3 fois entre :
+• Déployez une unité.
+• Assassinez une unité blanche.","""Vous réussirez ou vous mourrez. Le résultat ne dépend que de vous.""
+---- Shoor Vandree",20,,6,3,6,"Choisissez 4 fois entre : 
+• Déployez une unité.
+• Assassinez une unité blanche.",ressources/generated_images/card_illustrations/master_of_arms.png
+Black Earth Cultist,Adorateur de la terre noire,Elementals,Ambition,Humain,4,8,2,1,2,"À la fin du tour, promouvez une autre carte jouée ce tour-ci.
+Focus d'ambition ► 2 monnaies",Leur dévotion à Ogremoch leur confère une résistance surnaturelle.,31;34,,,,,,ressources/generated_images/card_illustrations/black_earth_cultist.png
+Water Elemental,Elémentaire d'eau,Elementals,Conquête,Elémental,3,6,2,1,2,"Déployez 2 unités.
+Focus de conquête ► Piochez une carte.","De l'eau douée de volonté, prête à noyer et écraser ses ennemis.",14;16,,,,,,ressources/generated_images/card_illustrations/water_elemental.png
+Earth Elemental Myrmidon,Myrmidon élémentaire de la terre,Elementals,Ambition,Elémental,2,4,4,2,4,"+ 2 monnaies
+À la fin du tour, promouvez une autre carte jouée ce tour-ci.","""Comment pouvez-vous dire que cette terre est à vous quand le sol lui-même se révolte ?""
+-- Marlos Urnrayle",37;38,,,,,,ressources/generated_images/card_illustrations/earth_elemental_myrmidon.png
+Crushing Wave Cultist,Adorateur de la Déferlante,Elementals,Conquête,Humain,3,6,3,1,4,"Assassinez une unité blanche.
+Focus de conquête ► Déployez 2 unités.","Les membres d'une secte vouée au service d'Olhydra, princesse des élémentaires de l'eau.",11;13,,,,,,ressources/generated_images/card_illustrations/crushing_wave_cultist.png
+Air Elemental Myrmidon,Myrmidon élémentaire de l'air,Elementals,Ruse,Elémental,2,4,4,1,3,"Posez un espion.
+À la fin du tour, promouvez une carte d'obéissance jouée ce tour-ci.","""Nous donnerons à cette armure le pouvoir de voler juste pour se moquer de la terre.""
+-- Aerisi Kalinoth",27;28,,4,2,4,"Posez un espion.
+A la fin du tour, promouvez une carte d'obéissance jouée ce tour-ci.",ressources/generated_images/card_illustrations/air_elemental_myrmidon.png
+Howling Hatred Cultist,Adorateur de la haine hurlante,Elementals,Ruse,Humain,2,4,3,1,3,"Choisissez entre :
+• Posez un espion.
+• Renvoyez un de vos espions ► 3 monnaies
+Focus de ruse ► 1 attaque",Les adorateur de la Haine hurlante ne se nourrissent que d'air et de leur dévotion fanatique.,25;26,,,,,,ressources/generated_images/card_illustrations/howling_hatred_cultist.png
+Fire Elemental Myrmidon,Myrmidon élémentaire du feu,Elementals,Malice,Elémental,2,4,4,1,3,"+ 2 attaque
+À la fin du tour, promouvez une carte d'obéissance jouée ce tour-ci.","""Et si nous mettions du feu DANS l'armure ?""
+-- Elizar Videflacon",7;8,,,,,,ressources/generated_images/card_illustrations/fire_elemental_myrmidon.png
+Yan-C-Bin,Yan-C-Bin,Elementals,Ruse,Prince Elémental,1,2,6,3,6,"Posez un espion puis assassinez une unité située sur le même site.
+Focus de ruse ► Posez un espion.","Plus subtil que les autres princes élémentaires, Yan-C-Bin agit dans l'ombre.",30,,6,3,6,,ressources/generated_images/card_illustrations/yan-c-bin.png
+Aerisi Kalinoth,Aerisi Kalinoth,Elementals,Ruse,Elfe,1,3,5,2,5,"+ 1 attaque
+Posez un espion.
+Recrutez gratuitement une carte ruse qui coûte 4 ou moins.","""Il est difficile de rester humble quand tout le monde se trouve en dessous de vous.""",29,Baisser le coût et les points,5,2,5,"+ 1 attaque
+Posez un espion.
+Choisissez entre : 
+• Recrutez gratuitement une carte ruse qui coûte 4 ou moins
+• Dévorez une carte de votre défausse.",ressources/generated_images/card_illustrations/aerisi_kalinoth.png
+Marlos Urnrayle,Marlos Urnrayle,Elementals,Ambition,Méduse,1,3,5,2,5,"+ 1 monnaie
+À la fin du tour, promouvez une autre carte jouée ce tour-ci.
+Recrutez gratuitement une carte ambition qui coûte 4 ou moins.","""C'est la faute des dieux. Comme ils me jalousaient !""",39,Mettre 2 money et vp2 à 4,5,2,5,"+ 2 monnaie
+A la fin du tour, promouvez une autre carte jouée ce tour-ci.
+Choisissez entre : 
+• Recrutez gratuitement une carte ambition qui coûte 4 ou moins.
+• Dévorez une carte de votre défausse.",ressources/generated_images/card_illustrations/marlos_urnrayle.png
+Fire Elemental,Elementaire du feu,Elementals,Malice,Elémental,3,6,3,1,3,"Choisissez entre :
+• 2 attaque
+• 2 monnaie
+Focus de Malice ► Piochez une carte",Une capricieuse force de destruction.,4;6,,,,,,ressources/generated_images/card_illustrations/fire_elemental.png
+Earth Elemental,Elémentaire de la terre,Elementals,Ruse,Elémental,2,4,3,1,3,"+ 1 monnaie
+Renvoyez une unité ou un espion adverse.
+Focus d'ambition ► Piochez une carte.",Qui peut résister à la puissance de la terre ?,35;36,,3,1,3,,ressources/generated_images/card_illustrations/earth_elemental.png
+Air Elemental,Elémentaire de l'air,Elementals,Ruse,Elémental,4,8,3,1,2,"Choisissez entre :
+• Posez un espion.
+• Renvoyez un de vos espions ► Déployez 3 unités.
+Focus de ruse ► Piochez une carte.","Ce sont des tempêtes douées de raison, des incarnations du chaos.",21;24,,,,,,ressources/generated_images/card_illustrations/air_elemental.png
+Imix,Imix,Elementals,Malice,Prince Elémental,1,2,6,3,6,"+ 4 attaque
+Focus de Malice ► 2 attaque","""Votre monde a été créé pour que je le consume.""",10,,,,,,ressources/generated_images/card_illustrations/imix.png
+Eternal Flame Cultist,Adorateur de la Flamme éternelle,Elementals,Malice,Humain,3,6,4,2,4,"Assassinez une unité.
+Focus de Malice ► 2 attaque","""Son étreinte étouffera le faible et réchauffera le fort.""
+-- Vanifer",1;3,,,,,,ressources/generated_images/card_illustrations/eternal_flame_cultist.png
+Water Elemental Myrmidon,Myrmidon élémentaire de l'eau,Elementals,Conquête,Elémental,2,6,4,2,4,"Assassinez une unité blanche.
+À la fin du tour, promouvez une carte d'obéissance jouée ce tour-ci.",Ils ne vivent que pour servir la volonté de leur créateur.,17;18,Réduire les points et passer à un achat à 3,4,2,4,,ressources/generated_images/card_illustrations/water_elemental_myrmidon.png
+Vanifer,Vanifer,Elementals,Malice,Tieffelin,1,2,5,2,5,"Assassinez une unité.
+Recrutez gratuitement une carte de Malice qui coûte 4 ou moins.","""Il est temps de souffler la bougie.""",9,,5,2,5,"Assassinez une unité.
+Choisissez entre : 
+• Recrutez gratuitement une carte de Malice qui coûte 4 ou moins.
+• Dévorez une carte de votre défausse.",ressources/generated_images/card_illustrations/vanifer.png
+Ogremoch,Ogremoch,Elementals,Ambition,Prince Elémental,1,2,6,3,7,"+ 2 monnaies
+À la fin du tour, promouvez une autre carte jouée ce tour-ci.
+Focus d'ambition ► À la fin du tour, promouvez une autre carte jouée ce tour-ci.","Ce qu'il ne peut écraser, il le supporte et lui survit.",40,,,,,,ressources/generated_images/card_illustrations/ogremoch.png
+Gar Shatterkeel,Gar Brisequille,Elementals,Conquête,Humain,1,3,5,2,5,"Déployez 3 unités.
+Recrutez gratuitement une carte Conquête qui coûte 4 ou moins.","""Le vent a tourné.""",19,"Plutôt qu'un promote, je propose: 3 atk + (or buy 4 or less - or dévorer une carte de la défausse ou jouée ce tour)",5,2,5,"Déployez 3 unités.
+Choisissez entre : 
+• Recrutez gratuitement une carte Conquête qui coûte 4 ou moins
+• Dévorez une carte de votre défausse.",ressources/generated_images/card_illustrations/gar_shatterkeel.png
+Olhydra,Olhydre,Elementals,Conquête,Prince Elémental,1,3,6,3,6,"Supplantez une unité blanche n'importe où sur le plateau.
+Focus de conquête ► Déployez 2 unités.",Sa patience est comme la marée. Elle se retire face aux coups du sort pour revenir plus forte que jamais.,20,Baisser le coût et les points,6,3,6,"Supplantez une unité blanche n'importe où sur le plateau.
++ 1 attaque
+Focus de conquête ► Déployez 2 unités.",ressources/generated_images/card_illustrations/olhydra.png
+Gremlin,Gremlin,Faerie,Malice,Faerie,2,0,1,0,1,"Choisissez entre :
+• Défaussez une carte de votre main ► + 2 attaques.
+• Dévorez cette carte ► + 3 attaques.","""Ces créatures sont responsables de la majorité des rencontres infortunées dans la région de Feywild"" - Mordenkainen",,,,,,,ressources/generated_images/card_illustrations/gremlin.png
+Redcap,Bonnet-rouge,Faerie,Malice,Faerie,3,0,3,1,3,"Choisissez entre :
+• 2 attaques.
+• Dévorez une carte de votre main ► Assassinez une unité.","""Un mal chaotique packagé dans un objet de la taille d'un pinte de bière"" - Volo",,,,,,,ressources/generated_images/card_illustrations/redcap.png
+Elananx,Élananx,Faerie,Malice,Faerie,2,0,4,2,4,Assassinez une unité n'importe où sur le plateau.,Les instincts mortel des félins liés à la puissance d'un brasier ardent. On ne croise que très rarement plus mortel que l'Elananx.,,,,,,,ressources/generated_images/card_illustrations/elananx.png
+Annis Hag,Sorcière annis,Faerie,Malice,Sorcière,2,0,5,2,5,"Choisissez entre :
+• Supplantez une unité ennemie.
+• Assassinez une unité ennemie et placez un espion sur le site de cette unité.","""Cours et ne te retourne pas"" - Tasha",,,,,,,ressources/generated_images/card_illustrations/annis_hag.png
+Lantern King,Roi Lanterne,Faerie,Malice,Ancien,1,0,7,4,7,"Assassinez jusqu'à 2 unités. À la fin du tour, gagnez 1 PV pour chaque unité ennemie assassinée ou supplantée ce tour-ci.","""Ca peut toujours être pire... Sauf si tu te retrouves à la merci du roi lanterne."" - Nyrissa",,,,,,,ressources/generated_images/card_illustrations/lantern_king.png
+Tooth Fairy,Fée des dents,Faerie,Ruse,Faerie,2,0,1,0,1,Placez un espion.,Donne-moi tes dents !,,,,,,,ressources/generated_images/card_illustrations/tooth_fairy.png
+Pixie,Pixie,Faerie,Ruse,Faerie,2,0,2,1,2,"Placez un espion. S'il y a un espion adverse sur ce site, gagnez 1 PV.",Les pixies ont l'air naïves et frêles. C'est tout le contraire.,,,,,,,ressources/generated_images/card_illustrations/pixie.png
+Sweet Hag,Sorcière douce,Faerie,Ruse,Sorcière,3,0,3,1,3,"Choisissez entre :
+• Placez un espion.
+• Renvoyez un de vos espions ► Jouez une carte du marché de coût 4 ou moins comme si elle était dans votre main, puis dévorez cette carte du marché.",Quel doux nectar.,,,,,,,ressources/generated_images/card_illustrations/sweet_hag.png
+Huldra,Huldra,Faerie,Ruse,Nymphe,2,0,5,2,5,"Choisissez entre :
+• Placez un espion.
+• Renvoyez un de vos espions ► Recrutez une carte du marché qui coûte 5 ou moins sans payer son coût.","""Ok, écoute moi bien"" - Le barde une seconde avant de disparaître",,,,,,,ressources/generated_images/card_illustrations/huldra.png
+"Iggwilv, the Witch Queen","Iggwilv, la Reine Sorcière",Faerie,Ruse,Haute Fée,1,0,7,3,7,"Choisissez entre :
+• Placez 2 espions, puis gagnez 1 PV pour chacun de vos espion sur le plateau.
+• Renvoyez un de vos espions ► Jouez une carte du marché comme si elle était dans votre main, puis dévorez cette carte du marché.",Ce n'est que l'échauffement.,,,,,,,"ressources/generated_images/card_illustrations/iggwilv,_the_witch_queen.png"
+Blight,Flétrissure,Faerie,Conquête,Plante,4,0,2,1,2,"Déployez 2 unités.
+Dévorez une carte de votre main ► Supplantez une unité blanche adjacente à une des unités déployées par cette carte.",Les arbres de Feywild constituent son armée.,,Augmenter le prix à 3,3,1,2,"Déployez 2 unités.
+Dévorez une carte de votre main ► Supplantez une unité blanche adjacente à une des unités déployées par cette carte.",ressources/generated_images/card_illustrations/blight.png
+Lich Knights,Chevaliers liches,Faerie,Conquête,Mort-vivant,2,0,4,2,4,"Choisissez entre :
+• 2 attaques.
+• Dévorez une carte de votre main ► Supplantez une unité blanche n'importe où sur le plateau.",Les soldats et les hommes de mains de sa majesté.,,,,,,,ressources/generated_images/card_illustrations/lich_knights.png
+High Fae Kindguard,Garde noble des Hauts Fées,Faerie,Conquête,Haute Fée,2,0,5,2,5,"Choisissez entre :
+• 3 monnaies.
+• 3 attaques.","Les nobles gardes de Talion, ainsi que parfois ses messagers et ses bourreaux.",,,,,,,ressources/generated_images/card_illustrations/high_fae_kindguard.png
+"Talion, the Kindly Lord","Talion, le Seigneur bienveillant",Faerie,Conquête,Haute Fée,1,0,6,3,7,Supplantez une unité blanche n'importe où sur le plateau. Promouvez une carte Obéissance dans la défausse.,"Dis moi, brave héro, ton coeur est-il pur ?",,,,,,,"ressources/generated_images/card_illustrations/talion,_the_kindly_lord.png"
+Queen of Air and Darkness,Reine de l'Air et des Ténèbres,Faerie,Conquête,Ancien,1,0,8,4,8,"Jouez une carte du marché de coût 5 ou moins comme si elle était dans votre main, puis recrutez-la sans payer son coût.","""Tu as peut-être l'impression d'avoir le choix. Ce n'est pas le cas."" - L'assistant de la reine Mab",,Mettre le coût à 7 et recture les cartes 6 or less. mettre les points à 3/7.,7,3,7,"Jouez une carte du marché de coût 6 ou moins comme si elle était dans votre main, puis recrutez-la sans payer son coût.",ressources/generated_images/card_illustrations/queen_of_air_and_darkness.png
+Pawpatch Patrol,Patrouille de Pawpatch,Faerie,Ambition,Harengon,3,0,2,1,2,"Choisissez entre :
+• 2 monnaies.
+• Dévorez cette carte ► + 2 attaques.","""Ils ne sont pas très utiles au combats, mais excellents pour le recrutement et remonter le moral!"" - Nyrissa",,,,,,,ressources/generated_images/card_illustrations/pawpatch_patrol.png
+Naiad,Naïade,Faerie,Ambition,Nymphe,3,0,3,1,3,"Déplacez une unité ennemie.
+À la fin du tour, promouvez une autre carte jouée ce tour-ci.","""Des femmes étranges distribuant des épées dans des étangs ne forment pas un gouvernement"" - Dennis",,"Au moins baisser les points à 0/2 , probablement mettre le coût à 4",3,0,2,"Déplacez une unité ennemie.
+À la fin du tour, promouvez une autre carte jouée ce tour-ci.",ressources/generated_images/card_illustrations/naiad.png
+Lost Huntman,Chasseur perdu,Faerie,Ambition,Humain,2,0,4,2,5,+ 2 monnaies. Renvoyez une unité ou un espion d'un autre joueur.,"""Viens avec moi si tu veux survivre.""",,,,,,,ressources/generated_images/card_illustrations/lost_huntman.png
+"Tasha, the Demonologist","Tasha, la Démonologue",Faerie,Ambition,Humain,1,0,6,3,6,"Choisissez entre :
+• 4 monnaies.
+• Recrutez une carte Ambition ou Démon du marché de coût 5 ou moins sans payer son coût.
+• Recrutez Graz'zt sans payer son coût.","La fille adoptive de Baba Yaga, autrice du Demonomicon.",,,,,,,"ressources/generated_images/card_illustrations/tasha,_the_demonologist.png"
+"Nyrissa, the Nymph Queen","Nyrissa, la Reine des Nymphes",Faerie,Ambition,Haute Fée,1,0,6,3,7,"Renvoyez une unité ou un espion d'un joueur. Promouvez une carte du marché de coût 5 ou moins, puis gagnez 1 PV pour chaque trio de cartes dans votre cénacle.","Une des plus anciennes fées, malgré son nom.",,,,,,,"ressources/generated_images/card_illustrations/nyrissa,_the_nymph_queen.png"
+Gibbering Mouther,Babélien,Fungus,Conquête,Aberration,3,6,2,1,3,"Déployez 2 unités, puis choisissez un adversaire dont une unité est adjacente à l'une d'entre elles. Il doit recruter un Paria dément.",""" Si vous cherchez à comprendre ce qu'ils disent, c'est que vous êtes déjà fou. "" - Lippo, sage derro",,,,,,,ressources/generated_images/card_illustrations/gibbering_mouther.png
+Hezrou,Hezrou,Fungus,Ambition,Démon,2,6,3,1,3,Déplacez une unité ennemie. Promouvez la carte du dessus de votre deck.,Leur puanteur est légendaire.,,"On pourrait améliorer la carte avec un effet du genre ""reveal the top card of your deck. You can promote it, if not let it on top of your library"". Et on augmente le prix de 1",3,1,3,"+ 1 monnaie.
+Déplacez une unité ennemie. Promouvez la carte du dessus de votre deck.",ressources/generated_images/card_illustrations/hezrou.png
+Myconid Adult,Myconide adulte,Fungus,Ambition,Myconide,3,6,3,1,3,"+ 2 monnaies.
+Choisissez un adversaire. Celui-ci recrute un Paria dément.","""Réjouissez-vous, car l'union véritable nous fusionnera tous !""",,,,,,,ressources/generated_images/card_illustrations/myconid_adult.png
+Derro,Derro,Fungus,Conquête,Gerro,2,4,3,1,4,"Supplantez une unité blanche n'importe où.
+Recrutez un Paria dément.","""J'ai un beau bâtonnet bardé de métal tout prêt à faire des trous dans ta jolie p'tite tête. """,,,3,1,4,"Supplantez une unité blanche n'importe où sur le plateau et recrutez un Paria dément.
+Vous pouvez dévorer une carte de votre main.",ressources/generated_images/card_illustrations/derro.png
+Myconid Sovereign,Seigneur myconide,Fungus,Ambition,Myconide,2,4,4,2,5,"Choisissez un adversaire. Celui-ci recrute un Paria dément.
+À la fin du tour, promouvez une autre carte qui a été jouée ce tour-ci.
+","""Le jour de la célébration est proche!""",,,2,1,3,Vous pouvez donner un Paria dément. eot promote a played card,ressources/generated_images/card_illustrations/myconid_sovereign.png
+Nalfeshnie,Nalfeshnie,Fungus,Ambition,Démon,2,4,5,2,5,"+ 3 monnaies.
+Promouvez la carte du dessus de votre bibliothèque","""Il y a toujours de la place à notre table pour les âmes ambitieuses""",,,,,,,ressources/generated_images/card_illustrations/nalfeshnee.png
+Ettin,Ettin,Fungus,Conquête,Géant,3,6,4,1,2,"Choisissez entre :
+• Déployez 3 unités.
+• Assassinez 2 unités blanches.","Mag aimait la viande d'elfe. Tog préférait le nain, quand il pouvait en avoir. L'elfe ? Bôf.",,,,,,,ressources/generated_images/card_illustrations/ettin.png
+Night Hag,Guenaude Noire,Fungus,Ruse,Démon,3,6,3,1,3,"Choisissez entre :
+• Posez un espion.
+• Renvoyez un espion ► Piochez 2 cartes.",Elle chantonne joyeusement en semant des graines de folie.,,,,,,,ressources/generated_images/card_illustrations/night_hag.png
+Jackalwere,Chacal-garou,Fungus,Ruse,Shapechanger,3,6,4,2,4,"Choisissez entre :
+• Posez un espion.
+• Renvoyez un espion ► 2 attaques 2 monnaies",Ils capturent des victimes pour leurs maîtresses lamies qui les condamnent à mort ou à l'esclavage.,,,4,2,4,"Choisissez entre :
+• Posez un espion. + 1 attaque
+• Renvoyez un espion ► 2 attaques 2 monnaies",ressources/generated_images/card_illustrations/jackalwere.png
+Vrock,Vrock,Fungus,Ruse,Démon,1,2,5,2,4,"Choisissez entre :
+• Posez un espion.
+• Renvoyez un espion ► 5 attaques",Soudoyer un vrock n'est pas aisé. Ils ne voient pas l'intérêt de négocier quand ils peuvent simplement se servir.,,,5,2,4,"Choisissez entre :
+• Posez un espion. + 1 attaque
+• Renvoyez un espion ► 5 attaques",ressources/generated_images/card_illustrations/vrock.png
+Succubus,Succube,Fungus,Ruse,Démon,2,6,5,2,5,Dévorez une carte de votre main ► Posez un espion et assassinez une unité sur ce site.,"Séductrices et corruptrices, elles ont trouvé des proies faciles dans le monde des mortels.",,supplant instead of assassinate,,,,,ressources/generated_images/card_illustrations/succubus.png
+Mind Flayer,Flagelleur mental,Fungus,Malice,Illithid,3,6,3,1,3,"Dévorez une carte de votre main ► Choisissez entre :
+• 3 monnaies
+• Assassinez une unité.","""Vous savez ce qu'ils ont dans la tête? Le mal, puant et répugnant. Tout simplement. "" 
+- Hitch, roublard extraordinaire",,,,,,,ressources/generated_images/card_illustrations/mind_flayer.png
+Marilith,Marilith,Fungus,Malice,Démon,2,4,6,2,5,Dévorez une carte de votre main ► 5 attaques.,Elles entonnent des chants abyssaux tout en menant les hordes démoniaques au combat.,,,,,,,ressources/generated_images/card_illustrations/marilith.png
+Graz'zt,Graz'zt,Fungus,Ruse,Démon,1,2,6,2,5,"Choisissez entre :
+• Placez 2 espions.
+• Renvoyez autant de vos espions que souhaité ► Supplantez une unité sur chacun des sites où se trouvaient ces espions.",Sa beauté dissimule un coeur d'une noirceur diabolique.,,,,,,,ressources/generated_images/card_illustrations/grazzt.png
+Ghoul,Goule,Fungus,Malice,Mort-vivant,3,6,4,2,4,"+ 2 attaques.
+Tous vos adversaires recrutent un Paria dément.",Un des séides favoris du Prince de la Non-mort.,,,,,,,ressources/generated_images/card_illustrations/ghoul.png
+Glabrezu,Glabrezu,Fungus,Malice,Démon,1,3,5,2,4,Dévorez une carte de votre main ► Assassinez 2 unités.,Ce n'est que quand ils voient enfin un glabrezu que les mortels comprennent qu'il faut être fou pour écouter ses promesses de pouvoir.,,Augmenter le coût à 6 et assassinate 3,,,,,ressources/generated_images/card_illustrations/glabrezu.png
+Balor,Balor,Fungus,Conquête,Démon,1,3,6,3,6,"Dévorez une carte de votre main ► Supplantez une unité blanche n'importe où sur le plateau, puis déployez une unité.",Le claquement de son fouet suffit à saper le moral des guerriers les plus endurcis.,,Deploy 2 instead of 1,6,3,6,"Dévorez une carte de votre main ► Supplantez une unité blanche n'importe où sur le plateau, puis déployez 2 unités.",ressources/generated_images/card_illustrations/balor.png
+Orcus,Orcus,Fungus,Malice,Démon,1,2,8,5,10,"Dévorez une carte de votre main ► Assassinez 2 unités, prenez 2 trophés d'un autre joueur et déployez-les n'importe où.",La mort n'est que le début de sa dépravation.,,,8,5,10,"Dévorez une carte de votre main ► Assassinez 3 unités, prenez 2 trophés d'un autre joueur et déployez-les n'importe où.",ressources/generated_images/card_illustrations/orcus.png
+Zuggtmoy,Zuggtmoy,Fungus,Ambition,Démon,1,3,6,3,6,"Dévorez une carte de votre cénacle ► 3 monnaies et, à la fin du tour, promouvez jusqu'à 2 autres cartes jouées ce tour-ci.","""Je viens chercher mon promis!""
+- Zuggtmoy, s'adressant à Araumycos",,Passer à promote depuis carte jouées ou dans la défausse.,,,,,ressources/generated_images/card_illustrations/zuggtmoy.png
+Demogorgon,Démogorgon,Fungus,Conquête,Démon,1,2,8,5,10,Dévorez une carte de votre main ► Supplantez 2 unités blanches. Chaque adversaire recrute 2 Parias déments.,Une masse de folie furieuse nourrie de malveillance aveugle.,,,,,,,ressources/generated_images/card_illustrations/demogorgon.png
+Assassin du Fléau,Assassin du Fléau,Juiblex,Malice,Drow,2,6,5,1,4,Assassinez 2 unités chacune située sur un site Touché par le Fléau. Déplacez une de vos unités dans le coeur du Fléau.,,,,,,,,ressources/generated_images/card_illustrations/assassin_du_fléau.png
+Corrupteur,Corrupteur,Juiblex,Ruse,Drow,3,9,3,1,3,"Déployez un espion sur un site : 
+• Touché par le Fléau ► Choisir un adversaire avec une unité sur ce site. Il défausse une carte par jeton Fléau présent sur ce site. 
+• Non Touché par le Fléau ► + 1 monnaie.",,,,,,,,ressources/generated_images/card_illustrations/corrupteur.png
+Démon du Fléau,Démon du Fléau,Juiblex,Ruse,Démon,2,6,5,2,5,"Cette carte ne peut être jouée que si vous avez une présence sur un site Touché par le Fléau.
+Déployez un espion ► Placez un jeton Fléau sur le site de cet espion. Déclenche le même effet que lorsque le Fléau s'étend et qu'un nouveau jeton Fléau est placé.",,,,,,,,ressources/generated_images/card_illustrations/démon_du_fléau.png
+L'élu de Eilistraee,L'élu de Eilistraee,Juiblex,Ambition,Drow,2,6,5,2,5,"Si vous n'avez pas de unité dans le Coeur du Fléau ► Gagnez 1 PV. 
+Si vous avez le moins (ou à égalité) de unités dans le Coeur du Fléau ► + 3 monnaies. 
+Piochez une carte puis défaussez une carte de votre main.",,,,,,,,ressources/generated_images/card_illustrations/lélu_de_eilistraee.png
+Garde du Fléau,Garde du Fléau,Juiblex,Malice,Drow,3,9,3,0,2,"Assassinez une unité sur un site Touché par le Fléau. 
+Si vous avez une unité sur un site Touché par le Fléau ► + 1 attaque.",,,,,,,,ressources/generated_images/card_illustrations/garde_du_fléau.png
+Guérisseur,Guérisseur,Juiblex,Conquête,Drow,3,9,3,1,3,Renvoyez une de vos unités du Coeur du Fléau vers votre Garnison.,,,,,,,,ressources/generated_images/card_illustrations/guérisseur.png
+Masque de protection,Masque de protection,Juiblex,Conquête,Drow,2,6,5,2,5,Choisissez un site n'importe où sur le plateau. Supplantez y autant de unités qu'il n'y a de jetons Fléau sur ce site.,,,,,,,,ressources/generated_images/card_illustrations/masque_de_protection.png
+Noble distanciation,Noble distanciation,Juiblex,Ambition,Drow,3,9,4,1,2,Promouvez une carte d'Obéissance de votre zone de jeu ou de votre pile de défausse. Piochez une carte.,,,,,,,,ressources/generated_images/card_illustrations/noble_distanciation.png
+Matron of Lolth,Matrone de Lolth,Kuo-Toa,Ambition,Drow,1,3,7,4,7,"Choisissez entre :
+• 3 attaques et 3 monnaies
+• Vous pouvez promouvoir autant de cartes persistantes que vous le souhaitez.",,,,,,,,ressources/generated_images/card_illustrations/matron_of_lolth.png
+Staff Council Leader,Chef du Conseil du bâton,Kuo-Toa,Ambition,Drow,2,6,4,2,4,"À la fin du tour, vous pouvez promouvoir une autre carte jouée ce tour-ci. Cette carte persiste dans votre zone de jeu. Quand vous mélangez votre défausse, défaussez cette carte puis mélangez-la dans votre deck.","""Ne demandez pas des miracles!""",,,,,,,ressources/generated_images/card_illustrations/staff_council_leader.png
+Expediter,Expéditeur,Kuo-Toa,Ambition,Kuo-Toa,2,6,3,1,3,"Vous pouvez recruter les cartes sous votre deck au lieu de les placer dans votre défausse. Vous pouvez piocher 1 à 2 cartes de moins à la fin de votre tour. Cette carte persiste dans votre zone de jeu. Quand vous mélangez votre défausse, défaussez cette carte puis mélangez-la dans votre deck.",,,,,,,,ressources/generated_images/card_illustrations/expediter.png
+Council Elder,Ancien du Conseil,Kuo-Toa,Ambition,Drow,2,6,3,1,3,"Cette carte agit comme un site. Tous les joueurs ont une présence sur ce site. Contrôle total : + 1 monnaie + 1 PV. Cette carte persiste dans votre zone de jeu. Quand vous mélangez votre défausse, défaussez cette carte puis mélangez-la dans votre deck. Lorsqu'elle est défaussée, renvoyez toute unité ou tout espion présent sur ce site.",,,,,,,,ressources/generated_images/card_illustrations/council_elder.png
+Assistant,Assistant,Kuo-Toa,Ambition,Kuo-Toa,3,9,2,1,2,"+ 1 monnaie à chaque tour. Cette carte persiste dans votre zone de jeu. Quand vous mélangez votre défausse, défaussez cette carte puis mélangez-la dans votre deck.","""Ouuiiiii monsiiiieuuur, ouuiiiii. Bieen évidemeeent!""",,,,,,,ressources/generated_images/card_illustrations/assistant.png
+Kuo-Toa Champion,Champion kuo-toa,Kuo-Toa,Conquête,Kuo-Toa,2,6,6,3,6,"Vous pouvez cibler des unités ennemies avec des capacités qui ciblent des unités blanches. Cette carte persiste dans votre zone de jeu. Quand vous mélangez votre défausse, défaussez cette carte puis mélangez-la dans votre deck.",,,Add +1 ad per turn,6,3,6,"Vous pouvez cibler des unités ennemies avec des capacités qui ciblent des unités blanches.
++ 1 attaque
+Cette carte persiste dans votre zone de jeu. Quand vous mélangez votre défausse, défaussez cette carte puis mélangez-la dans votre deck.",ressources/generated_images/card_illustrations/kuo-toa_champion.png
+Kuo-Toa Mole,Taupe kuo-toa,Kuo-Toa,Conquête,Kuo-Toa,2,6,5,2,5,Supplantez une unité blanche n'importe où sur le plateau. Choisissez une carte persistante d'un adversaire ayant des unités sur ce même site ; elle est défaussée.,"""Vous voulez apprendre quelque soze?""",,,,,,,ressources/generated_images/card_illustrations/kuo-toa_mole.png
+Block Leader,Chef de bloc,Kuo-Toa,Conquête,Kuo-Toa,2,6,4,2,4,"Choisissez entre :
+• Déplacez une unité blanche.
+• Assassinez une unité blanche pour chaque carte persistante que vous avez dans votre zone de jeu.","""On entend tout et on dit tout.""",,,,,,,ressources/generated_images/card_illustrations/block_leader.png
+Blibdoolpoolp Priest,Prêtre de Blibdoolpoolp,Kuo-Toa,Conquête,Kuo-Toa,2,6,4,2,4,"Choisissez chaque tour entre : 
+• assassinez une unité blanche
+• déployez 2 unités.
+Cette carte persiste dans votre zone de jeu. Quand vous mélangez votre défausse, défaussez cette carte puis mélangez-la dans votre deck.",,,,,,,,ressources/generated_images/card_illustrations/blibdoolpoolp_priest.png
+Deporter,Déporteur,Kuo-Toa,Conquête,Kuo-Toa,2,6,2,1,3,"Déplacez une unité blanche à chaque tour. Cette carte persiste dans votre zone de jeu. Quand vous mélangez votre défausse, défaussez cette carte puis mélangez-la dans votre deck.","""On ne vous nourrit plus ici désormais.""",,,,,,,ressources/generated_images/card_illustrations/deporter.png
+Chemical Warfare Squad,Escouade de guerre chimique,Kuo-Toa,Malice,Kuo-Toa,1,3,7,4,7,"Choisissez entre :
+• Assassinez 2 unités.
+• Tous les adversaires mélangent leur défausse dans leur deck. Vous pouvez faire de même.","""Les opphrecheurs doivent payer!""",,,,,,,ressources/generated_images/card_illustrations/chemical_warfare_squad.png
+Protector,Protecteur,Kuo-Toa,Malice,Kuo-Toa,1,3,6,3,6,"Vos unités sont déplacées au lieu d'aller dans une salle des trophées lorsqu'elles sont assassinées ou supplantées. Cette carte persiste dans votre zone de jeu. Quand vous mélangez votre défausse, défaussez cette carte puis mélangez-la dans votre deck.","""Par là! Je vais vous sortir d'ici.""",,,,,,,ressources/generated_images/card_illustrations/protector.png
+Snitch,Balance,Kuo-Toa,Malice,Kuo-Toa,2,6,5,3,5,"Choisissez entre :
+• 3 attaques.
+• Choisissez un joueur (vous inclus) qui mélange sa défausse dans son deck.","""J'ai des tuyaux pour vous!""",,,,,,,ressources/generated_images/card_illustrations/snitch.png
+Strategic Advisor,Conseiller stratégique,Kuo-Toa,Malice,Drow,3,9,3,1,3,"Choisissez entre :
+• Attachez-la à une carte persistante en jeu : quand cette carte devrait être défaussée, défaussez plutôt celle-ci.
+• Jouez-la seule : à la fin de votre tour, vous pouvez placer les cartes non jouées sur cette carte pour les stocker. Jouez les cartes stockées : + 1 monnaie 1 attaque par carte. Cette carte persiste dans votre zone de jeu. Quand vous mélangez votre défausse, défaussez cette carte avec toutes les cartes posées dessus puis mélangez le tout dans votre deck.",,,,,,,,ressources/generated_images/card_illustrations/strategic_advisor.png
+Armorer,Armurier,Kuo-Toa,Malice,Kuo-Toa,3,9,3,1,3,"+ 1 attaque à chaque tour.
+Cette carte persiste dans votre zone de jeu. Quand vous mélangez votre défausse, défaussez cette carte puis mélangez-la dans votre deck.","""Za devrait aider à zéparer tout za""",,,,,,,ressources/generated_images/card_illustrations/armorer.png
+Tunnelers,Tunneliers,Kuo-Toa,Ruse,Kuo-Toa,2,6,6,3,6,"Vous avez une présence partout sur le plateau. Cette carte persiste dans votre zone de jeu. Quand vous mélangez votre défausse, défaussez cette carte puis mélangez-la dans votre deck.","""On était là et maintenant nous sommes là.""",,,,,,,ressources/generated_images/card_illustrations/tunnelers.png
+Analyst,Analyste,Kuo-Toa,Ruse,Drow,2,6,4,2,4,"Choisissez entre :
+• Placez un espion.
+• Renvoyez un de vos espions ► Les cartes coûtent 1 monnaie de moins à recruter ce tour-ci (minimum 1). Choisissez une carte persistante d'un adversaire ayant des unités sur le site de cet espion ; elle est défaussée.","""Ces informations nous seront très utiles.""",,,,,,,ressources/generated_images/card_illustrations/analyst.png
+Sleeper Cell,Cellule dormante,Kuo-Toa,Ruse,Drow,2,6,4,2,4,"Choisissez entre :
+• Placez un espion.
+• Renvoyez un de vos espions ► Piochez une carte, + 1 monnaie 1 attaque. Choisissez un adversaire ayant des unités sur le site de cet espion ; il défausse une de ses cartes persistantes.",,,,,,,,ressources/generated_images/card_illustrations/sleeper_cell.png
+Resident,Résident,Kuo-Toa,Ruse,Drow,2,6,3,1,3,"Vous pouvez placer un espion à chaque tour. Cette carte persiste dans votre zone de jeu. Quand vous mélangez votre défausse, défaussez cette carte puis mélangez-la dans votre deck.","""Les amis ne s'espionnent pas les uns les autres.""",,,,,,,ressources/generated_images/card_illustrations/resident.png
+Accomplice,Complice,Kuo-Toa,Ruse,Kuo-Toa,2,6,2,1,2,"Cette carte agit comme un site pour placer un espion, uniquement pour le joueur dont elle est dans la zone de jeu. Quand vous renvoyez un espion depuis ce site comme coût, vous résolvez l'effet deux fois. Défaussez cette carte : renvoyez une unité ou un espion d'un autre joueur. Cette carte persiste dans votre zone de jeu. Quand vous mélangez votre défausse, défaussez cette carte puis mélangez-la dans votre deck. Si un espion est présent ici quand elle est défaussée, renvoyez-le.",,,,,,,,ressources/generated_images/card_illustrations/accomplice.png
+Siege Beast,Bête de siège,Siege,Conquête,Hydre,1,3,4,2,4,"Choisissez entre :
+• 1 attaque 2 monnaies.
+• Gagnez 1 PV.",,,,4,2,4,"Choisissez entre :
+• 1 attaque 2 monnaies.
+• Gagnez 1 PV et + 1 monnaie.",ressources/generated_images/card_illustrations/siege_beast.png
+Brutal Warden,Gardien brutal,Siege,Conquête,Géant,3,9,4,3,6,"Chaque fois qu'un adversaire vous force à recruter un Paria dément ou un Sbire empoisonné, à défausser une carte ou à renvoyer un espion ► Révélez cette carte et gagnez 1 PV. 
+Piochez une carte.",,,,,,,,ressources/generated_images/card_illustrations/brutal_warden.png
+War Loot,Butin de Guerre,Siege,Conquête,Esclaves,2,6,3,1,3,"Pour chaque aspect de carte distinct joué durant ce tour, choisissez :
+• 1 monnaie.
+• 1 attaque.",,,,,,,,ressources/generated_images/card_illustrations/war_loot.png
+Clan Chief,Chef de clan,Siege,Malice,Géant,2,6,4,2,4,Supplantez une unité blanche. Si vous avez joué 4 cartes d'aspect différent durant ce tour ► Gagnez 1 PV.,,,,,,,,ressources/generated_images/card_illustrations/clan_chief.png
+Scout Chief,Chef éclaireur,Siege,Conquête,Drow,2,6,4,2,4,Déployez une unité pour chaque aspect de carte distinct joué durant ce tour.,"En Ombreterre, vous n'êtes jamais seul.",,,,,,,ressources/generated_images/card_illustrations/scout_chief.png
+Corsairs,Corsaires,Siege,Ruse,Drow,2,6,3,1,2,"Choisissez 2 fois entre :
+• 1 monnaie.
+• 1 attaque.
+Si vous avez joué 4 cartes d'aspect différent durant ce tour ► Piochez une carte.",,,,,,,,ressources/generated_images/card_illustrations/corsairs.png
+Hydra,Hydre,Siege,Ambition,Hydre,2,6,6,2,6,"Assassinez une unité. À la fin du tour, promouvez une autre carte jouée ce tour.",Des milliers de rugissements résonnent.,,,,,,,ressources/generated_images/card_illustrations/hydra.png
+Pillage,Pillage,Siege,Ambition,Drow,2,6,4,1,4,Copiez une autre carte jouée ce tour ayant un coût de 4 ou moins.,Ne laissez rien...,,"6 ou moins à la place, coût 3 à la place de 4",3,1,4,Copiez une autre carte jouée ce tour ayant un coût de 6 ou moins.,ressources/generated_images/card_illustrations/pillage.png
+Siege Tower,Tour de siège,Siege,Ambition,Construction,2,6,4,2,3,"Choisissez entre :
+• Piochez une carte.
+• À la fin du tour, promouvez une autre carte jouée ce tour.",,,"Pas de choix, juste les 2 effets, pour 5 à la place de 4",5,2,3,"Piochez une carte.
+À la fin du tour, promouvez une autre carte jouée ce tour.",ressources/generated_images/card_illustrations/siege_tower.png
+Soul Siphon,Siphonner l'âme,Siege,Malice,Humain,1,3,4,1,5,"Assassinez une unité. Si cette unité appartenait à un autre joueur ayant au moins une unité blanche dans sa salle des trophées, déployez l'une d'entre elles dans l'emplacement nouvellement vacant.",,,Coût 3,3,1,5,"Assassinez une unité. Si cette unité appartenait à un autre joueur ayant au moins une unité blanche dans sa salle des trophées, déployez l'une d'entre elles dans l'emplacement nouvellement vacant.",ressources/generated_images/card_illustrations/soul_siphon.png
+Trebuchet,Trébuchet,Siege,Conquête,Engin de siège,2,6,3,1,3,Renvoyez une unité depuis n'importe quel endroit du plateau.,,,,,,,,ressources/generated_images/card_illustrations/trebuchet.png
+Furious Beast,Bête furieuse,Siege,Ambition,Minotaure,3,9,2,1,2,"+ 1 attaque 1 monnaie.
+Si vous avez joué 4 cartes d'aspect différent durant ce tour ► Promouvez une autre carte jouée ce tour.",Quelque chose se brisera.,,,,,,,ressources/generated_images/card_illustrations/furious_beast.png
+Underdark Champion,Champion de l'Ombreterre,Siege,Malice,Drow,3,9,3,1,3,Assassinez une unité blanche. Si vous avez joué 4 cartes d'aspect différent durant ce tour ► Supplantez une unité blanche.,,,,,,,,ressources/generated_images/card_illustrations/underdark_champion.png
+Warchief,Chef de Guerre,Siege,Ruse,Drow,1,3,5,2,5,"Choisissez entre :
+• Déployez un espion.
+• Renvoyez un de vos espions ► + 2 monnaies. Vous pouvez promouvoir une carte depuis le marché en payant son coût.",,,,,,,,ressources/generated_images/card_illustrations/warchief.png
+Conspirator,Conspirateur,Siege,Ruse,Drow,4,12,3,1,3,"Choisissez entre :
+• Déplacez un espion ennemi vers un autre site.
+• Déplacez une unité.",,,,,,,,ressources/generated_images/card_illustrations/conspirator.png
+Beast Tamer,Dompteuse de bêtes,Siege,Ambition,Drow,1,3,5,3,6,"+ 2 monnaies.
+Réduit de 1 le coût de recrutement des cartes jusqu'à la fin du tour.",,,,,,,,ressources/generated_images/card_illustrations/beast_tamer.png
+Dread Ballista,Baliste de l'effroi,Siege,Malice,Engin de siège,3,9,3,1,2,"+ 1 attaque.
+Convertissez jusqu'à 3 fois 1 monnaie en 1 attaque.",,,,,,,,ressources/generated_images/card_illustrations/dread_ballista.png
+Ruthless Siege,Siège impitoyable,Siege,Malice,Armée,1,3,5,3,5,"+ 3 attaques.
+Traitez les unités des autres joueurs comme si elles étaient blanches jusqu'à la fin du tour.",,,,,,,,ressources/generated_images/card_illustrations/ruthless_siege.png
+Shadow Adept,Adepte des ombres,Siege,Ruse,Drow,2,6,4,1,4,"Déployez un espion sur le site de votre choix. Si vous possédez le marqueur de contrôle de ce site, gagnez son effet.",Il n'est de frontière qu'il ne puisse outrepasser,,,,,,,ressources/generated_images/card_illustrations/shadow_adept.png
+Avatar of Lolth,Avatar de Lolth,Siege,Ruse,Avatar,1,3,7,4,8,"Choisissez entre :
+• Déployez un espion puis piochez une carte.
+• Renvoyez un de vos espions ► Remettez sur le sommet de votre deck une autre carte jouée ce tour ou une carte de votre défausse.","Avancez, mes petits.",,,,,,,ressources/generated_images/card_illustrations/avatar_of_lolth.png
+Ancestral Spider,Araignon ancestral,Spiderkin,Ambition,Araignée,4,12,2,0,2,"+ 2 monnaies.
+À la fin de votre tour, vous pouvez placer cette carte dans votre Toile.",,,,,,,,ressources/generated_images/card_illustrations/ancestral_spider.png
+Arachnid Swarm,Nuée arachnide,Spiderkin,Ambition,Araignée,3,9,4,1,3,"Choisissez entre :
+• 4 monnaies Pour chaque carte Ambition de votre Toile, vous pouvez dévorer une carte du marché.
+• Placez dans votre Toile une carte Ambition jouée ce tour ou Nuée arachnide.",,,-1 buy power,,,,,ressources/generated_images/card_illustrations/arachnid_swarm.png
+Webmaster,Maître des toiles,Spiderkin,Ambition,Araignée,2,6,6,2,5,"Promouvez une carte jouée ce tour ou de votre défausse. Pour chaque paire de cartes Ambition dans votre Toile, promouvez une carte additionnelle.",,,,,,,,ressources/generated_images/card_illustrations/webmaster.png
+Face of Ambition,Le visage de l'Ambition,Spiderkin,Ambition,Araignée,1,3,8,3,8,"Recrutez une carte du marché de coût 7 ou moins. Pour chaque carte Ambition de votre Toile, promouvez une carte de votre main ou de votre pile de défausse.",,,,,,,,ressources/generated_images/card_illustrations/face_of_ambition.png
+Armored Spider,Araignon cuirassé,Spiderkin,Conquête,Araignée,4,12,2,0,2,"+ 1 attaque.
+À la fin de votre tour, vous pouvez placer cette carte dans votre Toile.",,,,,,,,ressources/generated_images/card_illustrations/armored_spider.png
+Giant Spider,Araignée géante,Spiderkin,Conquête,Araignée,3,9,4,1,3,"Choisissez entre :
+• 3 attaques + 1 attaque pour chaque carte Conquête dans votre Toile.
+• Placez dans votre Toile une carte Conquête jouée ce tour ou Araignée géante.",,,,,,,,ressources/generated_images/card_illustrations/giant_spider.png
+Spider Golem,Araignée Golem,Spiderkin,Conquête,Araignée,2,6,6,2,5,"+ 4 attaques.
++ 2 attaques pour chaque carte Conquête dans votre Toile.",,,,,,,,ressources/generated_images/card_illustrations/spider_golem.png
+Face of Conquest,Le visage de la Conquête,Spiderkin,Conquête,Araignée,1,3,8,3,8,"+ 6 attaques.
++ 3 attaques pour chaque carte Conquête dans votre Toile.",,,Assassiner une unité pour chaque conquéte dans cotre toile,,,,,ressources/generated_images/card_illustrations/face_of_conquest.png
+Venomous Spider,Araignon venimeux,Spiderkin,Malice,Araignée,4,12,2,0,2,"Choisissez un adversaire, il recrute un Sbire empoisonné. À la fin de votre tour, vous pouvez placer cette carte dans votre Toile.",,,,,,,,ressources/generated_images/card_illustrations/venomous_spider.png
+Demonic Spider,Araignée démoniaque,Spiderkin,Malice,Araignée,3,9,4,1,3,"Choisissez entre :
+• Assassinez une unité. Pour chaque carte Malice dans votre Toile, choisissez un adversaire. Il recrute un Sbire empoisonné.
+• Placez dans votre Toile une carte Malice jouée ce tour ou Araignée démoniaque.",,,,,,,,ressources/generated_images/card_illustrations/demonic_spider.png
+Demonic Spider 2,Araignée démoniaque 2,Spiderkin,Malice,Araignée,3,9,4,1,3,"Choisissez entre :
+• Assassinez une unité. Pour chaque paire de cartes Malice dans votre Toile, chaque adversaire recrute un Sbire empoisonné.
+• Placez dans votre Toile une carte Malice jouée ce tour ou Araignée démoniaque.",,,,,,,,ressources/generated_images/card_illustrations/demonic_spider_2.png
+Infamous Spider,Araignée infâme,Spiderkin,Malice,Araignée,2,6,6,2,5,"Assassinez 2 unités. Pour chaque carte Malice dans votre Toile, choisissez un adversaire qui doit renvoyer un espion. S'il ne peut le faire, il recrute un Sbire empoisonné.",,,,,,,,ressources/generated_images/card_illustrations/infamous_spider.png
+Face of Malice,Le visage de la Malice,Spiderkin,Malice,Araignée,1,3,8,3,8,"Assassinez 2 unités. Pour chaque carte Malice dans votre Toile, assassinez une unité ou choisissez un adversaire qui recrute 2 Sbires empoisonnés.",,,,,,,,ressources/generated_images/card_illustrations/face_of_malice.png
+Scout Spider,Araignon éclaireur,Spiderkin,Ruse,Araignée,4,12,2,0,2,"Déployez un espion. À la fin de votre tour, vous pouvez placer cette carte dans votre Toile.",,,,,,,,ressources/generated_images/card_illustrations/scout_spider.png
+Phase Spider,Araignée de phase,Spiderkin,Ruse,Araignée,3,9,4,1,3,"Choisissez entre :
+• Déployez un espion.
+• Renvoyez un de vos espions ► Supplantez une unité sur ce site, + 1 attaque pour chaque carte Ruse dans votre Toile.
+• Placez dans votre Toile une carte Ruse jouée ce tour ou Araignée de phase.",,,,,,,,ressources/generated_images/card_illustrations/phase_spider.png
+Umbral Spider,Araignée ténébreuse,Spiderkin,Ruse,Araignée,2,6,6,2,5,Supplantez une unité n'importe où sur le plateau. Renvoyez un espion ► Piochez une carte pour chaque carte Ruse dans votre Toile.,,,,,,,,ressources/generated_images/card_illustrations/umbral_spider.png
+Incarnation of Cunning,Incarnation de la Ruse,Spiderkin,Ruse,Araignée,1,3,8,3,8,"Déployez 5 espions. Pour chaque carte Ruse dans votre Toile :
+• Renvoyez un espion.
+• Renvoyez un de vos espions ► Piochez 2 cartes.",,,,,,,,ressources/generated_images/card_illustrations/incarnation_of_cunning.png
+Cultist of Myrkul,Cultiste de Myrkul,Undead,Ambition,Humain,3,6,2,1,2,"Choisissez entre :
+• 2 monnaies.
+• Dévorez cette carte ► À la fin du tour, promouvez jusqu'à 2 autres cartes jouées ce tour-ci.","Nous le servirons, dans la vie ou la mort.",34;36,,,,,,ressources/generated_images/card_illustrations/cultist_of_myrkul.png
+Vampire Spawn,Vampirien,Undead,Ambition,Mort-vivant,3,6,2,1,3,"+ 1 monnaie
+Renvoyez une unité ou un espion adverse.",Aucune créature sensée connaissant la soif de sang d'un vampirien ne souhaite se retrouver dans le noir en sa compagnie.,31;33,,,,,,ressources/generated_images/card_illustrations/vampie_spawn.png
+Skeletal Horde,Horde squelettique,Undead,Conquête,Mort-vivant,3,6,2,1,2,"Déployez 2 unités.
+Dévorez cette carte ► Déployez 3 unités.",Certains répondent à l'appel d'invocateurs qui les relèvent de leur tombe ou d'un champ de bataille ; D'autres s'éveillent seuls lorsque la mort entoure le lieu de leur dernier repos.,,,,,,,ressources/generated_images/card_illustrations/skeletal_horde.png
+Carrion Crawler,Rampant charognard,Undead,Malice,Monstruosité,2,4,2,0,2,"+ 3 Attaque
+Dévorez une carte du marché et remplacez-la par cette carte (Et non par la première carte du marché).","""Au moins, ces grosses larves nécrophages sont faciles à distancer !"" -- Lippo, sage derro",,,1,0,2,"+ 3 Attaque
+Dévorez une carte du marché et remplacez-la par cette carte (Et non par la première carte du marché).
+Vous ne pouvez pas la racheter ce tour-ci.",ressources/generated_images/card_illustrations/carrion_crawler.png
+Wraith,Âme en peine,Undead,Ruse,Mort-vivant,2,4,2,0,1,"Posez un espion.
+Dévorez cette carte ► Assassinez une unité située sur le site de cet espion.",Seule la haine le retient sur ce plan. Priez pour qu'il ne la dirige jamais contre vous.,,,,,,,ressources/generated_images/card_illustrations/wraith.png
+Ravenous Zombies,Zombies voraces,Undead,Conquête,Mort-vivant,2,4,3,1,2,"+ 1 Attaque
+Assassinez une unité blanche.",Leur volonté a été déchirée. Seul demeure leur insatiable appétit.,,,,,,,ressources/generated_images/card_illustrations/ravenous_zombies.png
+Minotaur Skeleton,Squelette de minotaure,Undead,Conquête,Mort-vivant,2,4,3,1,3,"Choisissez entre :
+• Déployez 3 unités.
+• Dévorez cette carte ► Assassinez jusqu'à 3 unités blanche sur un seul site.","""Plus il y a d'os, mieux c'est.""
+-- Hommet Shaw",,,,,,,ressources/generated_images/card_illustrations/minotaur_skeleton.png
+Ghost,Fantôme,Undead,Ruse,Mort-vivant,2,6,3,1,3,"Choisissez entre :
+• 3 monnaies.
+• Promouvez cette carte, ou une carte de votre main ou de votre défausse.","Parfois, tuer un ennemi n'est pas aussi définitif que l'on croit.",,Mettre une réduction de 2 sur les cartes dévorées à acheter,3,1,3,"+ 1 monnaie
+Choisissez entre :
+• Posez un espion.
+• Renvoyez un de vos espions ► Pour le reste de votre tour, traitez une carte dévorée de votre choix comme si elle était au marché.",ressources/generated_images/card_illustrations/ghost.png
+Wight,Nécrophage,Undead,Malice,Mort-vivant,4,8,3,1,3,"Choisissez entre :
+• 2 attaque
+• Dévorez une carte de votre main ► Supplantez une unité.",La non-mort leur est accordée en échange de la guerre éternelle qu'ils mènent contre les vivants.,,,,,,,ressources/generated_images/card_illustrations/wight.png
+Flesh Golem,Golem de chair,Undead,Malice,Construction,2,4,3,1,3,"+ 2 attaque
+Dévorez cette carte ► Assassinez une unité.",Un esprit de la terre prisonnier d'une enveloppe charnelle ; pas étonnant que la furie l'habite.,,,,,,,ressources/generated_images/card_illustrations/flesh_golem.png
+Ogre Zombie,Ogre zombie,Undead,Conquête,Mort-vivant,2,4,4,2,4,Supplantez une unité blanche n'importe où sur le plateau.,"""L'ennemi est fort. Mais bientôt, cette force servira nos propres intérêts.""
+--Valindra Manteau D'Ombre",,,,,,,ressources/generated_images/card_illustrations/ogre_zombie.png
+Banshee,Banshie,Undead,Ruse,Mort-vivant,2,4,4,2,4,"Posez un espion. Si un espion adverse est sur le même site, gagnez 3 attaques.",Nulle âme mortelle n'est bienvenue là où une banshie élit domicile.,,,,,,,ressources/generated_images/card_illustrations/banshee.png
+Revenant,Revenant,Undead,Malice,Mort-vivant,1,2,4,1,4,"Assassinez 2 unités. Puis, si vous avez au moins 8 unités dans votre salle des trophées, promouvez cette carte. ",Ils ont une année pour goûter les délices de la vengeance avant de tomber en poussière.,,,5,2,4,"Assassinez 2 unités. Puis, si vous avez au moins 8 unités dans votre salle des trophées, promouvez cette carte. ",ressources/generated_images/card_illustrations/revenant.png
+Necromancer,Nécromant,Undead,Ambition,Humain,2,4,5,1,4,"Choisissez entre :
+• 3 monnaies.
+• Promouvez cette carte, ou une carte de votre main ou de votre défausse.","""Vous pensez que je crains la mort ? Je la domine.""",37;38,,,,,,ressources/generated_images/card_illustrations/necromancer.png
+Conjurer,Invocateur,Undead,Ruse,Humain,3,9,5,2,3,"Choisissez entre :
+• Posez un espion.
+• Renvoyez un de vos espions ► Recrutez gratuitement jusqu'à 2 cartes qui coûtent chacune 3 ou moins.",J'en ai plein d'autres en réserve !,,"Choisissez entre :
+• Posez 2 espions.
+• Renvoyez un de vos espions ► Recrutez gratuitement jusqu'à 1 cartes qui coûte 6 ou moins.",5,2,3,"Choisissez entre :
+• Posez 2 espions.
+• Renvoyez un de vos espions ► Recrutez gratuitement jusqu'à 1 cartes qui coûte 6 ou moins.",ressources/generated_images/card_illustrations/conjurer.png
+High Priest of Myrkul,Grande Prêtresse de Myrkul,Undead,Ambition,Humain,1,3,6,3,6,"Renvoyez une unité ou un espion adverse. À la fin du tour, vous pouvez promouvoir autant de carte Mort-Vivant jouées à ce tour que vous le désirez.","""La mort n'est que le commencement.""",39,"Pour garder l'esprit, je propose ""EOT put your deck in the discard and promote up to 3 undead card from there.""",6,3,6,"Renvoyez une unité ou un espion adverse. A la fin du tour, vous pouvez promouvoir autant de carte du type de votre choix jouées à ce tour que vous le désirez.",ressources/generated_images/card_illustrations/high_priest_of_myrkul.png
+Death Knight,Chevalier de la mort,Undead,Malice,Mort-vivant,1,2,6,3,7,"Supplantez une unité.
+Gagnez 1 PV pour chaque série de 5 unités de joueurs dans votre salle des trophées.","Fuyez ou rejoignez-le. Si vous choisissez le combat, vous choisissez la mort.",,,,,,,ressources/generated_images/card_illustrations/death_knight.png
+Mummy Lord,Seigneur momie,Undead,Conquête,Mort-vivant,1,2,6,3,6,"Choisissez 2 fois entre :
+• Assassinez une unité blanche.
+• Prenez une unité blanche de n'importe quelle salle des trophées et déployez-la n'importe où sur le plateau.",Son empire se relèvera.,,,,,,,ressources/generated_images/card_illustrations/mummy_lord.png
+Lich,Liche,Undead,Ruse,Mort-vivant,1,2,7,4,7,"Posez un espion. Si une unité adverse est sur le même site, prenez jusqu'à 2 unités de sa salle des trophées et déployez-les.","Avec un cimetière pour caserne, ses défaites ne sont que temporaires.",,,,,,,ressources/generated_images/card_illustrations/lich.png
+Vampire,Vampire,Undead,Ambition,Mort-vivant,1,2,7,4,7,"Choisissez entre :
+• Supplantez une unité.
+• Promouvez une carte de votre défausse, puis gagnez 1 PV pour chaque trio de carte dans votre cénacle.","""Cessez de résister, mon cher, et vous vivrez éternellement à mes côtés.""",40,,,,,,ressources/generated_images/card_illustrations/vampire.png
+Devotee of Mask,Dévot de Mask,Yugoloth,Ambition,Humain,5,15,2,1,2,"Choisissez entre :
+• 1 monnaie.
+• Déployez 1 espion.
+• Choisissez un adversaire, il défausse une carte.",,,,,,,,ressources/generated_images/card_illustrations/devotee_of_mask.png
+Hydroloth,Hydroloth,Yugoloth,Malice,Yugoloth,3,9,4,1,3,"Choisissez entre :
+• Assassinez 1 unité.
+• Renvoyez un de vos espions d'un site contenant des unités ennemies ► Assassinez jusqu'à 2 unités sur ce site.",,,,,,,,ressources/generated_images/card_illustrations/hydroloth.png
+Elite Kuo-Toa,Kuo-Toa d'élite,Yugoloth,Malice,Kuo-Toa,2,6,4,1,3,Assassinez 1 unité n'importe où sur le plateau.,,,,4,2,4,Assassinez 1 unité n'importe où sur le plateau.,ressources/generated_images/card_illustrations/elite_kuo-toa.png
+Corrupted Mage,Mage corrompu,Yugoloth,Ambition,Elfe,2,6,4,1,3,"Recrutez des cartes depuis le marché pour une valeur totale de 5 monnaies ou moins. Avant de remplir le marché, placez la carte Mage corrompu sur un emplacement vide.",,,,4,3,4,"Recrutez des cartes depuis le marché pour une valeur totale de 6 monnaies ou moins. Avant de remplir le marché, placez la carte Mage corrompu sur un emplacement vide.",ressources/generated_images/card_illustrations/corrupted_mage.png
+Kuo-Toa Noble,Noble kuo-toa,Yugoloth,Malice,Kuo-Toa,1,3,5,2,4,+ 3 monnaies 3 attaques.,,,,,,,,ressources/generated_images/card_illustrations/kuo-toa_noble.png
+Derro Outcasts,Parias derros,Yugoloth,Malice,Derro,3,9,4,0,1,Assassinez 2 unités.,,,,,,,,ressources/generated_images/card_illustrations/derro_outcasts.png
+Priest of Dagon,Prêtre de Dagon,Yugoloth,Malice,Kuo-Toa,1,3,5,2,5,"Choisissez entre :
+• Supplantez 2 unités blanches.
+• Supplantez 1 unité adverse.",,,,,,,,ressources/generated_images/card_illustrations/priest_of_dagon.png
+Priestess of Mask,Prêtresse de Mask,Yugoloth,Ambition,Humain,2,6,6,3,5,"Regardez la main d'un de vos adversaires et choisissez une carte. Puis choisissez entre :
+• Recrutez gratuitement 1 carte de valeur inférieure ou égale depuis le marché.
+• Votre adversaire défausse cette carte, vous gagnez sa valeur Deck en points de victoire.",,,,,,,,ressources/generated_images/card_illustrations/priestess_of_mask.png
+Ultroloth,Ultroloth,Yugoloth,Ambition,Yugoloth,1,3,7,4,7,Dévorez une carte de votre main ► Recrutez n'importe quelle carte depuis le marché gratuitement.,,,,,,,,ressources/generated_images/card_illustrations/ultroloth.png
+Zhentarim Agent,Agent du Zhentarim,Yugoloth,Ruse,Yuan-Ti,3,9,4,1,3,"Choisissez entre :
+• 3 monnaies.
+• 2 attaques.
+• Piochez une carte.",,,,,,,,ressources/generated_images/card_illustrations/zhentarim_agent.png
+Arcanaloth,Arcanaloth,Yugoloth,Ruse,Yugoloth,2,6,6,2,5,"Choisissez entre :
+• Déployez 2 espions.
+• Piochez une carte pour chacun de vos espions sur un site comportant des unités ennemies.",,,,,,,,ressources/generated_images/card_illustrations/arcanaloth.png
+Dergholoth,Dergholoth,Yugoloth,Conquête,Yugoloth,4,12,3,0,2,+ 2 attaques. Focus Yugoloth ► + 2 attaques.,,,,,,,,ressources/generated_images/card_illustrations/dergholoth.png
+Gacholoth,Gacholoth,Yugoloth,Ruse,Yugoloth,3,9,5,1,4,"Choisissez entre :
+• Choisissez un adversaire, il défausse 2 cartes.
+• Renvoyez 2 espions.
+• Déplacez 2 unités.",,,,,,,,ressources/generated_images/card_illustrations/gacholoth.png
+Kuo-Toa Warrior,Guerrier kuo-toa,Yugoloth,Conquête,Kuo-Toa,2,6,3,1,2,+ 3 attaques.,,,,,,,,ressources/generated_images/card_illustrations/kuo-toa_warrior.png
+Mezzoloth,Mezzoloth,Yugoloth,Conquête,Yugoloth,4,12,2,0,2,+ 1 attaque. Focus Yugoloth ► Assassinez une unité.,,,,,,,,ressources/generated_images/card_illustrations/mezzoloth.png
+Nycaloth,Nycaloth,Yugoloth,Ruse,Yugoloth,2,6,5,2,4,"Choisissez 4 fois :
+• Déployez un espion.
+• Renvoyez un de vos espions ► Renvoyez un espion.",,,"3 fois, mais renvoyer un espion pour renvoyer un espion ou une unité adverse ",5,2,4,"Choisissez 3 fois :
+• Déployez un espion.
+• Renvoyez un de vos espions ► Renvoyez un espion ou une unité ennemie.",ressources/generated_images/card_illustrations/nycaloth.png
+Seductress,Séductrice,Svirfneblin,Ruse,Drow,1,3,7,4,7,"Choisissez entre :
+• Placez 2 espions.
+• Renvoyez un de vos espions ► Piochez jusqu'à 2 cartes aléatoires du cénacle d'un joueur ayant des unités sur ce site. Placez-en une dans votre cénacle.
+À la fin du tour, vous pouvez promouvoir une carte jouée ce tour-ci.",,,,,,,,ressources/generated_images/card_illustrations/seductress.png
+Bomb Maker,Fabricante de bombes,Svirfneblin,Ruse,Duergar,2,6,5,2,5,"Choisissez entre :
+• Placez un espion.
+• Renvoyez 2 de vos espions ► Assassinez jusqu'à 4 unités sur l'un des sites de ces espions.",Que cela explose.,,,,,,,ressources/generated_images/card_illustrations/bomb_maker.png
+Hatemonger,Semeur de haine,Svirfneblin,Ruse,Svirfneblin,2,6,3,1,3,"Choisissez entre :
+• Placez un espion.
+• Renvoyez autant de vos espions que vous le souhaitez ► Supplantez le même nombre d'unités blanches parmi les sites de ces espions.",,,,,,,,ressources/generated_images/card_illustrations/hatemonger.png
+Training Supervisor,Superviseur d'entraînement,Svirfneblin,Ruse,Svirfneblin,2,6,4,2,4,"Choisissez entre :
+• Placez un espion.
+• Renvoyez un de vos espions ► Promouvez jusqu'à 2 cartes jouées ce tour-ci.",Tu apprends vite. Presque trop vite.,,,,,,,ressources/generated_images/card_illustrations/training_supervisor.png
+Cultural Attaché,Attaché culturel,Svirfneblin,Ruse,Drow,3,9,2,1,3,"Placez un espion ► S'il y a des unités ennemies sur ce site, choisissez un adversaire ayant des unités sur ce site et plus de 3 cartes en main. Ce joueur doit promouvoir une carte de sa main.",Nous leur inculquerons nos usages.,,,,,,,ressources/generated_images/card_illustrations/cultural_attaché.png
+Maneater,Mangeur d'hommes,Svirfneblin,Malice,Drow,1,3,7,4,7,"Supplantez une unité.
+Jouez une carte du cénacle d'un autre joueur. Puis renvoyez-la dans le cénacle de ce joueur.",Ce qui est tien m'appartient.,,,,,,,ressources/generated_images/card_illustrations/maneater.png
+Chief Negotiator,Négociateur en chef,Svirfneblin,Malice,Drow,2,6,5,2,5,"Tous les autres joueurs peuvent promouvoir une carte de leur main ► Piochez une carte, assassinez une unité et gagnez + 2 monnaies.",Nous méritons bien davantage que cette aumône.,,,,,,,ressources/generated_images/card_illustrations/chief_negotiator.png
+Conscription Officer,Officier de conscription,Svirfneblin,Malice,Duergar,2,6,4,2,4,"+ 2 attaques.
+Placez une carte de votre cénacle dans votre défausse ► Gagnez des attaques égales à la valeur de PV cénacle de cette carte.",Nous réquisitionnons vos services. Encore.,,,,,,,ressources/generated_images/card_illustrations/conscription_officer.png
+Dealmaker,Faiseur d'accords,Svirfneblin,Malice,Svirfneblin,3,9,4,1,4,"Choisissez un adversaire ayant plus de 4 cartes, qui doit promouvoir une carte de sa main (si impossible, ignorez ce coût). Tous les autres adversaires peuvent aussi promouvoir une carte de leur main ► Piochez une carte. + 1 monnaie + 2 attaques.",Comment ? C'était pourtant notre accord.,,,,,,,ressources/generated_images/card_illustrations/dealmaker.png
+Internal Revisor,Réviseur interne,Svirfneblin,Malice,Duergar,2,6,3,1,3,Promouvez une autre carte jouée ce tour-ci dans le cénacle d'un autre joueur ► Supplantez une unité.,"Considérez-vous heureux que notre pacte tienne encore, traître.",,,,,,,ressources/generated_images/card_illustrations/internal_revisor.png
+Agent of Influence,Agent d'influence,Svirfneblin,Conquête,Drow,1,3,7,4,7,"Assassinez une unité, puis déployez jusqu'à 1 unité de joueur et 2 unités blanches, toutes prises dans les salles des trophées des autres joueurs, n'importe où sur le plateau.
+Promouvez une carte de votre défausse ou une carte jouée ce tour-ci.",,,,,,,,ressources/generated_images/card_illustrations/agent_of_influence.png
+Perturbator,Perturbateur,Svirfneblin,Conquête,Drow,2,6,5,2,5,"Supplantez une unité blanche et assassinez une unité blanche.
+Promouvez une carte de votre cénacle vers le cénacle d'un autre joueur à la fin du tour ► Jouez cette carte et jusqu'à une autre carte de votre cénacle. L'autre carte retourne ensuite dans votre cénacle.","Les temps sont périlleux, nul ne peut l'ignorer.",,,,,,,ressources/generated_images/card_illustrations/perturbator.png
+Informant,Informateur,Svirfneblin,Conquête,Duergar,2,6,4,2,4,"Supplantez une unité blanche.
+Choisissez un autre joueur ayant plus de 4 cartes, qui doit promouvoir une carte de sa main ► À la fin du tour, promouvez une autre carte jouée ce tour-ci.",,,,,,,,ressources/generated_images/card_illustrations/informant.png
+Slave Driver,Contremaître esclavagiste,Svirfneblin,Conquête,Duergar,3,9,3,1,2,"Déplacez 2 unités blanches.
+Vous pouvez jouer une carte Obéissance de votre cénacle. Renvoyez-la ensuite dans votre cénacle.",Cela me blesse plus que toi... en apparence.,,,,,,,ressources/generated_images/card_illustrations/slave_driver.png
+Duergar Instructor,Instructeur duergar,Svirfneblin,Conquête,Duergar,2,6,3,1,3,"Déployez 2 unités.
+Dévorez une carte de votre cénacle ► Prenez une carte du marché avec un coût jusqu'à +1 par rapport à la valeur de PV cénacle de cette carte et placez-la dans votre cénacle.",La perfection demeure hors de portée.,,,,,,,ressources/generated_images/card_illustrations/duergar_instructor.png
+Chief of Staff,Chef de cabinet,Svirfneblin,Ambition,Drow,1,3,6,3,6,"Prenez jusqu'à 3 cartes de votre cénacle dans votre main.
+À la fin du tour, promouvez 2 cartes jouées ce tour-ci.",Le pouvoir est le fruit d'une administration implacable.,,,,,,,ressources/generated_images/card_illustrations/chief_of_staff.png
+Aristocratic Coach,Précepteur aristocratique,Svirfneblin,Ambition,Drow,2,6,5,2,5,"Choisissez entre :
+• Toutes les cartes que vous recrutez ce tour-ci vont dans votre cénacle au lieu de votre défausse ► + 2 monnaies.
+• Promouvez une carte de votre défausse.","Et vous, qu'en concluez-vous ?",,,,,,,ressources/generated_images/card_illustrations/aristocratic_coach.png
+Selfless Counsel,Conseil désintéressé,Svirfneblin,Ambition,Drow,2,6,4,2,4,"+ 3 monnaies.
+Dévorez cette carte ► Promouvez jusqu'à 2 autres cartes jouées ce tour-ci.","Mon plus grand honneur est de vous servir, sans réserve.",,,,,,,ressources/generated_images/card_illustrations/selfless_counsel.png
+Case Officer,Officier traitant,Svirfneblin,Ambition,Svirfneblin,3,9,3,1,3,"Choisissez entre :
+• + 2 monnaies.
+• Jouez une carte de votre cénacle comme si elle était dans votre main (elle est défaussée normalement à la fin du tour) ► + 1 attaque.",Vous êtes désormais actif.,,,,,,,ressources/generated_images/card_illustrations/case_officer.png
+Procurement Officer,Officier d'approvisionnement,Svirfneblin,Ambition,Drow,2,6,3,1,3,"Choisissez entre :
+• + 1 monnaie. Placez jusqu'à 3 cartes de votre cénacle dans votre défausse ► Gagnez des monnaies égales aux valeurs de PV cénacle de ces cartes.
+• À la fin du tour, promouvez une autre carte jouée ce tour-ci.",,,,,,,,ressources/generated_images/card_illustrations/procurement_officer.png
+Le Fléau s'étend,Le Fléau s'étend,Juiblex,Corruption,,20,60,,,,,La corruption de l'outremonde continue son expansion pestilentielle.,,,,,,,ressources/generated_images/card_illustrations/le_fléau_sétend.png

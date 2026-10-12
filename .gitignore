@@ -1,0 +1,15 @@
+# Secrets
+art_pipeline/openai_key
+
+# Generated output
+output/
+test_output_png/
+generated_cards_test_*/
+art_pipeline/dark_illustrations_report.csv
+ressources/generated_images/card_illustrations/generation_log.json
+ressources/generated_images/card_illustrations_brightened/
+ressources/generated_images/card_illustrations_dark_backup/
+
+# Python / editor leftovers
+__pycache__/
+*.bak*

@@ -1,0 +1,14 @@
+# Core image processing
+Pillow>=10.0.0
+
+# PDF generation
+reportlab>=4.0.0
+
+# SVG rendering (multiple options available)
+svglib>=1.4.0
+
+# Browser-based SVG to PNG rendering (recommended for best font rendering)
+playwright>=1.40.0
+
+# AI image generation (for art_pipeline, calls the OpenAI REST API)
+requests>=2.28.0
