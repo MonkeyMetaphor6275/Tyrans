@@ -543,9 +543,9 @@ Mezzoloth,Yugoloth,Conquest,Yugoloth,4,12,2,0,2,"+ 1 Power.
 Focus Yugoloth ► Assassinate a troop.",,,,,,,,ressources/generated_images/card_illustrations/mezzoloth.png
 Nycaloth,Yugoloth,Guile,Yugoloth,2,6,5,2,4,"Choose four times:
 • Place a spy.
-• Return one of your spies ► Return a spy.",,,"3 times, but return a spy to return an enemy spy or troop",5,2,4,"Choose three times:
+• Return one of your spies ► Return a spy.",,,"3 times, but return a spy to return a spy or an enemy troop",5,2,4,"Choose three times:
 • Place a spy.
-• Return one of your spies ► Return an enemy spy or troop.",ressources/generated_images/card_illustrations/nycaloth.png
+• Return one of your spies ► Return a spy or an enemy troop.",ressources/generated_images/card_illustrations/nycaloth.png
 Seductress,Svirfneblin,Guile,Drow,1,3,7,4,7,"Choose one:
 • Place 2 spies.
 • Return one of your spies ► Draw up to 2 random cards from the inner circle of a player with troops at that site. Put one of them in your inner circle.
