@@ -3,7 +3,8 @@ from __future__ import annotations
 import argparse
 import base64
 import csv
-import tempfile
+import functools
+import io
 import mimetypes
 import re
 import shutil
@@ -14,8 +15,6 @@ from pathlib import Path
 from typing import Iterable, Sequence
 
 from PIL import Image, ImageEnhance, ImageFont, ImageOps
-
-renderPM = None
 
 try:
     from reportlab.pdfgen import canvas as rl_canvas
@@ -102,7 +101,6 @@ TITLE_BOX = (70, 34, 500, 90)
 TYPE1_BOX = (150, 133, 320, 42)
 TYPE2_BOX = (514, 133, 220, 42)
 TYPE1_ICON_SIZE = 84
-TYPE1_ICON_X = TYPE1_BOX[0] - TYPE1_ICON_SIZE - 5
 TYPE1_ICON_Y = TYPE1_BOX[1] + 3
 TYPE1_ICON_SIZE_OVERRIDES = {
     "obeissance": 70,
@@ -125,9 +123,6 @@ COUNT_Y = 1018
 COUNT_RADIUS = 8
 COUNT_GAP = 34
 
-TOP_TEXT_FILL = "#ffffff"
-BOTTOM_TEXT_FILL = "#ffffff"
-BODY_TEXT_FILL = "#111111"
 BULLET_FONT_SCALE = 1.45
 BENEFIT_ICON_PATTERN = re.compile(r"(?i)\b(\d+)\s*(?:x\s*)?(attaque|monnaie)s?\b\.?")
 BENEFIT_ICON_TOKEN_PATTERN = re.compile(r"^\[\[icon:(attaque|monnaie):(\d+)\]\]$")
@@ -180,6 +175,7 @@ def encode_file_as_data_uri(path: Path) -> str:
     return f"data:{mime_type};base64,{data}"
 
 
+@functools.cache
 def font_face(name: str, path: Path) -> str:
     mime_type, _ = mimetypes.guess_type(path.name)
     if not mime_type:
@@ -201,6 +197,7 @@ def font_face(name: str, path: Path) -> str:
     )
 
 
+@functools.cache
 def load_font(path: Path, size: int) -> ImageFont.FreeTypeFont:
     return ImageFont.truetype(str(path), size=size)
 
@@ -241,6 +238,7 @@ def split_paragraph_words(text: str) -> list[list[str]]:
     return [paragraph.split() if paragraph else [] for paragraph in paragraphs]
 
 
+@functools.cache
 def load_benefit_icon_data_uris() -> dict[str, str]:
     icons: dict[str, str] = {}
     for name, path in {
@@ -252,6 +250,7 @@ def load_benefit_icon_data_uris() -> dict[str, str]:
     return icons
 
 
+@functools.cache
 def load_type1_icon_data_uris() -> dict[str, str]:
     icons: dict[str, str] = {}
     for name, path in {
@@ -266,6 +265,7 @@ def load_type1_icon_data_uris() -> dict[str, str]:
     return icons
 
 
+@functools.cache
 def load_set_icon_data_uris() -> dict[str, str]:
     icons: dict[str, str] = {}
     for normalized_name, filename in SET_ICON_ALIASES.items():
@@ -292,18 +292,10 @@ def encode_logo_with_black_background(logo_path: Path) -> str:
             
             # Composite the logo on the black background
             background.paste(img, mask=img.split()[3] if img.mode == "RGBA" else None)
-            
-            # Convert back to the original format for data URI encoding
-            import tempfile
-            with tempfile.NamedTemporaryFile(suffix=".png", delete=False) as tmp:
-                tmp_path = Path(tmp.name)
-                background.save(tmp_path, "PNG")
-                data_uri = encode_file_as_data_uri(tmp_path)
-                try:
-                    tmp_path.unlink()
-                except OSError:
-                    pass
-                return data_uri
+
+            buffer = io.BytesIO()
+            background.save(buffer, "PNG")
+            return "data:image/png;base64," + base64.b64encode(buffer.getvalue()).decode("ascii")
     except Exception:
         # Fallback to original if compositing fails
         return encode_file_as_data_uri(logo_path)
@@ -493,7 +485,6 @@ def fit_benefit_tokens(
     min_size: int,
     max_width: int,
     max_height: int,
-    line_height: float,
     available_icons: set[str],
 ) -> tuple[int, list[list[str]]]:
     for font_size in range(start_size, min_size - 1, -1):
@@ -523,14 +514,6 @@ def wrap_text_to_lines(text: str, font_path: Path, font_size: int, max_width: in
         wrapped_lines.append(current_line)
 
     return wrapped_lines or [""]
-
-
-def fit_text(text: str, font_path: Path, start_size: int, min_size: int, max_width: int, max_height: int, line_height: float) -> tuple[int, list[str]]:
-    for font_size in range(start_size, min_size - 1, -1):
-        lines = wrap_text_to_lines(text, font_path, font_size, max_width)
-        if len(lines) * int(font_size * line_height) <= max_height:
-            return font_size, lines
-    return min_size, wrap_text_to_lines(text, font_path, min_size, max_width)
 
 
 def layout_text_in_boxes(
@@ -715,14 +698,16 @@ def row_to_card(row: dict[str, str]) -> CardRecord:
 
 
 def resolve_image_path(raw_value: str, csv_path: Path) -> Path | None:
+    """Resolve 'path to image': absolute, relative to the CSV, or relative to the repository root."""
     if not raw_value:
         return None
     candidate = Path(raw_value)
-    if candidate.is_absolute() and candidate.exists():
-        return candidate
-    relative = (csv_path.parent / raw_value).resolve()
-    if relative.exists():
-        return relative
+    if candidate.is_absolute():
+        return candidate if candidate.exists() else None
+    for base in (csv_path.parent, ROOT_DIR):
+        relative = (base / raw_value).resolve()
+        if relative.exists():
+            return relative
     return None
 
 
@@ -800,7 +785,6 @@ def build_benefit(
             min_size=benefit_min_size,
             max_width=benefit_box[2],
             max_height=benefit_box[3],
-            line_height=1.22,
             available_icons=set(icon_data_uris.keys()),
         )
     else:
@@ -821,12 +805,7 @@ def build_benefit(
     arrow_extra_space = max(1, int(font_size * EFFECT_ARROW_EXTRA_SPACE_SCALE))
     bullet_width = measure_width(load_font(BODY_FONT_PATH, bullet_font_size), "•")
 
-    benefit_block_height = 0
-    for i, tokens in enumerate(lines):
-        has_icon = any(parse_icon_token_with_affixes(t) for t in tokens)
-        if has_icon and i > 0:
-            benefit_block_height += icon_extra_above
-        benefit_block_height += icon_line_step if has_icon else line_step
+    benefit_block_height = _benefit_rendered_height(lines, font_size)
 
     if ambiance_text:
         gap_above_ambiance = max(6, int(font_size * 0.45)) if lines else 0
@@ -855,13 +834,7 @@ def build_benefit(
     first_line_has_icon = bool(lines) and any(parse_icon_token_with_affixes(t) for t in lines[0])
 
     if lines and not ambiance_text:
-        rendered_height = 0
-        for i, tokens in enumerate(lines):
-            has_icon = any(parse_icon_token_with_affixes(t) for t in tokens)
-            if has_icon and i > 0:
-                rendered_height += icon_extra_above
-            rendered_height += icon_line_step if has_icon else line_step
-        gap = max(0, benefit_box[3] - rendered_height)
+        gap = max(0, benefit_box[3] - benefit_block_height)
         # Center when the first line has an icon, or when the unused gap is small
         # (tight fit: text nearly fills the box). For large gaps without icons,
         # top-align so the gap doesn't appear as a visible top padding.
@@ -999,27 +972,6 @@ def build_count_dots(count: int) -> list[str]:
     return circles
 
 
-def compute_fitted_image_rect(image_path: Path | None) -> tuple[float, float, float, float]:
-    x, y, width, height = IMAGE_BOX
-    if not image_path:
-        return float(x), float(y), float(width), float(height)
-
-    image_size = read_image_size(image_path)
-    if not image_size:
-        return float(x), float(y), float(width), float(height)
-
-    image_width, image_height = image_size
-    if image_width <= 0 or image_height <= 0:
-        return float(x), float(y), float(width), float(height)
-
-    scale = min(width / image_width, height / image_height)
-    rendered_width = image_width * scale
-    rendered_height = image_height * scale
-    rendered_x = x + (width - rendered_width) / 2
-    rendered_y = y
-    return rendered_x, rendered_y, rendered_width, rendered_height
-
-
 def estimate_text_area_height(card: CardRecord, icon_data_uris: dict[str, str], max_benefit_height: int = 9999) -> int:
     """Estimate the total pixel height needed for the card's text content.
 
@@ -1048,18 +1000,10 @@ def estimate_text_area_height(card: CardRecord, icon_data_uris: dict[str, str], 
             min_size=24,
             max_width=text_width,
             max_height=max_benefit_height,
-            line_height=1.22,
             available_icons=set(icon_data_uris.keys()),
         )
         benefit_font_size = font_size
-        line_step = int(font_size * 1.22)
-        icon_line_step = int(font_size * 1.75)
-        icon_extra_above = max(2, int(font_size * BENEFIT_ICON_LINE_EXTRA_ABOVE_SCALE))
-        for i, tokens in enumerate(lines):
-            has_icon = any(parse_icon_token_with_affixes(t) for t in tokens)
-            if has_icon and i > 0:
-                total += icon_extra_above
-            total += icon_line_step if has_icon else line_step
+        total += _benefit_rendered_height(lines, font_size)
 
     if ambiance_text:
         if total > 0:
@@ -1096,44 +1040,6 @@ def compute_benefit_box(separator_bottom_y: float) -> tuple[int, int, int, int]:
     bottom_y = BENEFIT_BOX[1] + BENEFIT_BOX[3]
     height = max(0, bottom_y - top_y)
     return BENEFIT_BOX[0], top_y, BENEFIT_BOX[2], height
-
-
-def build_colored_rect(
-    x: int | float,
-    y: int | float,
-    width: int | float,
-    height: int | float,
-    color: str = "#000000",
-    opacity: float = 0.2,
-    stroke: str | None = None,
-    stroke_width: float = 1.5,
-    stroke_opacity: float = 1.0,
-) -> str:
-    """Return an SVG rect element filled with *color* at the given *opacity* (0–1)."""
-    stroke_attrs = ""
-    if stroke:
-        stroke_attrs = (
-            f' stroke="{stroke}" stroke-width="{stroke_width}" stroke-opacity="{stroke_opacity:.2f}"'
-        )
-    return (
-        f'  <rect x="{x}" y="{y}" width="{width}" height="{height}" '
-        f'fill="{color}" fill-opacity="{opacity:.2f}"{stroke_attrs} />'
-    )
-
-
-def build_layout_debug_boxes() -> list[str]:
-    bx, by, bw, bh = BENEFIT_BOX
-    return (
-        f'  <rect x="{bx}" y="{by}" width="{bw}" height="{bh}" fill="#0000ff" fill-opacity="0.18" stroke="#0000ff" stroke-width="2" />'
-    )
-
-
-def build_image_box_debug_square() -> str:
-    x, y, width, height = IMAGE_BOX
-    return (
-        f'  <rect x="{x}" y="{y}" width="{width}" height="{height}" '
-        f'fill="#ff0000" fill-opacity="0.18" stroke="#ff0000" stroke-width="2" />'
-    )
 
 
 def build_svg(
@@ -1218,7 +1124,6 @@ def build_svg(
 
     # Draw the template above artwork so only the framed card area reveals the image.
     parts.append(f'  <image href="{background_data_uri}" x="0" y="0" width="{CARD_WIDTH}" height="{CARD_HEIGHT}" />')
-    # parts.append(build_image_box_debug_square())
 
     parts.append(build_title(card))
     parts.append(build_type1_icon(card, type1_icon_data_uris))
@@ -1229,8 +1134,6 @@ def build_svg(
     parts.extend(build_count_dots(card.count))
     parts.append(build_vp_text(card.vp1, VP1_POS[0], VP1_POS[1], VP1_MAX_WIDTH))
     parts.append(build_vp_text(card.vp2, VP2_POS[0], VP2_POS[1], VP2_MAX_WIDTH))
-    # bx, by, bw, bh = benefit_box
-    # parts.append(build_colored_rect(bx, by, bw, bh, color="#ffff00", opacity=0.15, stroke="#ff0000", stroke_width=1.5))
     parts.append("</svg>")
 
     return "\n".join(part for part in parts if part)
@@ -1249,6 +1152,110 @@ def iter_cards(csv_path: Path) -> Iterable[CardRecord]:
             yield card
 
 
+class BrowserRenderer:
+    """Headless Chromium kept open across conversions (launching it costs ~2 s per card).
+
+    The browser is started on first use, so SVG-only runs never launch it. Use as a
+    context manager so the browser is closed at the end.
+    """
+
+    LAUNCH_ATTEMPTS = [
+        {"channel": "msedge", "headless": True},
+        {"channel": "chrome", "headless": True},
+        {"headless": True},
+    ]
+
+    def __init__(self) -> None:
+        self._playwright = None
+        self._browser = None
+        self._unavailable = not HAS_PLAYWRIGHT
+
+    def __enter__(self) -> BrowserRenderer:
+        return self
+
+    def __exit__(self, *exc_info) -> None:
+        self.close()
+
+    def close(self) -> None:
+        if self._browser is not None:
+            self._browser.close()
+            self._browser = None
+        if self._playwright is not None:
+            self._playwright.stop()
+            self._playwright = None
+
+    def _ensure_browser(self):
+        if self._browser is not None or self._unavailable:
+            return self._browser
+        try:
+            self._playwright = sync_playwright().start()
+            for kwargs in self.LAUNCH_ATTEMPTS:
+                try:
+                    self._browser = self._playwright.chromium.launch(**kwargs)
+                    break
+                except Exception:
+                    continue
+        except Exception:
+            pass
+        if self._browser is None:
+            self._unavailable = True
+            self.close()
+            print(
+                "Warning: Playwright could not start Edge, Chrome or Chromium; "
+                "falling back to Inkscape / rsvg-convert / svglib (lower font fidelity). "
+                "Fix with: python -m playwright install chromium"
+            )
+        return self._browser
+
+    def render(self, svg_path: Path, png_path: Path, width_px: int, height_px: int, background_color: str) -> bool:
+        browser = self._ensure_browser()
+        if browser is None:
+            return False
+        page = browser.new_page(viewport={"width": width_px, "height": height_px})
+        try:
+            svg_text = svg_path.read_text(encoding="utf-8")
+            html = (
+                "<html><head><meta charset='utf-8'></head>"
+                f"<body style='margin:0; padding:0; overflow:hidden; background:{background_color};'>"
+                f"{svg_text}"
+                "</body></html>"
+            )
+            page.set_content(html, wait_until="load")
+            page.evaluate(
+                """
+                ([w, h]) => {
+                    const svg = document.querySelector('svg');
+                    if (!svg) return;
+                    svg.setAttribute('width', String(w));
+                    svg.setAttribute('height', String(h));
+                    svg.setAttribute('viewBox', svg.getAttribute('viewBox') || `0 0 ${w} ${h}`);
+                    svg.setAttribute('preserveAspectRatio', 'none');
+                    svg.style.width = `${w}px`;
+                    svg.style.height = `${h}px`;
+                    svg.style.background = "transparent";
+                    svg.style.display = 'block';
+                }
+                """,
+                [width_px, height_px],
+            )
+            page.evaluate(
+                """
+                async () => {
+                    if (document.fonts && document.fonts.ready) {
+                        await document.fonts.ready;
+                    }
+                }
+                """
+            )
+            page.screenshot(path=str(png_path), type="png")
+            return True
+        except Exception as exc:
+            print(f"Warning: browser rendering failed for {svg_path.name} ({exc}); trying fallback renderers")
+            return False
+        finally:
+            page.close()
+
+
 def svg_to_png(
     svg_path: Path,
     png_path: Path,
@@ -1258,8 +1265,13 @@ def svg_to_png(
     png_dpi: int = 400,
     vertical_margin_px: int = 0,
     horizontal_margin_px: int = 0,
+    browser_renderer: BrowserRenderer | None = None,
 ) -> bool:
-    """Convert SVG to PNG, prioritizing font-faithful browser rendering first."""
+    """Convert SVG to PNG, prioritizing font-faithful browser rendering first.
+
+    Pass a shared *browser_renderer* when converting many cards; without one, a
+    browser is started and closed for this single conversion.
+    """
 
     def finalize_png_with_dpi() -> bool:
         if not (png_path.exists() and png_path.stat().st_size > 0):
@@ -1281,63 +1293,13 @@ def svg_to_png(
         except Exception:
             return False
 
-    if HAS_PLAYWRIGHT:
-        try:
-            svg_text = svg_path.read_text(encoding="utf-8")
-            with sync_playwright() as p:
-                browser = None
-                launch_attempts = [
-                    {"channel": "msedge", "headless": True},
-                    {"channel": "chrome", "headless": True},
-                    {"headless": True},
-                ]
-                for kwargs in launch_attempts:
-                    try:
-                        browser = p.chromium.launch(**kwargs)
-                        break
-                    except Exception:
-                        continue
-                if browser is None:
-                    return False
-                page = browser.new_page(viewport={"width": width_px, "height": height_px})
-                html = (
-                    "<html><head><meta charset='utf-8'></head>"
-                    f"<body style='margin:0; padding:0; overflow:hidden; background:{background_color};'>"
-                    f"{svg_text}"
-                    "</body></html>"
-                )
-                page.set_content(html, wait_until="load")
-                page.evaluate(
-                    """
-                    ([w, h]) => {
-                        const svg = document.querySelector('svg');
-                        if (!svg) return;
-                        svg.setAttribute('width', String(w));
-                        svg.setAttribute('height', String(h));
-                        svg.setAttribute('viewBox', svg.getAttribute('viewBox') || `0 0 ${w} ${h}`);
-                        svg.setAttribute('preserveAspectRatio', 'none');
-                        svg.style.width = `${w}px`;
-                        svg.style.height = `${h}px`;
-                        svg.style.background = "transparent";
-                        svg.style.display = 'block';
-                    }
-                    """,
-                    [width_px, height_px],
-                )
-                page.evaluate(
-                    """
-                    async () => {
-                        if (document.fonts && document.fonts.ready) {
-                            await document.fonts.ready;
-                        }
-                    }
-                    """
-                )
-                page.screenshot(path=str(png_path), type="png")
-                browser.close()
-            return finalize_png_with_dpi()
-        except Exception:
-            pass
+    if browser_renderer is None:
+        with BrowserRenderer() as single_use_renderer:
+            rendered = single_use_renderer.render(svg_path, png_path, width_px, height_px, background_color)
+    else:
+        rendered = browser_renderer.render(svg_path, png_path, width_px, height_px, background_color)
+    if rendered:
+        return finalize_png_with_dpi()
 
     for renderer in SVG_RENDERER_CANDIDATES:
         executables: list[str] = []
@@ -1442,25 +1404,23 @@ def generate_pdf_from_cards(
     output_path: Path,
     temp_dir: Path,
     pdf_brightness: float = 1.0,
+    browser_renderer: BrowserRenderer | None = None,
 ) -> bool:
     """Generate A4 PDF with cards arranged 3x3 per page, respecting card count.
-    
+
     Args:
         cards_with_counts: List of (card_record, svg_path) tuples
         output_path: Where to save the PDF
         temp_dir: Temporary directory for PNG conversions
-    
+        browser_renderer: Shared browser used to rasterize the cards
+
     Returns:
         True if successful, False otherwise
     """
     if not HAS_REPORTLAB:
         return False
-    
+
     try:
-        from reportlab.pdfgen import canvas as rl_canvas
-        from reportlab.lib.units import inch
-        from reportlab.lib.pagesizes import A4
-        
         temp_dir.mkdir(parents=True, exist_ok=True)
 
         # Collect all card instances respecting counts
@@ -1488,7 +1448,14 @@ def generate_pdf_from_cards(
                     png_path.unlink()
                 except OSError:
                     pass
-            if not svg_to_png(svg_path, png_path, card_width_px, card_height_px, background_color="#ffffff"):
+            if not svg_to_png(
+                svg_path,
+                png_path,
+                card_width_px,
+                card_height_px,
+                background_color="#ffffff",
+                browser_renderer=browser_renderer,
+            ):
                 return False
 
             if abs(pdf_brightness - 1.0) > 1e-6:
@@ -1578,14 +1545,14 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--image-width",
         type=int,
-        default=796*2,
-        help="Width in pixels for PNG/JPG output (default: 796)",
+        default=CARD_WIDTH * 2,
+        help=f"Card width in pixels for PNG/JPG output, before margins (default: {CARD_WIDTH * 2}, i.e. 2x the SVG)",
     )
     parser.add_argument(
         "--image-height",
         type=int,
-        default=1082*2,
-        help="Height in pixels for PNG/JPG output (default: 1082)",
+        default=CARD_HEIGHT * 2,
+        help=f"Card height in pixels for PNG/JPG output, before margins (default: {CARD_HEIGHT * 2}, i.e. 2x the SVG)",
     )
     parser.add_argument(
         "--jpg-quality",
@@ -1603,19 +1570,18 @@ def parse_args() -> argparse.Namespace:
         "--png-vertical-margin",
         type=int,
         default=60,
-        help="Extra margin in pixels added to top and bottom of PNG outputs (default: 60, color: #272727)",
+        help="Extra margin in pixels added above and below PNG/JPG outputs, in the card's top and bottom border colours (default: 60)",
     )
     parser.add_argument(
         "--png-horizontal-margin",
         type=int,
         default=60,
-        help="Extra margin in pixels added to left and right of PNG outputs (default: 60, color: #272727)",
+        help="Extra margin in pixels added left and right of PNG/JPG outputs, filled with the Margins.png border strip (default: 60)",
     )
     return parser.parse_args()
 
 
-def main() -> None:
-    args = parse_args()
+def run(args: argparse.Namespace, browser_renderer: BrowserRenderer) -> None:
     csv_path = args.csv_path.resolve()
     output_dir = args.output_dir.resolve()
     output_dir.mkdir(parents=True, exist_ok=True)
@@ -1640,6 +1606,9 @@ def main() -> None:
     for index, card in enumerate(iter_cards(csv_path), start=1):
         file_name = f"{index:03d}_{slugify(card.name)}.svg"
         svg_path = output_dir / file_name
+        if resolve_image_path(card.image_path, csv_path) is None:
+            reason = f"image not found: {card.image_path}" if card.image_path else "no 'path to image' in the CSV"
+            print(f"Warning: {card.name}: {reason} (card generated without illustration)")
         svg = build_svg(card, background_data_uri, separator_data_uri, separator_size, csv_path)
         svg_path.write_text(svg, encoding="utf-8")
         generated += 1
@@ -1660,6 +1629,7 @@ def main() -> None:
                 png_dpi=args.png_dpi,
                 vertical_margin_px=max(0, args.png_vertical_margin),
                 horizontal_margin_px=max(0, args.png_horizontal_margin),
+                browser_renderer=browser_renderer,
             ):
                 pass  # Successfully created PNG
             else:
@@ -1685,6 +1655,7 @@ def main() -> None:
                     png_dpi=args.png_dpi,
                     vertical_margin_px=max(0, args.png_vertical_margin),
                     horizontal_margin_px=max(0, args.png_horizontal_margin),
+                    browser_renderer=browser_renderer,
                 ):
                     print(f"Warning: Could not generate temporary PNG for JPG conversion of {card.name}")
                     continue
@@ -1703,7 +1674,7 @@ def main() -> None:
         print(
             f"Generated PNG cards ({args.image_width}x{args.image_height}, {args.png_dpi} DPI, "
             f"top/bottom margin={max(0, args.png_vertical_margin)}px, "
-            f"left/right margin={max(0, args.png_horizontal_margin)}px, color=#272727) in {png_output_dir}"
+            f"left/right margin={max(0, args.png_horizontal_margin)}px) in {png_output_dir}"
         )
     
     if jpg_output_dir:
@@ -1713,7 +1684,13 @@ def main() -> None:
     if args.pdf_output and cards_for_pdf:
         pdf_path = args.pdf_output.resolve()
         temp_dir = output_dir / ".pdf_temp"
-        if generate_pdf_from_cards(cards_for_pdf, pdf_path, temp_dir, pdf_brightness=max(0.1, args.pdf_brightness)):
+        if generate_pdf_from_cards(
+            cards_for_pdf,
+            pdf_path,
+            temp_dir,
+            pdf_brightness=max(0.1, args.pdf_brightness),
+            browser_renderer=browser_renderer,
+        ):
             print(f"Generated PDF: {pdf_path}")
         else:
             if not HAS_REPORTLAB:
@@ -1724,6 +1701,12 @@ def main() -> None:
                 print("Install one of these renderers for best results: Playwright Chromium, Inkscape, or librsvg (rsvg-convert).")
                 print("Browser renderer setup: pip install playwright && python -m playwright install chromium")
                 print("Fallback renderer also available via: pip install svglib")
+
+
+def main() -> None:
+    args = parse_args()
+    with BrowserRenderer() as browser_renderer:
+        run(args, browser_renderer)
 
 
 if __name__ == "__main__":

@@ -27,16 +27,18 @@ argument-hint: 'Describe the card-data edit, image workflow, or render issue to 
 - `art_pipeline/card_prompts_fandom_all.csv`: Fandom-backed prompt per card (title/type first, 80-word max)
 
 ## Current Artwork Behavior
-In `build_artwork`:
-- Uses `IMAGE_BOX` for placement and clipping
-- Uses computed fitted dimensions from `compute_fitted_image_rect`
-- Draws with `preserveAspectRatio="none"` inside a clip path
+In `build_svg`:
+- The illustration box takes x, y and width from `IMAGE_BOX`; its height is computed per card from the estimated text height (more text, shorter image), clamped between `IMAGE_MIN_HEIGHT` and `IMAGE_MAX_HEIGHT`
+- The separator is centred on the image's bottom edge and the text box starts just below it
 
-If artwork appears too high/low, adjust the fitted-image placement logic in `compute_fitted_image_rect`.
+In `build_artwork`:
+- Draws the image with `preserveAspectRatio="xMidYMid slice"` inside a clip path: it fills the box and is cropped around its centre, never stretched
+
+If artwork is cropped too much or too little, adjust `IMAGE_MIN_HEIGHT` / `IMAGE_MAX_HEIGHT` or the text-height estimate in `estimate_text_area_height`.
 
 ## Current IMAGE_BOX
 - Defined in `generate_cards_from_csv.py` as:
-- `IMAGE_BOX = (60, 172, 678, 550)`
+- `IMAGE_BOX = (60, 172, 678, 550)` (the height is replaced by the per-card value above)
 
 ## CSV Override Columns (Current)
 When override columns are non-empty, they are prioritized over base values:
@@ -46,8 +48,10 @@ When override columns are non-empty, they are prioritized over base values:
 - `Texte modif` overrides `Texte`
 
 ## Image Paths In CSV
-`path to image` holds a repo-relative path, normally written by `art_pipeline/generate_batch_openai.py` as:
+`path to image` holds a repo-relative path with forward slashes, normally written by `art_pipeline/generate_batch_openai.py` as:
 - `ressources/generated_images/card_illustrations/<english_name>.png`
+
+The generator resolves it relative to the CSV's folder, then to the repository root, and prints a warning for every card whose image is missing.
 
 Rules:
 - Do not overwrite existing non-empty `path to image` unless requested
@@ -71,8 +75,8 @@ python generate_cards_from_csv.py Updated_Cards.csv --pdf-output output/cards_a4
 ```
 
 Renderer behavior (important):
-- Preferred rasterizer is browser-based Playwright (best match with VS Code/Firefox SVG rendering)
-- Fallbacks are `inkscape`, then `rsvg-convert`, then `svglib`
+- Preferred rasterizer is browser-based Playwright (best match with VS Code/Firefox SVG rendering); one browser is started on first use and reused for every card (`BrowserRenderer`)
+- Fallbacks are `inkscape`, then `rsvg-convert`, then `svglib` (which needs the Cairo library with recent reportlab versions); a warning is printed when the browser cannot start
 - Current raster DPI is `300`
 
 If Inkscape output looks wrong while browser output is correct:
@@ -120,6 +124,8 @@ When generating card-art prompts from the CSV:
 - Current quality: `medium`
 - Prompt source: `art_pipeline/card_prompts_fandom_all.csv`
 - Batch behavior: reads `Updated_Cards.csv`, skips rows where `path to image` is already filled, generates only pending cards, writes back image paths
+- The CSV and the log are saved after every card, so an interrupted batch keeps the images already generated
+- API key: `OPENAI_API_KEY` environment variable, or else `art_pipeline/openai_key` (gitignored); `--dry-run` needs no key
 - Output directory: `ressources/generated_images/card_illustrations/`
 - Log file: `ressources/generated_images/card_illustrations/generation_log.json`
 
@@ -136,11 +142,9 @@ python art_pipeline/generate_batch_openai.py --batch-size 20
 - Keep creature/type disambiguation clear near the start of the prompt; avoid ambiguous placement of set labels in natural-language prompt text.
 
 ## 400 Bad Request Troubleshooting For OpenAI Images
-If `generate_batch_openai.py` shows:
-- `400 Client Error: Bad Request for url: https://api.openai.com/v1/images/generations`
-
-Do not assume it is encoding or size first. Check the actual API error body by replaying the single prompt:
-- many 400s are `moderation_blocked` with `safety_violations=[sexual]`.
+If `generate_batch_openai.py` shows `FAILED : 400 Bad Request: <message>`, read the message (it is also stored in `generation_log.json`):
+- many 400s are moderation rejections mentioning `safety_violations=[sexual]`.
+- Do not assume it is encoding or size first.
 
 Field-tested fix pattern:
 1. Identify the exact failing card name in `generation_log.json`.

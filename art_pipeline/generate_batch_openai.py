@@ -9,6 +9,9 @@ Updated_Cards.csv, saves PNGs to ressources/generated_images/card_illustrations/
 the new paths back to the CSV.
 
 Run again after inspecting images to generate the next batch.
+
+The API key is read from the OPENAI_API_KEY environment variable, or else from
+art_pipeline/openai_key (plain text, single line).
 """
 
 from __future__ import annotations
@@ -17,13 +20,16 @@ import argparse
 import base64
 import csv
 import json
+import os
+import sys
 import time
 from pathlib import Path
 
 import requests
 
 # ── Configuration ──────────────────────────────────────────────────────────────
-ROOT = Path(__file__).parent.parent
+ROOT = Path(__file__).resolve().parent.parent
+API_KEY_ENV = "OPENAI_API_KEY"
 KEY_FILE = ROOT / "art_pipeline/openai_key"
 PROMPTS_CSV = ROOT / "art_pipeline/card_prompts_fandom_all.csv"
 CARDS_CSV = ROOT / "Updated_Cards.csv"
@@ -42,7 +48,11 @@ PAUSE_BETWEEN_REQUESTS = 2  # seconds, to stay within rate limits
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Generate next batch of card illustrations via OpenAI.")
     parser.add_argument("--batch-size", type=int, default=BATCH_SIZE, help="Number of images to generate this run.")
-    parser.add_argument("--key-file", default=str(KEY_FILE), help="Path to file containing the OpenAI API key.")
+    parser.add_argument(
+        "--key-file",
+        default=str(KEY_FILE),
+        help=f"File containing the OpenAI API key (used when {API_KEY_ENV} is not set).",
+    )
     parser.add_argument("--dry-run", action="store_true", help="Print planned prompts without generating.")
     return parser.parse_args()
 
@@ -66,6 +76,15 @@ def safe_filename(name: str) -> str:
     return name.lower().replace(" ", "_").replace("'", "").replace("/", "_")
 
 
+def load_api_key(key_file: Path) -> str:
+    key = os.environ.get(API_KEY_ENV, "").strip()
+    if not key and key_file.is_file():
+        key = key_file.read_text(encoding="utf-8").strip()
+    if not key:
+        sys.exit(f"No OpenAI API key found: set {API_KEY_ENV} or write the key to {key_file}")
+    return key
+
+
 def load_log() -> list[dict]:
     if LOG_FILE.exists():
         return json.loads(LOG_FILE.read_text(encoding="utf-8"))
@@ -85,7 +104,13 @@ def generate_image(prompt: str, headers: dict) -> bytes:
         "quality": IMAGE_QUALITY,
     }
     r = requests.post(API_URL, headers=headers, json=body, timeout=120)
-    r.raise_for_status()
+    if not r.ok:
+        # Keep the API's explanation (e.g. moderation_blocked), not just the status line.
+        try:
+            detail = r.json()["error"]["message"]
+        except (ValueError, KeyError, TypeError):
+            detail = r.text[:500]
+        raise RuntimeError(f"{r.status_code} {r.reason}: {detail}")
     img_data = r.json().get("data", [{}])[0]
     if img_data.get("b64_json"):
         return base64.b64decode(img_data["b64_json"])
@@ -98,14 +123,6 @@ def generate_image(prompt: str, headers: dict) -> bytes:
 
 def main() -> None:
     args = parse_args()
-
-    api_key = Path(args.key_file).read_text().strip()
-    headers = {
-        "Authorization": f"Bearer {api_key}",
-        "Content-Type": "application/json",
-    }
-
-    OUT_DIR.mkdir(parents=True, exist_ok=True)
 
     # Build lookup of already-done card names from CSV (has non-empty path to image)
     cards_rows, cards_fieldnames = read_csv(CARDS_CSV)
@@ -139,8 +156,13 @@ def main() -> None:
             print(f"  [{i}/{len(batch)}] {name}: {prompt_map[name][:100]}...")
         return
 
+    headers = {
+        "Authorization": f"Bearer {load_api_key(Path(args.key_file))}",
+        "Content-Type": "application/json",
+    }
+    OUT_DIR.mkdir(parents=True, exist_ok=True)
+
     log = load_log()
-    name_to_row = {row["name"]: row for row in cards_rows}
     generated = 0
     failed = 0
 
@@ -156,7 +178,7 @@ def main() -> None:
             img_bytes = generate_image(prompt, headers)
             out_path.write_bytes(img_bytes)
             rel_path = out_path.relative_to(ROOT).as_posix()
-            name_to_row[name]["path to image"] = str(out_path.relative_to(ROOT))
+            row["path to image"] = rel_path
             log.append({"name": name, "file": rel_path, "status": "ok"})
             print(f"  Saved  -> {rel_path}")
             generated += 1
@@ -165,12 +187,12 @@ def main() -> None:
             log.append({"name": name, "status": "error", "error": str(exc)})
             failed += 1
 
+        # Save after every card so an interrupted batch keeps the images already paid for.
+        write_csv(CARDS_CSV, cards_rows, cards_fieldnames)
+        save_log(log)
+
         if i < len(batch):
             time.sleep(PAUSE_BETWEEN_REQUESTS)
-
-    # Write updated CSV
-    write_csv(CARDS_CSV, list(name_to_row.values()), cards_fieldnames)
-    save_log(log)
 
     print(f"\n{'='*60}")
     print(f"Batch complete: {generated} generated, {failed} failed")
